@@ -1,0 +1,49 @@
+// // Layout
+// .extendable--layout {
+//   height: auto;
+// }
+// .max--layout {
+//   min-height: -moz-calc(100vh - 64px - 48px); /* Firefox */
+//   min-height: -webkit-calc(100vh - 64px - 48px); /* Chrome, Safari */
+//   min-height: calc(100vh - 64px - 48px); /* IE9+ and future browsers */
+// }
+// .large--layout {
+//   min-height: $large--layout--height;
+// }
+// .medium--layout {
+//   min-height: $medium--layout--height;
+// }
+// .small--layout {
+//   min-height: $small--layout--height;
+// }
+// .xs--layout {
+//   min-height: $xs--layout--height;
+// }
+// .max--height {
+//   height: 100vh;
+// }
+
+// // Margin
+// .margin--left--reset {
+//   margin-left: 0 !important;
+// }
+
+// .margin--left--xs {
+//   margin-left: $xs-margin;
+// }
+
+// .margin--bottom--xs {
+//   margin-bottom: $xs-margin !important;
+// }
+// .margin--bottom--sm {
+//   margin-bottom: $sm-margin !important;
+// }
+// .margin--flush--right {
+//   margin-right: 0;
+// }
+// .margin--flush--left {
+//   margin-left: 0;
+// }
+// .margin--right--xs {
+//   margin-right: $xs-margin;
+// }

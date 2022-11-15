@@ -1,0 +1,236 @@
+@import "../base/variables";
+@import "../framework/layout";
+@import "../modules/button.module";
+
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: $column--count;
+  column-gap: $grid--gap;
+  height: $nav--height--base;
+  font-size: $button--font-sz;
+  letter-spacing: $button--tk;
+  color: $primary--white !important;
+}
+
+.nav-grid {
+  padding-left: $lrg-margin;
+  padding-right: $lrg-margin;
+  display: grid;
+  grid-template-columns: $column--count;
+  max-width: $max--width;
+  column-gap: $grid--gap;
+  margin: 0 auto;
+}
+
+.top-bar {
+  height: 48px;
+  color: $primary--white;
+}
+
+.nav--bg--extend {
+  background-color: $nav-bg-color;
+  z-index: 99;
+}
+
+// Desktop
+
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu-wrapper {
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: -1;
+  display: flex;
+  flex-direction: row;
+}
+.nav-menu {
+  justify-content: right;
+  :after {
+    transition: 0.25s ease-in-out;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    background: $primary--white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  .active :before {
+    transition: 0.25s ease-in-out;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0%;
+    position: absolute;
+    background: $primary--white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 100%;
+    visibility: visible;
+  }
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  height: 100%;
+  li {
+    margin-left: $sm-margin;
+  }
+  * {
+    align-items: center;
+  }
+}
+
+// Mobile
+
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav-menu-wrapper {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  opacity: 1;
+  transition: all 0.5s ease;
+  position: fixed;
+
+  .mobile-nav-menu {
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+  }
+}
+
+.active-menu {
+  background: $nav-bg-color;
+  bottom: 0;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+  z-index: 1;
+  justify-content: space-evenly;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.mobile-nav-menu-wrapper {
+  display: none;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: flex;
+  grid-column-end: -1;
+  z-index: 10;
+  display: none;
+}
+
+@media only screen and (max-width: $minQuery) {
+  .menu-icon {
+    display: block;
+  }
+  .mobile-nav-menu-wrapper {
+    display: flex;
+  }
+}
+
+// Menu
+
+.burger-strip {
+  transition: all 0.5s ease;
+}
+.strip div {
+  height: 3px;
+  border-radius: 2px;
+  background: $primary--white;
+  margin: 5px 0 5px 0;
+  transition: all 0.55s cubic-bezier(0.075, 0.82, 0.165, 1);
+  width: 25px;
+}
+.burger:hover .strip div {
+  background: white;
+}
+
+.burger:hover .burger-strip-4 {
+  transform: scale(0.85);
+}
+.burger:hover .burger-strip-4 div:first-child {
+  width: 15px;
+  transform: translateY(4px) rotate(-30deg);
+}
+.burger:hover .burger-strip-4 div:nth-child(2) {
+  width: 38px;
+}
+.burger:hover .burger-strip-4 div:last-child {
+  width: 15px;
+  transform: translateY(-4px) rotate(30deg);
+}
+
+.burger-strip-4-active {
+  transform: scale(0.85);
+}
+.burger-strip-4-active div:first-child {
+  width: 15px;
+  transform: translateY(4px) rotate(-30deg);
+}
+.burger-strip-4-active div:nth-child(2) {
+  width: 38px;
+}
+.burger-strip-4-active div:last-child {
+  width: 15px;
+  transform: translateY(-4px) rotate(30deg);
+}
+
+@media only screen and (max-width: $minQuery) {
+  .nav-grid {
+    max-width: $smWidth !important;
+    padding-left: $sm-margin;
+    padding-right: $sm-margin;
+    display: grid;
+    grid-template-columns: $column--count;
+    max-width: $max--width;
+    column-gap: $grid--gap;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: $medQuery) {
+  .navbar {
+    height: 48px;
+  }
+}
