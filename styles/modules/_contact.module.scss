@@ -1,4 +1,4 @@
-@import '../base/variables';
+@import "../base/variables";
 
 .contact--icon {
   margin-right: $xs-margin;
@@ -197,7 +197,7 @@
     float: left;
   }
 
-  ul li input[type='radio'] {
+  ul li input[type="radio"] {
     position: absolute;
     visibility: hidden;
   }
@@ -240,7 +240,7 @@
   ul li .check::before {
     display: block;
     position: absolute;
-    content: '';
+    content: "";
     border-radius: 100%;
     height: 12px;
     width: 12px;
@@ -251,15 +251,15 @@
     -webkit-transition: background 0.25s linear;
   }
 
-  input[type='radio']:checked ~ .check {
+  input[type="radio"]:checked ~ .check {
     border: 3px solid $accent--yellow;
   }
 
-  input[type='radio']:checked ~ .check::before {
+  input[type="radio"]:checked ~ .check::before {
     background: $accent--yellow;
   }
 
-  input[type='radio']:checked ~ label {
+  input[type="radio"]:checked ~ label {
     color: $accent--yellow;
   }
 }
@@ -267,7 +267,7 @@
 // Media Query
 
 @media only screen and (max-width: $minQuery) {
-  .container{
+  .container {
     height: auto;
     padding: $sm-margin;
   }

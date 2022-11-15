@@ -17,7 +17,7 @@ function ArticleModuleLarge(props) {
               priority
             />
             <div className="mt-2 p-3">
-              <h3 className="text-base mb-2">{item.Title}</h3>
+              <h3 className="text-base mb-2 font-bold">{item.Title}</h3>
 
               <p>{item.Text}</p>
               <div className="flex flex-row mt-2">

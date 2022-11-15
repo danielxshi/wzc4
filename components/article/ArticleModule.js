@@ -8,7 +8,7 @@ function ArticleModule(props) {
 
   return (
     <div className={style["current--news--section--container"]}>
-      <h3 className="text-2xl">同乡会动态</h3>
+      <h2 className="text-2xl font-bold mb-4">同乡会动态</h2>
       <div className="flex">
         <ArticleModuleLarge />
         <div className={[style["news--flex"], style["news--small"]].join(" ")}>
@@ -22,7 +22,7 @@ function ArticleModule(props) {
                   priority
                 />
                 <div className="mt-2 p-2">
-                  <h3 className="text-base">{item.Title}</h3>
+                  <h3 className="text-base font-bold">{item.Title}</h3>
                   <div className="flex flex-row mt-2">
                     <small>{item.date}</small>
                     <a

@@ -19,7 +19,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./images/hero.png"
+          src="./images/hero2.png"
           alt="Second slide"
         />
 
@@ -31,7 +31,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./images/hero.png"
+          src="./images/hero3.png"
           alt="Third slide"
         />
 
