@@ -7,6 +7,7 @@ import { ImPhone } from "react-icons/im";
 import { IoMdMail } from "react-icons/io";
 import SocialItems from "../JSON/SocialItems";
 
+
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
