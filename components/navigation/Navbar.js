@@ -62,7 +62,7 @@ function Navbar() {
         <Link
           passHref={true}
           href="/"
-          onClick={closeMobileMenu}
+          // onClick={closeMobileMenu}
         >
           <div className="ml-neg-1 text-left whitespace-nowrap">
             {MenuItems.CompanyNameCH}
