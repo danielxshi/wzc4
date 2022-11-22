@@ -1,5 +1,3 @@
-import ArticleModule from "./ArticleModule";
-import ArticleModuleLarge from "./ArticleModuleLarge";
 import ArticleItems from "../JSON/ArticleMessages";
 import style from "../../styles/modules/_articles.module.scss";
 import Image from "next/image";

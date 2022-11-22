@@ -1,8 +1,6 @@
-import ArticleModule from "./ArticleModule";
-import ArticleModuleLarge from "./ArticleModuleLarge";
 import CurrentNewsItem from "../article/CurrentNewsItem"
 import ArticleItems from "../JSON/ArticleMessages";
-import style from "../../styles/modules/_articles.module.scss";
+
 
 function CurrentNews(props) {
   return (

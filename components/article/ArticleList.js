@@ -1,11 +1,6 @@
-import ArticleModule from "./ArticleModule";
-import ArticleModuleLarge from "./ArticleModuleLarge";
 import ArticleListItem from "./ArticleListItem";
 import ArticleMessages from "../JSON/ArticleMessages";
-import style from "../../styles/modules/_articles.module.scss";
-import RenderCard from "../article/RenderCard";
-import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 
 export const getStaticProps = async () => {
@@ -30,19 +25,18 @@ function Items({ currentItems }) {
     // </>
     <div>
       {ArticleMessages.ArticleListMessages.map((currentItems, index) => {
-          return (
-            <div key={index}>
-              <ArticleListItem
-                title={currentItems.article.title}
-                date={currentItems.article.date}
-                imgSRC={currentItems.article.imageURL}
-                textPreview={currentItems.article.previewText}
-                URL={`/article/${currentItems.id}`}
-              ></ArticleListItem>
-            </div>
-
-          );
-        })}
+        return (
+          <div key={index}>
+            <ArticleListItem
+              title={currentItems.article.title}
+              date={currentItems.article.date}
+              imgSRC={currentItems.article.imageURL}
+              textPreview={currentItems.article.previewText}
+              URL={`/article/${currentItems.id}`}
+            ></ArticleListItem>
+          </div>
+        );
+      })}
     </div>
   );
 }
