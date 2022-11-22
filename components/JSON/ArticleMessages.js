@@ -2444,17 +2444,38 @@ const ArticleListMessages = [
       imageURL: "/images/article/1590041288745634.jpg",
       previewText:
         "当地时间20日，世界卫生组织（WHO）总干事谭德赛表示，在过去的24小时内，世界各国报告的单日新增新冠肺炎确诊病例数达10.6万例，比以往任何时候都要多，是疫情暴发以来的最大单日增幅。据美国有线电视新闻网（CNN）…",
-      content: {
-        image: {
-          src: "/images/article/1590041288745634.jpg",
-          x: "",
-          y: "",
+      content: [
+        {
+          paragraph: {
+            text: "text1",
+          },
         },
-        text: {
-          paragraph: "Dawson Street, stop 792",
-          title: "",
+        {
+          image: {
+            imageSRC: pid2ImageURL,
+          },
         },
-      },
+        {
+          paragraph: {
+            text: "text2",
+          },
+        },
+        {
+          paragraph: {
+            text: "text3",
+          },
+        },
+        {
+          paragraph: {
+            text: "text4",
+          },
+        },
+        {
+          image: {
+            imageSRC: pid2ImageURL,
+          },
+        },
+      ],
     },
   },
   {
