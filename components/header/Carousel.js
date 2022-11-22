@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import MediumLayout from "../layout/MediumLayout";
-const Hero1 = "../../public/images/hero.png";
+// const Hero1 = "../../public/images/hero.png";
+
 
 function UncontrolledExample() {
   return (
@@ -8,7 +9,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./images/hero.png"
+          src="/images/hero.png"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +20,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./images/hero2.png"
+          src="/images/hero2.png"
           alt="Second slide"
         />
 
@@ -31,7 +32,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./images/hero3.png"
+          src="/images/hero3.png"
           alt="Third slide"
         />
 

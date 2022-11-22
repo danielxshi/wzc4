@@ -7,15 +7,21 @@ function ArticleDetailSection(props) {
     <div className={style["article--detail--section"]}>
       <div className={style["margin-realign"]}>
         <div className="flex">
-          <h2 className="text-2xl">信息资讯</h2>
+          <h2 className="text-2xl font-bold">{props.category}</h2>
           <small className="mr-2 ml-auto text-base">
-            当前位置: 首页 > 信息资讯 > 同乡会动态
+            当前位置: 
+            {/* home */}
+            <a className="text-link-black" href="/">&nbsp;首页</a>
+            &nbsp; &gt; &nbsp;
+            <a className="text-link-black" href={`/${props.parentDirectory}/${props.categoryClass}`}>{props.category}</a>
+            &nbsp; &gt; &nbsp;
+            <a className="text-link-black" href={`/${props.parentDirectory}/${props.subCategoryClass}`}>{props.subCategory}</a>
           </small>
         </div>
         <h1 className="text-6xl font-bold mt-12 leading-loose">
-          加拿大大選在即 志願者上街促華裔投票 视频
+          {props.articleTitle}
         </h1>
-        <p className="text-2xl leading-loose mr-2">
+        {/* <p className="text-2xl leading-loose mr-2">
           北美新生代创业俱乐部首次⻅面会于 2022 年 4 月 9
           日下午在加拿大温州同乡总会会所顺利举行。
         </p>
@@ -35,7 +41,8 @@ function ArticleDetailSection(props) {
           新生代创业者交流发展的平台，秉承团结、互助、传承、发展和奉献的
           宗旨，希望把正在北美创业和有创业梦想的年轻人们聚集在一起，交流
           互助，共同发展。同时，也希望传承温州人的创业精神，以及加强对年轻人社会责任感的培养。{" "}
-        </p>
+        </p> */}
+        {props.children}
       </div>
     </div>
   );

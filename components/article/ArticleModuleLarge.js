@@ -3,28 +3,34 @@ import Image from "next/image";
 import style from "../../styles/modules/_articles.module.scss";
 
 function ArticleModuleLarge(props) {
-  console.log(ArticleItems);
-
   return (
-    <div className={[style["current--news--section--container"], style["large--module"]].join(" ")}>
+    <div
+      className={[
+        style["current--news--section--container"],
+        style["large--module"],
+      ].join(" ")}
+    >
       {ArticleItems.BigNews.map((item, index) => {
         return (
           <div className="flex flex-col" key={index}>
             <Image
-              objectFit="contain"
-              width=""
-              src={ArticleItems.testImage}
+              objectFit="cover"
+              layout="intrinsic"
+              // width=""
+              src={item.imageURL}
+              height={235}
+              width={419}
               priority
             />
             <div className="mt-2 p-3">
-              <h3 className="text-base mb-2 font-bold">{item.Title}</h3>
+              <h3 className="text-base mb-2 font-bold">{item.title}</h3>
 
-              <p>{item.Text}</p>
+              <p>{item.textPreview}</p>
               <div className="flex flex-row mt-2">
                 <small>{item.date}</small>
                 <a
                   className="whitespace-nowrap mb-2 text-base text-blue-500 ml-auto mr-0"
-                  href={item.URL}
+                  href={`/article/${item.id}`}
                 >
                   阅读全文
                 </a>

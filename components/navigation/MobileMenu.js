@@ -39,7 +39,7 @@ function MobileMenu() {
                                     }
                                 >
                                     <Link
-                                        href={item.href}
+                                        href={item.url}
                                         passHref={true}
                                         smooth={true}
                                         spy={true}

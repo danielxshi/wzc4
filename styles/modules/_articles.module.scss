@@ -91,6 +91,18 @@
   }
 }
 
+.article--item--container {
+  display: flex;
+  border-radius: 11px;
+  border: 1px solid #eee;
+  margin-bottom: $sm-margin;
+  min-height: 12rem;
+  max-height: max-content;
+  img {
+    border-radius: 11px 0 0 11px;
+  }
+}
+
 .news--small {
   width: 50%;
   > div {

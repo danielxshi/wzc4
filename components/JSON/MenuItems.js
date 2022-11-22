@@ -16,7 +16,7 @@ const FooterC5Title = "关注我们";
 const FooterC6Title = "联系我们";
 const BusinessHours = "营业时间: 周一至周五 9:00 - 18:00";
 const PhoneNumber = "604-379-9888";
-const FooterPhone = "服务热线:" + PhoneNumber;
+const FooterPhone = "服务热线: " + PhoneNumber;
 
 const FooterC1MenuItems = [
   {
@@ -74,73 +74,104 @@ const FooterC4MenuItems = [
   },
 ];
 
+// submenu: [
+//   {
+//     title: 'web design',
+//     url: 'web-design',
+//   },
+//   {
+
 const NavMenuItems = [
   {
-    pName: "/",
+    // Home
+    // pName: "/",
     cName: "link",
     title: "首页",
     url: "/",
     href: "/",
+    
   },
   {
-    pName: "/information",
+    // About
+    // pName: "/information",
     title: "信息咨询",
-    url: "/",
-    href: "/information",
-  },
-  // {
-  //   pName: "/services",
-  //   title: "活动分享",
-  //   url: "/",
-  //   href: "/services",
-  // },
-  // {
-  //   pName: "/projects",
-  //   title: "文化园地",
-  //   url: "/",
-  //   href: "/projects",
-  // },
-  // {
-  //   pName: "/contact",
-  //   title: "同乡会介绍",
-  //   url: "/",
-  //   href: "/contact",
-  // },
-  // {
-  //   pName: "/contact",
-  //   title: "联系我们",
-  //   url: "/",
-  //   href: "/contact",
-  // },
-];
+    url: "/about",
+    submenu: [
+      {
+        title: '董事',
+        url: '/directors'
+      },
 
-const ServiceItems = [
-  {
-    title: "加拿大温州同乡总会换届成立",
-    caption:
-      "“加拿大温州同乡总会”于2020年3月2日在本会会所进行了换届选举，第七届“加拿大温州同乡总会”换届成立。与会理事67人，朱建国先生以62票高票当选为温州同乡总会第七届会长，特此函告各界！",
-    src: "images/news-preview/news1.png",
-    alt: "temp",
-    url: "/",
-    href: "/",
+      {
+        title: '家乡协会简介',
+        url: '/'
+      }
+    ]
   },
   {
-    title: "加拿大温州同乡总会父老乡亲欢喜过大年",
-    caption:
-      "2019年2月4日，是中国农历除夕之夜，温州同乡总会三百多老乡，齐聚在列治文海港大酒店，举行春节团拜庆祝酒会，欢度2019年新春佳节。今年的春节团拜酒会分外热闹，同乡会不但预订了一桌桌上好的菜品，还打造了一台全部...",
-    src: "images/news-preview/news2.png",
-    alt: "temp",
-    url: "/",
-    href: "/",
+    // Information
+    // pName: "/information",
+    title: "活动分享",
+    url: "/info/information",
+    submenu: [
+      {
+        title: '家乡协会',
+        url: ''
+      },
+
+      {
+        title: '加拿大新闻',
+        url: ''
+      },
+      {
+        title: '中国新闻',
+        url: ''
+      },
+
+      {
+        title: '当地生活信息',
+        url: ''
+      }
+    ]
   },
   {
-    title: "加拿大温州同乡总会的姐妹们，国际女神节快乐！",
-    caption:
-      "加拿大温州同乡总会的姐妹们，国际女神节快乐！世界上若没有女人，这个世界至少要失去十分之五的真，十分之六的善，十分之七的美。 ———冰心三八妇女节，是国际上的惯用称呼，但在面对我们身边人的时候，我们...",
-    src: "images/news-preview/news3.png",
-    alt: "temp",
+    // events
+    // pName: "/events",
+    title: "文化园地",
     url: "/",
-    href: "/",
+    submenu: [
+      {
+        title: '2020年活动',
+        url: ''
+      },
+
+      {
+        title: '2019年活动',
+        url: ''
+      },
+    ]
+  },
+  {
+    // culture
+    // pName: "/culture",
+    title: "同乡会介绍",
+    url: "/",
+    submenu: [
+      {
+        title: '家乡的艺术和文化',
+        url: ''
+      },
+
+      {
+        title: '家乡温州',
+        url: ''
+      },
+    ]
+  },
+  {
+    // pName: "/contact",
+    title: "联系我们",
+    url: "/contact",
   },
 ];
 
@@ -151,7 +182,6 @@ const MenuItems = {
   FooterC4MenuItems: FooterC4MenuItems,
 
   NavMenuItems: NavMenuItems,
-  ServiceItems: ServiceItems,
 
   CompanyNameCH: CompanyNameCH,
   CompanyNameEN: CompanyNameEN,

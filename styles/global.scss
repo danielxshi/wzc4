@@ -1,28 +1,25 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 /* BASE - Base Variable file along with starting point Mixins.
 ========================================================================== */
 
-@import 'base/_variables.scss';
-@import 'base/_mixins.scss';
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
 
 /* FRAMEWORK - Structure and layout files.
 ========================================================================== */
 
-@import 'framework/_grid.scss';
-@import 'framework/_breakpoints.scss';
-@import 'framework/layout.scss';
+@import "framework/_grid.scss";
+@import "framework/_breakpoints.scss";
+@import "framework/layout.scss";
 
 /* FONTS
 ========================================================================== */
 
-@import 'type/_type.scss';
-
-
+@import "type/_type.scss";
 
 // GLOBAL EXTRA
 html,
@@ -35,16 +32,17 @@ body {
   height: 100%;
   box-sizing: border-box;
 }
-h2{
+h2 {
   color: $header--blue;
 }
-h3, h4 {
+h3,
+h4 {
   margin-bottom: 1.5rem;
 }
-footer{
+footer {
   z-index: 10 !important;
   display: block;
-  *{
+  * {
     z-index: 10 !important;
   }
 }
@@ -59,7 +57,8 @@ li {
 p {
   line-height: 150%;
 }
-a {
+a,
+button {
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -105,7 +104,7 @@ a {
   }
 }
 
-.nav--offset{
+.nav--offset {
   padding-top: 112px;
 }
 
@@ -322,7 +321,7 @@ a {
   text-align: center;
 }
 
-.ml-neg-1{
+.ml-neg-1 {
   margin-left: -1rem;
 }
 
@@ -366,7 +365,6 @@ a {
   }
 }
 
-
 .icon-placeholder {
   width: 40px;
   height: 40px;
@@ -397,3 +395,50 @@ a {
   cursor: pointer;
 }
 
+.dropdown {
+  display: none;
+  background-color: $nav-bg-color;
+  position: absolute;
+  z-index: 1;
+  padding: 0 15px;
+  margin-top: 1.35rem;
+  margin-left: -15px;
+  min-width: min-content;
+  li {
+    margin: 8px 0;
+    text-align: left;
+  }
+}
+
+button:hover,
+a:hover {
+  color: $cta--blue;
+}
+
+.desktopNavButton {
+  position: relative;
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+}
+
+.menu-items {
+  align-self: center;
+}
+
+.show {
+  display: block;
+}
+
+.text-link-black{
+  color: black;
+  &:hover{
+    color: $cta--blue;
+  }
+}
+
+@media only screen and (max-width: $medQuery) {
+  .col-start-13 {
+    grid-column-start: 5;
+  }
+}

@@ -51,13 +51,13 @@
 
 .nav-menu-wrapper {
   height: 100%;
-  grid-column-start: 3;
+  grid-column-start: 4;
   grid-column-end: -1;
   display: flex;
   flex-direction: row;
 }
 .nav-menu {
-  justify-content: right;
+  // justify-content: right;
   :after {
     transition: 0.25s ease-in-out;
     background: none repeat scroll 0 0 transparent;
@@ -71,7 +71,7 @@
     width: 0;
   }
 
-  a:hover:after {
+  a:hover:after, button:hover:after{
     width: 100%;
     left: 0;
   }
@@ -93,10 +93,11 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: flex-end;
+  // justify-content: flex-end;
+  justify-content: space-between;
   height: 100%;
   li {
-    margin-left: $sm-margin;
+    // margin-left: $sm-margin;
   }
   * {
     align-items: center;
@@ -231,6 +232,6 @@
 
 @media only screen and (max-width: $medQuery) {
   .navbar {
-    height: 48px;
+    height: 58px;
   }
 }

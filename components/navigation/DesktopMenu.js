@@ -1,5 +1,6 @@
 import style from '../../styles/modules/_nav.module.scss'
 import React, { useState, useEffect } from 'react';
+import MenuItems2 from './MenuItems2'
 import MenuItems from '../JSON/MenuItems';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -12,6 +13,13 @@ function DesktopMenu() {
     return (
         <div className={click ? [style['nav-menu-wrapper'], style['active']].join(' ') : [style['desktop-nav-menu-wrapper'], style['nav-menu-wrapper']].join(' ')}>
             <ul className={style['nav-menu']}>
+                {MenuItems.NavMenuItems.map((menu, index) => {
+                    return (
+                        <MenuItems2 items={menu} key={index} />
+                    );
+                })}
+            </ul>
+            {/* <ul className={style['nav-menu']}>
                 {MenuItems.NavMenuItems.map((item, index) => {
                     return (
                         <li className="flex" onClick={closeMobileMenu}
@@ -35,7 +43,7 @@ function DesktopMenu() {
                         </li>
                     );
                 })}
-            </ul>
+            </ul> */}
         </div>);
 }
 
