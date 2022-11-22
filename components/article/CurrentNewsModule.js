@@ -13,6 +13,7 @@ function CurrentNews(props) {
           ArticleItems.SponsoredNews.map((item, index) => {
             return(
               <CurrentNewsItem
+                key={index}
                 title={item.Title}
                 date={item.date}
                 src={ArticleItems.sponsorImage1}

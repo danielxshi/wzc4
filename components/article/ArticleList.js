@@ -29,9 +29,9 @@ function Items({ currentItems }) {
     //     ))}
     // </>
     <div>
-      {ArticleMessages.ArticleListMessages.map(currentItems => {
+      {ArticleMessages.ArticleListMessages.map((currentItems, index) => {
           return (
-            <div>
+            <div key={index}>
               <ArticleListItem
                 title={currentItems.article.title}
                 date={currentItems.article.date}

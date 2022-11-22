@@ -41,33 +41,29 @@ export default ({ currentItem }) => (
           subCategory={currentItem.subcategory}
           articleTitle={currentItem.article.title}
         >
-          {/* Map items */}
-          {currentItem.article.content.map((currentItems) => {
+          {currentItem.article.content.map((currentItems, index) => {
             return (
-              <>
+              <div key={index}>
                 {currentItems.paragraph ? (
-                  <>
+                  <div key={index}>
                     <p className="text-2xl leading-loose mr-2">
                       {currentItems.paragraph.text}
                     </p>
-                  </>
+                  </div>
                 ) : (
-                  <div className={style["image--contain"]}>
+                  <div key={index} className={style["image--contain"]}>
                     <Image
                       objectFit="cover"
-                      // width="100%"
-                      // height="100%"
                       src={currentItems.image.imageSRC}
                       layout="fill"
                       priority
                     />
                   </div>
                 )}
-              </>
+              </div>
             );
           })}
 
-          {/* Ternary operator for image | text | video */}
         </ArticleDetailSection>
         <CurrentNews />
       </div>

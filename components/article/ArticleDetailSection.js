@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../../styles/modules/_articles.module.scss";
-import testImage from "../../public/images/article/sample-article-detail.png";
 import Image from "next/image";
 function ArticleDetailSection(props) {
   return (
