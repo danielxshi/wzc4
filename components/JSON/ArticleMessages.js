@@ -4651,7 +4651,7 @@ const SponsoredNews = [
     Key: 5,
     Title: "加拿大溫州同乡总会在社交媒体上发起了为卑诗省洪水灾民募捐活动",
     TextPreview: "",
-    Text: dummyText,
+    Text: "testing dummy text",
     date: "date",
     // Image: sponsorImage1,
     URL: "/",
