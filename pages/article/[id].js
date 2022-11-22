@@ -1,12 +1,8 @@
-// import { playlist } from '../../data';
-// import { Box, Heading, Text, Button } from '@chakra-ui/core';
-import NextLink from "next/link";
 import Messages from "../../components/JSON/ArticleMessages";
 import CurrentNews from "../../components/article/CurrentNewsModule";
 import ArticleDetailSection from "../../components/article/ArticleDetailSection";
 import style from "../../styles/modules/_articles.module.scss";
 import Carousel from "../../components/header/Carousel";
-import { imageConfigDefault } from "next/dist/server/image-config";
 import Image from "next/image";
 
 export const getStaticProps = async ({ params }) => {
