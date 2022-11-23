@@ -938,7 +938,7 @@ const ArticleListMessages = [
         },
         {
           image: {
-            imageSRC: "/images/article/.1626759572888137jpg",
+            imageSRC: "/images/article/1626759572888137.jpg",
           },
         },
         {
@@ -968,27 +968,22 @@ const ArticleListMessages = [
         },
         {
           image: {
-            imageSRC: "/images/article/.jpg",
+            imageSRC: "/images/article/1626759600972177.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/.jpg",
+            imageSRC: "/images/article/1626759601912666.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/.jpg",
+            imageSRC: "/images/article/1626759601242128.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/.jpg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/.jpg",
+            imageSRC: "/images/article/1626759603703486.jpg",
           },
         },
       ],
@@ -1009,18 +1004,13 @@ const ArticleListMessages = [
       previewText: "",
       content: [
         {
-          image: {
-            imageSRC: "/images/article",
-          },
-        },
-        {
           video: {
-            videoURL: "/images/article",
+            videoURL: "/images/article/1625114373824597.mp4",
           },
         },
         {
-          paragraph: {
-            text: "",
+          image: {
+            imageSRC: "/images/article/1625113947935262.jpg",
           },
         },
       ],
