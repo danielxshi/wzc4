@@ -450,7 +450,8 @@ const ArticleListMessages = [
       content: [
         {
           iframe: {
-            videoURL: "https://drive.google.com/file/d/1k1mZeXtkFl__dpu54r5nONtWTfVMPOYs/preview",
+            videoURL:
+              "https://drive.google.com/file/d/1k1mZeXtkFl__dpu54r5nONtWTfVMPOYs/preview",
           },
         },
         {
@@ -529,7 +530,7 @@ const ArticleListMessages = [
           },
         },
         {
-          space:{}
+          space: {},
         },
         {
           paragraph: {
@@ -574,7 +575,7 @@ const ArticleListMessages = [
           },
         },
         {
-          space:{}
+          space: {},
         },
         {
           paragraph: {
@@ -639,38 +640,28 @@ const ArticleListMessages = [
           },
         },
         {
-          paragraph: {
-            text: "",
+          image: {
+            imageSRC: "/images/article/1637649707790508.jpeg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1637649646295507.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "    活动开始时，温州同乡会的朱建国会长代表同乡会向所有嘉宾表示了热烈的欢迎，同时对于近期大家对温州同乡会的关心和支持表示感谢，欧议员、马社长和很多嘉宾纷纷在宴席上发言。大家对于温州同乡会在华人社区的努力和贡献都予以了高度的评价，并表示当地的华人虽然身处海外但是心系祖国。随着疫情的逐渐好转，各个社团要进一步加强交流和沟通，团结互助，共同发展，努力提高华人的地位！            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
-          },
-        },
-        {
-          paragraph: {
-            text: "",
+            imageSRC: "/images/article/1637649666575997.jpeg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
-          },
-        },
-        {
-          paragraph: {
-            text: "",
+            imageSRC: "/images/article/1637649721805008.jpeg",
           },
         },
       ],
@@ -692,18 +683,23 @@ const ArticleListMessages = [
         "【明報專訊】加拿大華裔投票促進會（CCGTV）舉辦的全加聯動「就差你一票」街頭促票活動，今天下午2點，在包括溫哥華、本那比、列治文、素里、高貴林、卡爾加裏、多倫多等數個城市同時舉行。這次活動的目的是，提升華…",
       content: [
         {
-          image: {
-            imageSRC: "/images/article",
-          },
-        },
-        {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "【明報專訊】加拿大華裔投票促進會（CCGTV）舉辦的全加聯動「就差你一票」街頭促票活動，今天下午2點，在包括溫哥華、本那比、列治文、素里、高貴林、卡爾加裏、多倫多等數個城市同時舉行。這次活動的目的是，提升華裔加拿大人的社會參與度、增強對話、更好地融入選舉文化。            ",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "活動現場，不同城市上百名志願者們，身著印有「就差你一票」（Your Vote Matters）的T恤、佩戴印有同樣標語的N95口罩、揮動著印有同樣標語的手牌，在各城市繁華地段，向過路民眾、車輛宣傳投票的理念，提醒選民們不要忘記在9月20日投票。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "在華埠街頭促票點，來自加拿大溫州同鄉會總會的志願者瞿豪表示，華社組織的這項活動太有意義了。他說，作為華人青年移民，雖然在生活上很快融入了加拿大社會，但是，在政治生活上還是需要了解和學習北美投票文化的。華社舉辦的這項活動，讓華裔民眾更清楚了投票對華裔生存權利的重要性。他還說，以前，還真沒想那麼多。通過這次線上、線下的活動，也對加拿大各個政黨和候選人更加了解了。昨天，已經將選票郵寄出去了。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1632512090782665.jpeg",
           },
         },
       ],
