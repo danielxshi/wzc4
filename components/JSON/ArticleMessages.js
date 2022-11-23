@@ -404,7 +404,7 @@ const ArticleListMessages = [
           },
         },
         {
-          space:{}
+          space: {},
         },
         {
           paragraph: {
@@ -449,13 +449,58 @@ const ArticleListMessages = [
       previewText: pid3PreviewText,
       content: [
         {
+          video: {
+            videoURL: "/images/article/1643090189871700.mp4",
+          },
+        },
+        {
+          paragraph: {
+            text: "无论我们走到多远，也走不出祖国的挂牵，无论我们身在何处，都能体会到祖国母亲的温暖！            ",
+          },
+        },
+        {
           image: {
             imageSRC: "/images/article",
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article",
           },
         },
         {
