@@ -40,7 +40,7 @@ export default function Services(props) {
                   </p>
                   <a
                     href={`/article/${item.id}`}
-                    class="text-base text-center mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    className="text-base text-center mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   >
                     了解详情
                   </a>

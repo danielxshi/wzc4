@@ -95,7 +95,7 @@ const NavMenuItems = [
     // About
     // pName: "/information",
     title: "信息咨询",
-    url: "/about",
+    url: "/About",
     submenu: [
       {
         title: '董事',
@@ -112,7 +112,7 @@ const NavMenuItems = [
     // Information
     // pName: "/information",
     title: "活动分享",
-    url: "/info/information",
+    url: "/info/Information",
     submenu: [
       {
         title: '家乡协会',
@@ -171,7 +171,7 @@ const NavMenuItems = [
   {
     // pName: "/contact",
     title: "联系我们",
-    url: "/contact",
+    url: "/Contact",
   },
 ];
 

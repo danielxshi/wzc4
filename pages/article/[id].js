@@ -24,6 +24,40 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
+export const renderSwitch = (params) => {
+  if (!params) {
+    return "";
+  }
+  const keys = Object.keys(params);
+  if (keys.length !== 1) {
+    throw new Error("err");
+  }
+  const value = params[keys[0]];
+  switch (keys[0]) {
+    case "paragraph":
+      return <p className="text-2xl leading-loose mr-2">{value["text"]}</p>;
+    case "image":
+      return (
+        <div className={style["image--contain"]}>
+          <Image
+            objectFit="cover"
+            src={"" + value["imageSRC"]}
+            layout="fill"
+            priority
+          />
+        </div>
+      );
+    case "video":
+      return (
+        <div className={style["image--contain"]}>
+          <source src={"" + value["videoURL"]} type="video/mp4" />
+        </div>
+      );
+    default:
+      return "";
+  }
+};
+
 export default ({ currentItem }) => (
   <div>
     <div className={style["article--detail--page"]}>
@@ -37,29 +71,10 @@ export default ({ currentItem }) => (
           subCategory={currentItem.subcategory}
           articleTitle={currentItem.article.title}
         >
-          {currentItem.article.content.map((currentItems, index) => {
-            return (
-              <div key={index}>
-                {currentItems.paragraph ? (
-                  <div key={index}>
-                    <p className="text-2xl leading-loose mr-2">
-                      {currentItems.paragraph.text}
-                    </p>
-                  </div>
-                ) : (
-                  <div key={index} className={style["image--contain"]}>
-                    <Image
-                      objectFit="cover"
-                      src={currentItems.image.imageSRC}
-                      layout="fill"
-                      priority
-                    />
-                  </div>
-                )}
-              </div>
-            );
+          {/* {JSON.stringify((currentItem.article.content)[0])} */}
+          {currentItem.article.content.map((items, index) => {
+            return <div key={index}>{renderSwitch(items)}</div>;
           })}
-
         </ArticleDetailSection>
         <CurrentNews />
       </div>

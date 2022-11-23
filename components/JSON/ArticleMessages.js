@@ -139,17 +139,6 @@ const ArticleListMessages = [
       date: pid1Date,
       imageURL: pid1ImageURL,
       previewText: pid1PreviewText,
-      // content: {
-      //   image: {
-      //     src: "UCD N11 Entrance, stop 768",
-      //     x: "",
-      //     y: "",
-      //   },
-      //   text: {
-      //     paragraph: "Dawson Street, stop 792",
-      //     title: "",
-      //   },
-      // },
       content: [
         {
           paragraph: {
@@ -160,6 +149,11 @@ const ArticleListMessages = [
           image: {
             imageSRC: pid2ImageURL,
           },
+        },
+        {
+          video: {
+            videoURL: "video"
+          }
         },
         {
           paragraph: {
