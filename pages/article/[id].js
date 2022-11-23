@@ -53,8 +53,17 @@ export const renderSwitch = (params) => {
           <source src={"" + value["videoURL"]} type="video/mp4" />
         </video>
       );
-      case "space":
-        return <br></br>;
+    case "iframe":
+      return (
+        <iframe
+          src={"" + value["videoURL"]}
+          width="100%"
+          height="480"
+          allow="autoplay"
+        ></iframe>
+      );
+    case "space":
+      return <br></br>;
     default:
       return "";
   }

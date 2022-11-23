@@ -449,8 +449,8 @@ const ArticleListMessages = [
       previewText: pid3PreviewText,
       content: [
         {
-          video: {
-            videoURL: "/images/article/1643090189871700.mp4",
+          iframe: {
+            videoURL: "https://drive.google.com/file/d/1k1mZeXtkFl__dpu54r5nONtWTfVMPOYs/preview",
           },
         },
         {
@@ -460,42 +460,42 @@ const ArticleListMessages = [
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1642476607326710.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "2022年1月16日，由浙江省侨办、浙江省侨联、加拿大温州同乡总会联合举办的“浙里有爱·四海迎春”新春慰侨活动 - 温哥华站启动仪式”在加拿大温州同乡总会温哥华会所正式拉开序幕。加拿大温州同乡总会、加拿大华人社团联席会、加拿大浙江同乡联合会、北美浙江台州总商会、加拿大温州青年会、加拿大温州商会，加拿大温州妇女会、加拿大温州高尔夫联谊会等协会的代表出席了本次启动仪式。当地主要媒体大华商报马在新社长也应邀出席。            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1642476618572741.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "加拿大温州同乡总会朱建国会长首先代表浙江省侨办和侨联向广大旅加侨胞致以新春佳节最诚挚的问候和祝福，并宣读了侨办侨联“致海外侨胞的壬寅家书”。他说，两年多来，加拿大侨界积极引导广大侨胞，采取各种有效措施，齐心协力，抗击疫情，成绩斐然。当前，正值新春佳节，但新冠疫情尚未结束，身在海外的侨胞很难回国与家人团聚。浙江省侨办、浙江省侨联发起的“浙里有爱·四海迎春”活动温暖了每一位身在海外的浙江人。            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1642476645414297.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "加拿大华人社团联席会魏仁民主席代表加拿大华人侨团和广大侨民致辞。他表示，很高兴看到浙江省侨办和侨联和加拿大温州同乡总会可以举办“浙里有爱·四海迎春”那么好的暖侨活动。在祖国和居住国需要华人协会做出贡献的时候，总能看到温州人的身影，且温州人这股团结的力量非常强大。在这次加拿大卑诗省百年一遇的洪灾救灾中，温州人以最快的速度集结，只用了两天时间就为加拿大红十字协会筹集赈灾款14000加币，为海外华人和华裔社团做出了榜样！            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1642476698361344.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "加拿大浙江同乡联合会会长、加拿大温州同乡总会的前任会长潘妙飞先生代表浙籍侨胞们为大家送上了新年的祝福，并预祝北京冬奥会圆满成功！            ",
           },
         },
         {
