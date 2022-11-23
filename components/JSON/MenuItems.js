@@ -39,6 +39,14 @@ const FooterC1MenuItems = [
 
 const FooterC2MenuItems = [
   {
+    Item: "2022年活动",
+    Link: "",
+  },
+  {
+    Item: "2021年活动",
+    Link: "",
+  },
+  {
     Item: "2020年活动",
     Link: "",
   },
@@ -89,7 +97,6 @@ const NavMenuItems = [
     title: "首页",
     url: "/",
     href: "/",
-    
   },
   {
     // About
@@ -98,15 +105,15 @@ const NavMenuItems = [
     url: "/About",
     submenu: [
       {
-        title: '董事',
-        url: '/directors'
+        title: "董事",
+        url: "/directors",
       },
 
       {
-        title: '家乡协会简介',
-        url: '/'
-      }
-    ]
+        title: "家乡协会简介",
+        url: "/",
+      },
+    ],
   },
   {
     // Information
@@ -115,24 +122,24 @@ const NavMenuItems = [
     url: "/info/Information",
     submenu: [
       {
-        title: '家乡协会',
-        url: ''
+        title: "家乡协会",
+        url: "",
       },
 
       {
-        title: '加拿大新闻',
-        url: ''
+        title: "加拿大新闻",
+        url: "",
       },
       {
-        title: '中国新闻',
-        url: ''
+        title: "中国新闻",
+        url: "",
       },
 
       {
-        title: '当地生活信息',
-        url: ''
-      }
-    ]
+        title: "当地生活信息",
+        url: "",
+      },
+    ],
   },
   {
     // events
@@ -141,15 +148,22 @@ const NavMenuItems = [
     url: "/",
     submenu: [
       {
-        title: '2020年活动',
-        url: ''
+        title: "2022年活动",
+        url: "",
       },
-
       {
-        title: '2019年活动',
-        url: ''
+        title: "2021年活动",
+        url: "",
       },
-    ]
+      {
+        title: "2020年活动",
+        url: "",
+      },
+      {
+        title: "2019年活动",
+        url: "",
+      },
+    ],
   },
   {
     // culture
@@ -158,15 +172,15 @@ const NavMenuItems = [
     url: "/",
     submenu: [
       {
-        title: '家乡的艺术和文化',
-        url: ''
+        title: "家乡的艺术和文化",
+        url: "",
       },
 
       {
-        title: '家乡温州',
-        url: ''
+        title: "家乡温州",
+        url: "",
       },
-    ]
+    ],
   },
   {
     // pName: "/contact",
