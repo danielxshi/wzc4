@@ -559,18 +559,56 @@ const ArticleListMessages = [
       previewText: pid4PreviewText,
       content: [
         {
-          image: {
-            imageSRC: "/images/article",
+          paragraph: {
+            text: "【明報專訊】日前，加拿大溫州同鄉總會在社交媒體上發起了為卑詩省洪水災民募捐活動。短短48小時就募集到來自溫州同鄉的8000仟多元加币善款。這些捐款來自加拿大境內外不同城市的溫州人。            ",
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          image: {
+            imageSRC: "/images/article/1639682959345627.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "溫州同鄉會會長朱建國指出，獻愛心，不分年齡；捐善款，不論多少。在加拿大生活的每一位華人都是這個國家的一份子，華人社團組織有義務、有責任在加拿大社會需要的時候站出來。            ",
+          },
+        },
+        {
+          space:{}
+        },
+        {
+          paragraph: {
+            text: "溫州同鄉會新生代會員蔣凌表示，加拿大首名華裔省督林思齊是華裔移民學習的榜樣，他給新移民的金句是，「接受Acceptance）、歸屬（Belonging）和貢獻（Contribution）」，為卑詩省洪水災民捐款，就是貢獻。華裔社區從來不缺少奉獻精神。只是，華人一直信奉，做好事不留名，不喜歡張揚，造成一些人對華人有誤解。新一代移民要積極投入到加拿大社會的建設中。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1639682967449456.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "在加拿大出生的林瑜涵小朋友今年10岁，目前在中國學習中文。她將20元壓歲錢拿出來，捐給災區小朋友。她叮囑說，這個錢是指定給災區小朋友的，千萬別給錯了！            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1639682979515597.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "為了將捐款在最短的時間內送到卑詩省洪水災民手裡，節省不必要的捐款程序，溫州同鄉總會聽聞加拿大紅十字會的代表將出席另一場華人社團的捐款儀式，就直接帶著善款趕赴現場，將支票交給紅十字協會代表Jennifer Wong。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1639682988684483.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "朱建國會長表示，加拿大温州同鄉總會的募捐活動還在繼續中，收到的善款來自加拿大不同城市的溫州人，很多溫州老鄉從沒有來過溫哥華，也积极為卑詩省水災捐款，這是出乎意料的，很讓人感動。特別是聽聞，政府會為水災籌款做等額匹配，就更積極了！温州同乡会很快會將第二笔募款再交給加拿大紅十字協會。            ",
           },
         },
       ],
@@ -591,13 +629,43 @@ const ArticleListMessages = [
       previewText: pid5PreviewText,
       content: [
         {
+          paragraph: {
+            text: "    11月21日，温州同乡总会在温哥华皇庭海鲜酒家举办了一个新老侨团的交流晚宴。邀请了列治文市议员欧泽光、国会议员Wilson Miao竞选团队的负责人Elsa Wong，以及近期合作过的一些社团领导参加，包括（排名不分先后）：中华会馆郭英华理事长、梁伟儒副理事长、许绍俊副理事长、颜启星理事、黄氏宗亲会 - 汉升体育会黄碧海会长、加拿大澳门商会周炳康副会长、大华商报马在新社长、华联会牛华会长和王岩执行会长、河北同乡会刘书梅会长、加中城市友好协会吴家明会长、加拿大华裔投票处进会的创始人鲍道平、白巍和王立、联合国维合部中国事务张龙柄秘书长、中医协会卓同年会长。温州同乡会的多名常务副会长、副会长，以及秘书长和理事们均参加了此次活动。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1637649687948611.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
           image: {
             imageSRC: "/images/article",
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article",
           },
         },
         {
