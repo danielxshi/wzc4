@@ -394,8 +394,8 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article/1649740119409832.jpg",
+          image: {
+            imageSRC: "/images/article/1649740119409832.jpg",
           },
         },
         {
@@ -408,12 +408,27 @@ const ArticleListMessages = [
         },
         {
           paragraph: {
-            text: "",
+            text: "会议在相互交流的热烈气氛中圆满结束。参加会议的年轻人纷纷 表示不虚此行、收获良多，太欢迎这样有深度有内容的活动了，感谢温州同乡会对新生代的关爱和对创业者的支持!             ",
           },
         },
         {
-          paragraph: {
-            text: "会议在相互交流的热烈气氛中圆满结束。参加会议的年轻人纷纷 表示不虚此行、收获良多，太欢迎这样有深度有内容的活动了，感谢温州同乡会对新生代的关爱和对创业者的支持!             ",
+          image: {
+            imageSRC: "/images/article/1649740180589205.jpg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1649740180380695.jpg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1649740180221982.jpg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1649740180388913.jpg",
           },
         },
       ],
