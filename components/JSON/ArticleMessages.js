@@ -142,7 +142,68 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "text1",
+            text: "端午临中夏，",
+          },
+        },
+        {
+          paragraph: {
+            text: "千载吉运长，",
+          },
+        },
+        {
+          paragraph: {
+            text: "良辰榴花美，",
+          },
+        },
+        {
+          paragraph: {
+            text: "丰福九天祥。",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "加拿大温州同乡总会的各位会长、理事、会员大家好！",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "端午佳节来临之际，加拿大温州同乡总会祝乡亲们———            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "身体“粽”是健康，            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "家庭“粽”是美满，            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "爱情“粽”是如糖，            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "事业的龙舟“粽”是快进，            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "手里的股票“粽”是上涨！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "一年365天“粽”是快乐！            ",
           },
         },
         {
@@ -152,8 +213,8 @@ const ArticleListMessages = [
         },
         {
           video: {
-            videoURL: "video"
-          }
+            videoURL: "/images/article/1653975356535117.mp4",
+          },
         },
         {
           paragraph: {

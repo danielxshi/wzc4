@@ -49,10 +49,12 @@ export const renderSwitch = (params) => {
       );
     case "video":
       return (
-        <div className={style["image--contain"]}>
+        <video className="mt-6" width="100%" height="500" controls>
           <source src={"" + value["videoURL"]} type="video/mp4" />
-        </div>
+        </video>
       );
+      case "space":
+        return <br></br>;
     default:
       return "";
   }
