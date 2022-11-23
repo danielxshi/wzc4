@@ -720,18 +720,8 @@ const ArticleListMessages = [
       previewText: "",
       content: [
         {
-          image: {
-            imageSRC: "/images/article",
-          },
-        },
-        {
           video: {
-            videoURL: "/images/article",
-          },
-        },
-        {
-          paragraph: {
-            text: "",
+            videoURL: "/images/article/1632511842440297.mp4",
           },
         },
       ],
