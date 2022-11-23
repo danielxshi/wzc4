@@ -719,11 +719,16 @@ const ArticleListMessages = [
       imageURL: "/images/article/1632512090782665.jpeg",
       previewText: "",
       content: [
+        // {
+        //   video: {
+        //     videoURL: "/images/article/1632511842440297.mp4",
+        //   },
+        // },
         {
-          video: {
-            videoURL: "/images/article/1632511842440297.mp4",
-          },
-        },
+          iframe: {
+            videoURL: "https://www.wenzhouren.ca/uploads/video/20210925/1632511842440297.mp4"
+          }
+        }
       ],
     },
   },
