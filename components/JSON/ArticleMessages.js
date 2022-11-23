@@ -285,42 +285,42 @@ const ArticleListMessages = [
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739759527218.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739797343628.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739797511626.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739798516486.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739798100661.jpg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "⻅面会吸引了三十几位温州同乡会内新老企业家、近期内有创业计划的年轻人到场参加。新生代创业者们首先介绍了各自创办的企业， 涉及领域包括房屋建造和维护、餐饮、地产开发、⺠宿 Airbnb、宠 物、早教、家具、国际贸易等传统行业，还有自媒体、电商等年轻人喜欢涉足的热⻔行业，以及清洁能源、数字化软件等高科技产业。 ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739841822887.jpg",
           },
         },
         {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1649739841306058.jpg",
           },
         },
         {
