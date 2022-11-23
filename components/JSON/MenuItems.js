@@ -119,7 +119,7 @@ const NavMenuItems = [
     // Information
     // pName: "/information",
     title: "活动分享",
-    url: "/info/",
+    url: "/info/information",
     submenu: [
       {
         title: "家乡协会",
