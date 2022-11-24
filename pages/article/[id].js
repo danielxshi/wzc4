@@ -55,7 +55,7 @@ export const renderSwitch = (params) => {
       );
     case "link":
       return(
-        <a className="text-red-800 text-base" href={value["linkURL"]}>{value["linkURL"]}</a>
+        <a className="text-red-800 text-2xl" href={value["linkURL"]}>{value["linkURL"]}</a>
       );
     case "iframe":
       return (
