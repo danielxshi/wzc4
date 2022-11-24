@@ -53,6 +53,8 @@ export const renderSwitch = (params) => {
           <source src={"" + value["videoURL"]} type="video/mp4" />
         </video>
       );
+    case "cite":
+      return <p className="text-2xl leading-loose mr-2 text-gray-400">{value["text"]}</p>;
     case "link":
       return (
         <a className="text-red-800 text-2xl" href={value["linkURL"]}>
@@ -60,7 +62,14 @@ export const renderSwitch = (params) => {
         </a>
       );
     case "plink":
-      return <p className="text-2xl leading-loose mr-2">{value["text"]}{value["link"]}</p>;
+      return (
+        <p className="text-2xl leading-loose mr-2">
+          {value["text"]}{" "}
+          <a className="text-red-800" href={value["href"]}>
+            {value["link"]}
+          </a>
+        </p>
+      );
     case "iframe":
       return (
         <iframe

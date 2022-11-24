@@ -6798,12 +6798,66 @@ const ArticleListMessages = [
         },
         {
           paragraph: {
-            text: "弗雷泽健康说，Nature’s Touch的五名员工已经检测出病毒呈阳性。            "
-          }
+            text: "弗雷泽健康说，Nature’s Touch的五名员工已经检测出病毒呈阳性。            ",
+          },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          plink: {
+            text: "阅读更多：",
+            link: "在阿勃斯福地区医院上周的COVID-19大爆发",
+            href: "https://globalnews.ca/news/6951947/covid-19-outbreak-confirmed-abbotsford-hospital/",
+          },
+        },
+        {
+          paragraph: {
+            text: " 卫生当局说，他们正在调查疫情，并正在与接触者进行追踪，并与工人的密切接触者交谈。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " 弗雷泽健康公司说，它已经检查了这家工厂，该公司已经自愿关闭至少至周一。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " Nature Touch 总部位于蒙特利尔，2017 年成立了 Abbotsford 工厂。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " 周五早些时候，不列颠哥伦比亚省卫生官员确认了18例新的病毒病例和3例死亡病例。",
+          },
+        },
+        {
+          link: {
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=145",
+            linkText:
+              "BC省今天进入重启第二阶段，实拍温哥华Robson商业街重启第1天",
+          },
+        },
+        {
+          link: {
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=143",
+            linkText: "加拿大全国确诊新冠病例破7.7万 过半已经康复",
+          },
+        },
+        {
+          link: {
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=142",
+            linkText: "Offer来袭，论高中生如何轻松收获加拿大名校offer",
+          },
+        },
+        {
+          link: {
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=141",
+            linkText: "BC省兰利地区一养老院第二次新冠爆发5人死亡，38人感染",
           },
         },
       ],
@@ -6826,12 +6880,79 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: " 当地时间20日，世界卫生组织（WHO）总干事谭德赛表示，在过去的24小时内，世界各国报告的单日新增新冠肺炎确诊病例数达10.6万例，比以往任何时候都要多，是疫情暴发以来的最大单日增幅。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " 据美国有线电视新闻网（CNN）21日消息，谭德赛在瑞士日内瓦举行新闻发布会，会上他指出，在过去的24小时内，世界各国共向世卫组织报告了10.6万例新冠肺炎新增确诊病例，“这是自疫情暴发以来一天之内增幅最大的，这些病例中几乎有三分之二是由四个国家报告的。”",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " WHO传染病流行病学家Maria Van Kerkhove向媒体表示，这四个国家分别是美国、俄罗斯、巴西和印度。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " “在新冠肺炎大流行之中，我们还有很长的路要走。”谭德赛说道。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " CNN特别指出，由于报告过程中可能出现延迟的情况，因此这一单日新增记录并不意味着10.6万人在过去24小时内被感染、检测或记录。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " 据美国约翰斯·霍普金斯大学发布的新冠肺炎疫情最新统计数据显示，截至北京时间5月21日6时左右，全球新冠肺炎累计确诊病例超过496万例，达4968133例，累计死亡病例326464例。其中，美国累计确诊达1548646例，死亡93163例。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: " 当前有6个国家累计确诊数超过20万，除美国外，还有俄罗斯、英国、西班牙、意大利和巴西。此外，法国、德国、土耳其、伊朗、印度和秘鲁，确诊病例数均超过10万例。",
+          },
+        },
+
+        {
+          cite: {
+            text: " 澎湃新闻记者 南博一",
+          },
+        },
+
+        {
+          cite: {
+            text: " 2020-05-21 来源：澎湃新闻",
           },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          link: {
+            linkText:
+              "BC省今天进入重启第二阶段，实拍温哥华Robson商业街重启第1天",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=145",
+          },
+        },
+
+        {
+          link: {
+            linkText: "加拿大全国确诊新冠病例破7.7万 过半已经康复",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=143",
+          },
+        },
+
+        {
+          link: {
+            linkText: "Offer来袭，论高中生如何轻松收获加拿大名校offer",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=142",
           },
         },
       ],
@@ -6854,12 +6975,129 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: " 今天5月19日星期二，BC省全面进入第二阶段，各项政策将变得更加放松。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "       然而，虽说BC省正在全力迈向下一阶段，但是在过去的48小时内，BC省还是有2例新的死亡案例，以及16例全新的确诊，死亡人数目前达到143人，而确诊人数则达到了2444人。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "       不过，虽然说直到今天还有新的确诊，但已经有越来越多的患者都恢复了健康，据卫生官亨利博士表示，目前全省已经有1966人康复，活跃病例只有335例，这是3月20日以来的最低水平。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "       根据BC省的重启计划，博物馆，美术馆和商店将在周二向公众开放，牙医，物理诊疗，以及面对面的咨询服务也将逐渐恢复，大家只需要遵守规定，保持社交距离就好。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "       刚刚过去的周末是温哥华入夏以来，第一个长周末，往年这个时候，人们都已做好迎接夏天的准备，城市到处都是出来享受阳光和好天气的人们。今年，受“限制令”影响，将近8周时间，城市被按下“暂停键”，娱乐、商业活动和服务设施都暂时停止和关闭。随着BC省经济重启，温哥华Robson商业街的专卖店很多已拆掉临时的木板，在长周末重新开业。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "       下雨的周六，实地探访开业第一天的温哥华Robson商业街。",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article/1589916328601-1.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "▲ ZARA是第一波开业的门店之一，店外已经有不少人排队等候进店购物。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "      可能是下雨的原因，街上人不多，车也不算多。走一圈看下来，只有三分之一的店开门，大部分店即使开门，人也很少。甚至，有几家店没能等到重启，已经拆掉招牌，永久性的关门了。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "近期新闻回顾：            ",
+          },
+        },
+        {
+          link: {
+            linkText: "加拿大全国确诊新冠病例破7.7万 过半已经康复",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=143",
+          },
+        },
+
+        {
+          link: {
+            linkText: "Offer来袭，论高中生如何轻松收获加拿大名校offer",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=142",
+          },
+        },
+
+        {
+          link: {
+            linkText: "BC省兰利地区一养老院第二次新冠爆发5人死亡，38人感染",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=141",
+          },
+        },
+
+        {
+          link: {
+            linkText: "BC省餐厅开业时间敲定！但是这几样短期内不会重开",
+            linkURL:
+              "https://www.wenzhouren.ca/index.php?a=show&catid=187&id=138",
+          },
+        },
+        {
+          paragraph: {
+            text: "      曾经，Robson商业街也是各种美食遍布的一条街。有东南亚风味餐厅、有日式拉面店、烤肉店、法式闪电泡芙、西餐厅等，现在街上都是扎推儿开的奶茶店，没了以前的特色，太可惜了！            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1589916328601-2.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "▲ SEPHORA 店内很冷清            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1589916328601-3.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "▲ Club Monaco 封店的木板还没有拆除，紧邻的Cafe Crepe 法式可丽饼店，已经拆掉招牌，永久关门了。以前，也是顾客超多，想进去享用一客可丽饼一杯咖啡也是要排队才有的吃。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1589916328601-4.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "▲ Indigo 目前没有完全开门营业，可以在线购买，路边取货。            ",
+          },
+        },
+        {
+          cite: {
+            text: "新闻转载自温哥华天空综述            ",
           },
         },
       ],
