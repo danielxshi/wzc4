@@ -1765,12 +1765,79 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "旅居加拿大的温州相亲大家好！            ",
           },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "丹桂飘香又一年，秋菊溢彩迎中秋。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "值此2020年中秋佳节来临之际，加拿大温州同乡总会向生活在加拿大的各位温州乡亲致以最真挚的节日祝贺！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "2020年是一个国际局势紧张动荡，人类笼罩在疫情的阴云中令人担惊受怕的一年！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "对于我们侨居在国外的温州人来说每个人的生活都受到不同程度影响！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "我们加拿大同乡总会在各位理事及会员的大力支持、鼓励和慷慨解囊下不辜负相亲的信任，勇敢面对疫情，担负起社会责任，充分发挥协会桥梁作用。各位理事和会员心系祖国，情系家乡，倾力支持国内疫情防控，捐款奉献，充分展现了海外华人华侨对祖国的爱对温州的情！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "同时也积极投身到居住国的抗疫救灾中！为加拿大的医院、养老院、食物银行以及疫情中社会需要帮助的弱势群体提供了慷慨援助，让加拿大温州同乡总会在祖国和居住国都以正能量、健康向上的形象将各位理事和会员的爱心传递给社会！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "唯一遗憾的是，由于疫情的强力爆发和传染性，我们加拿大同乡总会的乡亲们不能欢聚一堂共度节日！屈指算来乡亲们有将近半年的时间没有相聚了！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "“天将今夜月，一遍洗寰瀛。暑退九霄净，秋澄万景清。”在这个秋阳朗照，丹桂飘香的季节，我们多么希望能像往年一样汇聚四面八方的欢歌笑语，齐集五湖四海的秋思乡情，同在加拿大温州同乡总会——我们的第二个家，共同吟唱秋之收获，秋之风情...........            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "鉴于疫情我们这个大家庭不能“齐聚”，但我们可以请月亮捎去真诚的祝福            ",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "月到中秋分外明，人到中秋更深情。今年中秋伴国庆，双重祝福送给您。祝您温州相亲月来越健康，月来越幸福，月来越快乐。明月皎皎，喜悦无限，乐乐乐不停！",
+          },
+        },
+        {
+          video: {
+            videoURL:
+              "https://www.wenzhouren.ca/uploads/video/20200927/1601177464575818.mp4",
+          },
+        },
+        {
+          paragraph: {
+            text: "加拿大温州同乡总会            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "二0二0 中秋            ",
           },
         },
       ],
@@ -1793,12 +1860,112 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "据消息，加拿大国会预算官员在一份报告中表示，从今年秋季开始，为几乎所有加拿大人提供6个月的基本收入，可能需要约980亿加元。            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/0_202007071319322geiY.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "由于无数加拿大人眼看自己的工作随着新冠疫情的持续发展而受到巨大影响，要求加拿大政府赶紧提供基本收入，以保障民众最低生活标准的呼声也越发受到欢迎。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "而且，基本收入也确实不失为一种全民福利的选择。 ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_20200707131932347PX.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "本周二，财政部长比尔·莫诺（Bill Morneau）和其他高级内阁部长已经多次被参议员和国会议员问及这一概念。支持者认为，这只不过是在扩大800亿加元的紧急福利金CERB，以帮助那些收入大幅下降的加拿大人。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "按照计划，CERB和450亿加元的工资补贴计划CEWS将于10月份到期，未来加拿大人如何获得政府补助，目前尚无任何详细计划。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "据了解，从10月开始提供6个月的基本收入，可能需要475亿至981亿加元。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "预算官员伊夫·吉鲁（Yves Giroux））的报告显示，如果发放基本收入，则18岁至64岁的加拿大人平均可领到4500加元到4800加元。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "要求计算基本收入成本的参议员胡元豹（Yuen Pau Woo）表示，基本收入计划可以填补加拿大社会保障体系的缺口，目前加拿大各省管理自己的保障体系，还没有实现统一。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_202007071319324DA9a.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "参议员胡元豹（Yuen Pau Woo）            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "“在全国范围内实行永久性的基本收入是一项巨大的事业。成本非常高，政治阻力也激烈的，在2020到2021年度，我们很可能要花费很多钱以实现收支平衡，”他说到。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "“在我看来，问题是我们如何花钱，或者以什么形式花钱。”            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "基本收入对不同的人有不同的含义，但它通常被视为政府提供给公民的一种不附加任何条件的福利，而不是各种有针对性的社会福利。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "基本收入也被称为最低收入保证，可以为全民发放，也可以作为一项经济状况调查的福利，随着受助人其他收入的增加而下降。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "预算官员的报告称，政府可能会取消150亿加元的税收减免措施，以抵消基本收入的总成本。胡元豹还表示，为了避免重复，基本收入可能必须和现有的福利相结合。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_202007071319325cmjn.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "基本收入计划的总成本可能比预算办公室估计的要高。预算官员的估算是基于加拿大的一些统计数据，其中不包括居住在北部地区或原住民地区的人，也不包括军人。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "代表全国小企业的加拿大独立企业联合会（Canadian Federation of Independent Business）周二表示，在接受调查的会员中，约有三分之一的受访者说，公司员工已恢复到正常水平，但也暗示许多人认为，公司需要六个月的时间才能恢复正常的盈利能力。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "加拿大统计局将于本周五7月10日发布6月份的就业报告。经济合作与发展组织OECD周二7月7日发布的预测估计，今年第二季度加拿大的失业率为11%。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "6个月最高发$4800，“全民（almost all）基本收入”怎么听起来都香的很，啥事不用干就能拿钱不是美滋滋？            ",
           },
         },
       ],
@@ -1821,12 +1988,546 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "卑诗省今年异常暖春，使得果园的水果已经提前成熟，童鞋们，是时候和亲朋好友踏青采摘去啦!今天小编给大家介绍一下大温夏季水果采摘农场情况，有U-PICK草莓、蓝莓、覆盆子、樱桃、蜜桃、苹果、葡萄等等水果，自己的劳动成果一定特别香甜!温馨提示，大家出发前最好先给农场打个电话确认一下开放时间，以免白跑一趟哦。            ",
           },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          paragraph: {
+            text: "采摘各种水果的季节            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "3月至4月：Asparagus 芦笋            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "6月至7月：草莓、樱桃            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "6月至8月：蓝莓、黑莓            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "7月至9月：蜜桃，无花果，番茄, 四季豆            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "7月至10月：覆盆子            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "9月至10月：苹果、葡萄、南瓜            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "采摘水果准备            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "由于大多数农场并不设立网站，开放时间也并非固定。所以去农场之前最好先致电确认当天是否营业，某种水果是否已经成熟，是否允许自行采摘，以及营业时间等等信息。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "建议带上背包，装点零食和饮料，以及装水果的容器和纸巾等。记得穿舒适耐脏的衣服，运动鞋，有条件可以带上防蚊喷雾。另外，如果日晒严重，一定记得防晒，带上宽边帽子和墨镜。也可带上相机与家人朋友合影留念。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "除此以外，当您开始采摘之前，一定要注意农场的标语和采摘规定，比如有些区域尚未成熟不可采摘，或者提醒大家注意不要践踏植物等等。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "U-Pick地点大总结            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "列治文            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "W&A Farms(草莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "17771 Westminster Hwy, Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-278-5667            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Birak Berry Farm(草莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "4200 No 6 Road, Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604 339-9335            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Bob Featherstone Farm(草莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "#4 Road south of Steveston Hwy            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-594-9518            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "G.J. Farms(草莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "11300 No.4 Road, Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-272-4033            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Cherry Lane Farm(樱桃)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "9571 Beckwith Road, Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：778-833-3379            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "KNN Blueberry Farms(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "11590 Granville Ave. Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-781-9993            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Birak Berry Farms(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "6311 No. 5 Rd. Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "3600 No. 6 Rd. Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "9111 No. 6 Rd. Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "No. 4 Rd & Francis            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话： 604-328-9269            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "DFG Blueberries(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "11071 Blundell Road, Richmond            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-273-5829            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Andrea Farm(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "11260 Westminster Hwy            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-352-9993            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "素里            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Blueberries U-Pick(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "18064-32 Ave, Surrey            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：(604) 290-4081            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Honeybee Centre(蜂蜜)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "7480 – 176 Street, Surrey            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-575-2337，877-975-BEES (2337)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "邮箱：info@honeybeecentre.com.            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Rondriso Farms(南瓜)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "8390 172nd Street, Surrey            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-574-5585            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Surrey Farms( 南瓜，草莓，蓝莓，各种蔬菜)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "5180 152 Street, Surrey            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-574-1390            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "兰里            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "A and J Farms(葡萄，李子，南瓜等)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "26032 16th Avenue, Aldergrove            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：6048564206            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Aldor Acres Farm (苹果，圣诞树(自选自砍))            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "24990, 84 Avenue, Fort Langley            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：(604) 888-0788            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Clingan Blueberry Farm(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "24576 32 Avenue, Langley            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-534-7360            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Driediger Farms(黑莓，蓝莓，草莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "23823 – 72nd Avenue, Langley            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-888-1665            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "John & John’s farm(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "4015 244th street, Langley            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-803-9185            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "三角洲            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Didar Berry(这家蓝莓好摘且味道好)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "5570 104 St, Delta            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：778-888-4399            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Emma Lea Farms(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "4626 88th Street, Delta            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-946-1868            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Wellbrook Winery(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "2727 Westham Island Rd, Delta            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604 946-8216            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "周边城市            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Organic Blueberries Farm(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "325 Laurier Ave, Port Coquitlam            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "The Apple Farm(苹果，梨，李子)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "4490 Boundary Road, Yarrow            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604- 823-4311            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Krause Berry Farms(草莓，蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "6179-248th Street, Aldegrove            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604-856-5757            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "D&G Farm(蓝莓)            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "19658 Richardson Road , Pitt Meadows            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "电话：604 465-0279            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Formosa Nursery(蓝莓)",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "12617 – 203 rd Street, Maple Ridge",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "电话：(604) 465-3359",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "邮箱：info@formosanursery.com",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "Willow View Farms(苹果，梨，南瓜，甜玉米，小动物园)",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "288 McCallum Rd, Abbotsford",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "邮箱：willowview@shaw.ca.",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "Bissett Farms(蓝莓，草莓，红莓)",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "2170 Westham Island Rd, Delta",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "电话：604-946-7139，604-946-7471",
+          },
+        },
+        {
+          paragraph: {
+            text: "查看整个BC省的采摘农场，可进入英文网站：http://www.pickyourown.org/canadabc.htm",
           },
         },
       ],
@@ -1849,12 +2550,61 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "疫情当前，世界各国应当携手合作，共同努力。感谢您为了再一次与浙江的合作交流，利用“快捷通道”来到浙江。浙江省政府为保障您和他人的生命健康安全，根据国家和浙江省疫情防控领导机构决定，特就对利用“快捷通道”来华入浙外国人有关签证申办要求和入境管控措施等事宜，告知如下：",
           },
         },
+
         {
-          image: {
-            imageSRC: "/images/article/",
+          paragraph: {
+            text: "　　一、申办来华签证时，请您持浙江省外办或浙江省商务厅签发的邀请函及相关申请材料向中国驻贵国使领馆申办签证，同时填报《签证申请健康承诺书》并提交贵国政府指定医疗机构出具的核酸检测阴性证明。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "　　二、获得来华签证后，请您务必在来华前进行至少14天的自我健康监测，并申领浙江“国际版健康码”（下载“浙里办”App，登录“国际版健康码”）。临行来华前72小时内，须在贵国政府指定医疗机构进行至少1次核酸检测并取得检测结果阴性证明。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "　　三、来华入境时，主动向海关提交邀请函、核酸检测阴性结果及海关健康申报等有效证明文件。原则上人员经“快捷通道”在第一入境地入境后，核酸、血清抗体检测结果呈阴性的，可由目的地所在设区市政府负责“点对点”接回。到达目的地后，询问健康状况、进行核酸和血清抗体检测，若阳性则送定点医院隔离治疗；若阴性则实行14天居家医学观察。居家医学观察期间，确因工作需要，经当地防控办同意，在做好个人防护、保持社交距离、“点对点”专人接送和闭环管理的前提下，允许按照“非必要不接触”的要求，边观察、边安排工作。从第13天时再次进行核酸检测，若阴性，第15天起可正常工作、生活，纳入常态化管理。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "　　四、对入境时被确定为“四类人员（新冠确诊患者、疑似患者、不能排除感染可能的发热患者或确诊患者的密切接触者)”的外国人，由入境口岸所在地政府按照当地境外疫情输入防控相关规定稳妥处置。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "　　五、相关外国人在我省医学观察期间，确定为疑似病例、确诊病例或无症状感染者的，不再适用以上措施，由邀请单位所在市政府按照现有疫情防控规定稳妥处置。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "　　六、以上管控措施，将根据疫情变化情况，实行动态管理，适时进行调整并及时告知。如有疑问，请咨询当地外事部门。邀请单位也有责任为相关外国人做好咨询、联络和协调等工作。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "在此期间给您的工作生活带来不便，敬请理解。感谢您的支持与配合！",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "                     浙江省人民政府外事办公室",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "                         2020年6月28日",
           },
         },
       ],
@@ -1877,13 +2627,133 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "2020年真的是见证历史的一年~",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "明天我们即将见证加拿大的又一历史性时刻——加拿大国庆日（Canada Day）",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "这将是加拿大庆祝的第153个生日，",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "与往年举国同庆，热闹非凡的庆祝活动相比，",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "今年的加拿大日的庆祝方式有所不同，",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "几乎所有的活动都转向“线上”！",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/0_202007010702312WVuf.png",
           },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_202007010702313Ml2a.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "虽然今年我们不能观看游行和烟火表演了，",
+          },
+        },
+        {
+          paragraph: {
+            text: "但是今年的加拿大日我们依然可以过的很酷炫！",
+          },
+        },
+        {
+          paragraph: {
+            text: "快来看看村长给大家整理的节日指南吧~",
+          },
+        },
+        {
+          paragraph: {
+            text: "线上国庆演唱会",
+          },
+        },
+        {
+          paragraph: {
+            text: "7月1日当天，",
+          },
+        },
+        {
+          paragraph: {
+            text: "下午和晚上分别有两场线上演出，",
+          },
+        },
+        {
+          paragraph: {
+            text: "加拿大全国各地都可免费观看！",
+          },
+        },
+        {
+          paragraph: {
+            text: "这次参与演出的歌手都是重量级的巨星，例如：Paul Brandt, Marc Hervieux, Julie Nesrallah，Laurence Nerbonne等。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_202007010702317kvhI.png"
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
+        },
+        {
+          image: {
+            imageSRC: ""
+          }
         },
       ],
     },
