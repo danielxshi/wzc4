@@ -53,6 +53,10 @@ export const renderSwitch = (params) => {
           <source src={"" + value["videoURL"]} type="video/mp4" />
         </video>
       );
+    case "link":
+      return(
+        <a className="text-red-800 text-base" href={value["linkURL"]}>{value["linkURL"]}</a>
+      );
     case "iframe":
       return (
         <iframe
