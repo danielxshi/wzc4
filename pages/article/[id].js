@@ -49,7 +49,7 @@ export const renderSwitch = (params) => {
       );
     case "video":
       return (
-        <video className="mt-6" width="100%" height="500" controls>
+        <video width="100%" height="500" controls>
           <source src={"" + value["videoURL"]} type="video/mp4" />
         </video>
       );
@@ -84,7 +84,7 @@ export default ({ currentItem }) => (
         >
           {/* {JSON.stringify((currentItem.article.content)[0])} */}
           {currentItem.article.content.map((items, index) => {
-            return <div key={index}>{renderSwitch(items)}</div>;
+            return <div className={style["article--content--item"]} key={index}>{renderSwitch(items)}</div>;
           })}
         </ArticleDetailSection>
         <CurrentNews />

@@ -133,3 +133,9 @@
     }
   }
 }
+
+.article--content--item{
+  * {
+    margin-bottom: $sm-margin;
+  }
+}
