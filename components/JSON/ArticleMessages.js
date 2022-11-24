@@ -4038,32 +4038,87 @@ const ArticleListMessages = [
         },
         {
           paragraph: {
-            text: "",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/",
+            text: "据BC省公园管理局介绍，自5月重开以后，到访公园人数比往年夏季增加超过一倍，导致停车场和附近一带道路拥挤异常，非法泊车现象严重。来自美国和加拿大的游客在此几乎毫无顾忌地牵手、拥抱甚至举行婚礼，并有不少夫妇称此地为“情侣的迪士尼乐园”。            ",
           },
         },
         {
           paragraph: {
-            text: "",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/",
+            text: "公园管理人员曾采取过增加巡逻人员、张贴告示、减少停车时间等方式减少游客数量，并呼吁游客保持社交距离，但其效果始终不佳。            ",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "因此，BC省公园管理局6月18日表示，将于当日晚8点开始，暂时关闭和平拱门公园，重新开放时间将另行通知。但位于美国境内的公园南半部分仍正常开放。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "温哥华国际机场采取措施鼓励旅行者乘坐航班            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "温哥华国际机场（YVR）6月18日宣布发起一项名为“机场保重” （YVR Take Care）的新运动，旨在让旅客在相关限制放宽后重拾乘机旅行的信心。            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/0_202006190659327D2XE.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "自18日起，进入温哥华国际机场的所有旅客必须带上口罩，且除需要帮助的未成年人外，未持机票人员将一律禁止进入机场。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "此外，机场内部所有柜台将安装有机玻璃隔板，且机场内消毒清洁工作的频次将提高，旅客也会在机场内部看到更多的洗手台和提示标识，并需要接受机场标准化的体温监测。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_202006190659328JKHe.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "温哥华机场管理局运营和维护副总裁Robyn McVicker表示，虽然机场并不知道何时全球旅行会恢复到正常水平，但目前加拿大境内旅行数量有所增加。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "据机场官方数据统计，6月17日温哥华机场约接待了5,000名乘机旅客，但去年同期的日平均旅客数量约为75,000人。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Mcvicker表示，同比往年，温哥华国际机场的航班数量下降了约九成，且进入温哥华的国际航班大部分都是空的。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "尽管损失惨重，McVicker称机场并不打算提高每名乘客需要交纳的机场建设费，发起“机场保重”运动的初衷也只有让旅客放心乘机而已。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/0_202006190659329iUOW.png",
+          },
+        },
+        {
+          paragraph: {
+            text: "（YVR副总裁Robyn McVicker）            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "自今年4月10日起，温哥华国际机场已开始进行旅客筛查和检疫计划。当旅客通过国际航班到达机场时，他们需要填写自我隔离表格并被询问是否有可居住的地方，以及是否可能携带新冠病毒。未经过批准进行14天自我隔离的旅客，将被隔离在旅馆中。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "截至6月18日下午3时，加拿大全国新增感染新冠病毒病例367例，累计感染人数达100,220人。BC省同日宣布新增确诊8例，累计确诊总数达2783例，死亡总人数达168人。            ",
           },
         },
       ],
@@ -4084,6 +4139,86 @@ const ArticleListMessages = [
       previewText:
         "疫情发生后，CERB成为最热门的关键词之一，毕竟这与千家万户的生活都是息息相关的。前些时NDP党魁喊话联邦政府延长CERB，笔者当时认为概率不大，但现在看来显然低估了政府的决心和信心。媒体报道，联邦总理杜鲁多表…",
       content: [
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
         {
           paragraph: {
             text: "",
