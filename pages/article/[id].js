@@ -54,9 +54,13 @@ export const renderSwitch = (params) => {
         </video>
       );
     case "link":
-      return(
-        <a className="text-red-800 text-2xl" href={value["linkURL"]}>{value["linkText"]}</a>
+      return (
+        <a className="text-red-800 text-2xl" href={value["linkURL"]}>
+          {value["linkText"]}
+        </a>
       );
+    case "plink":
+      return <p className="text-2xl leading-loose mr-2">{value["text"]}{value["link"]}</p>;
     case "iframe":
       return (
         <iframe
@@ -88,7 +92,11 @@ export default ({ currentItem }) => (
         >
           {/* {JSON.stringify((currentItem.article.content)[0])} */}
           {currentItem.article.content.map((items, index) => {
-            return <div className={style["article--content--item"]} key={index}>{renderSwitch(items)}</div>;
+            return (
+              <div className={style["article--content--item"]} key={index}>
+                {renderSwitch(items)}
+              </div>
+            );
           })}
         </ArticleDetailSection>
         <CurrentNews />

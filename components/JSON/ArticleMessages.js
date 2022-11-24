@@ -6793,8 +6793,13 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "卫生官员已经确认，在阿勃斯福冷冻水果加工厂爆发了新冠疫情。            ",
           },
+        },
+        {
+          paragraph: {
+            text: "弗雷泽健康说，Nature’s Touch的五名员工已经检测出病毒呈阳性。            "
+          }
         },
         {
           image: {
