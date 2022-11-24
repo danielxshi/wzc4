@@ -67,7 +67,7 @@ const pid7PreviewText =
 const pid7 = "16";
 
 //Item3 id:15
-const pid8Title = "加拿大温州同乡总会的姐妹们，国际女神节快乐";
+const pid8Title = "加拿大温州同乡总会的姐妹们，国际女神节快乐！";
 const pid8Date = "2021-03-07";
 const pid8ImageURL = "/images/article/1615099680983859.jpeg";
 const pid8PreviewText =
@@ -1090,11 +1090,11 @@ const ArticleListMessages = [
             imageSRC: "/images/article/1621544763723268.jpeg",
           },
         },
-        // {
-        //   image: {
-        //     imageSRC: "/images/article/1621544775696305.jpeg",
-        //   },
-        // },
+        {
+          image: {
+            imageSRC: "/images/article/1621544775696305.jpeg",
+          },
+        },
       ],
     },
   },
@@ -1114,18 +1114,51 @@ const ArticleListMessages = [
         "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。浙江省侨商会、浙江省侨界…",
       content: [
         {
+          paragraph: {
+            text: "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动            ",
+          },
+        },
+        {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1621544484558547.jpeg",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: "一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。            ",
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "浙江省侨商会、浙江省侨界青年联合会、浙江省侨联妇女工作委员会、《浙商》杂志社主办，嘉兴市侨联、宁波市侨联、丽水市侨联、侨音融媒体中心承办。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "这场重走浙江革命之路的初心之旅正是侨胞在新时代逐梦伟大征程中的一次整装再出发。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544453807990.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "此次活动「加拿大温州同乡总会常务副会长吴登金先生代表出席。」            ",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "党有号召，侨有行动。此次初心之旅活动线上线下结合，开闭幕式将面向200多万浙籍侨胞全球直播，教育引领广大浙籍侨胞线上线下学史明理、学史增信、学史崇德、学史力行，在浙江这片红色土地上，扛起“五大历史使命”，在侨界中掀起一股学史悟思、铭记党恩、增信崇德、勇开新局的热潮，在“重要窗口 侨有担当”中贡献力量，以实际行动和优异成绩庆祝建党100周年。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544468341450.jpeg",
           },
         },
       ],
@@ -1146,8 +1179,41 @@ const ArticleListMessages = [
       previewText: pid8PreviewText,
       content: [
         {
+          paragraph: {
+            text: "加拿大温州同乡总会的姐妹们，国际女神节快乐！            ",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "世界上若没有女人，这个世界至少要失去十分之五的真，十分之六的善，十分之七的美。 ",
+          },
+        },
+        {
+          paragraph: {
+            text: "———冰心",
+          },
+        },
+        {
           image: {
-            imageSRC: "/images/article",
+            imageSRC: "/images/article/1615099519244466.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "三八妇女节，是国际上的惯用称呼，但在面对我们身边人的时候，我们温州女人还是更愿意把这天叫成“三八女神节”。 ",
+          },
+        },
+        {
+          paragraph: {
+            text: "每位女人都拥有多重身份，女儿、妻子、母亲、萌妹子、女汉子……无论哪一种身份，只要有一颗爱自己的心，那么你就是最美丽的女神。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "不论你是全职妈妈，还是在职场冲锋陷阵的女强人，亦或是快乐的小仙女，在这春暖花开的日子里，请记得不负春光，来赴一场春天的约会！            ",
           },
         },
         {
@@ -1156,8 +1222,48 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          paragraph: {
+            text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
           },
         },
       ],
