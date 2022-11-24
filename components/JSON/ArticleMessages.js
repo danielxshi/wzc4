@@ -1268,22 +1268,17 @@ const ArticleListMessages = [
         },
         {
           paragraph: {
-            text: "",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/",
+            text: " 会议上提出以每年的3月8日作为全世界妇女的斗争日，得到与会代表的一致拥护。            ",
           },
         },
         {
           paragraph: {
-            text: "",
+            text: " 1911年的3月8日是历史上第一个国家劳动妇女节，中国在1922年开始纪念妇女节。            ",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1615099553532891.jpg",
           },
         },
       ],
