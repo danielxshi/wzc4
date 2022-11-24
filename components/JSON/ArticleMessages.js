@@ -1033,13 +1033,56 @@ const ArticleListMessages = [
         "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚…",
       content: [
         {
-          image: {
-            imageSRC: "/images/article",
+          paragraph: {
+            text: "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚庄，中国侨商会常务副会长、浙江省侨商会会长廖春荣，浙江日报报业集团党委委员、副总编辑王水明，中共嘉兴市委常委、统战部部长张仁贵，浙江省侨联副主席、省侨青联会长林东，浙江省侨联副主席、省侨商会常务副会长陈乃科，浙江省侨联副主席、宁波市侨商会监事长傅旭敏等相关领导和嘉宾出席开幕式。            ",
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          image: {
+            imageSRC: "/images/article/1621544798211298.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "全球侨胞联动，致敬百年华诞            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544678488021.jpeg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544704332249.jpeg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544721918017.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "整场开幕式线上线下结合，海内海外联动。  ",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          paragraph: {
+            text: "祖国的变化和发展、与会领导对侨胞的鼓励和肯定都深深感动着每一位侨胞的赤子之心！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "作为侨胞代表，加拿大温州同乡总会常务副会长  吴登金先生在活动现场深受感动，他不无感慨的表示，「我们每一位生活在国外的侨胞都是一张行走的中国名牌，我们为强大的母国感到自豪，也要代表中国人，树立好在加拿大的中国形象」。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544745797314.jpeg",
           },
         },
         {
@@ -1071,13 +1114,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1103,13 +1146,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1135,13 +1178,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1168,13 +1211,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1200,13 +1243,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1233,13 +1276,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1266,13 +1309,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1299,13 +1342,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1332,13 +1375,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1365,13 +1408,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1398,13 +1441,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1431,13 +1474,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1463,13 +1506,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1496,13 +1539,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1529,13 +1572,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1562,13 +1605,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1595,13 +1638,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1628,13 +1671,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1661,13 +1704,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1694,13 +1737,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1727,13 +1770,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1760,13 +1803,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1793,13 +1836,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1826,13 +1869,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1859,13 +1902,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1892,13 +1935,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1925,13 +1968,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1958,13 +2001,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -1991,13 +2034,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2024,13 +2067,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2057,13 +2100,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2090,13 +2133,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2123,13 +2166,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2156,13 +2199,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2189,13 +2232,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2222,13 +2265,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2255,13 +2298,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2288,13 +2331,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2321,13 +2364,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2354,13 +2397,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2387,13 +2430,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2420,13 +2463,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2453,13 +2496,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2486,13 +2529,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2519,13 +2562,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2552,13 +2595,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2585,13 +2628,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2618,13 +2661,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2651,13 +2694,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2684,13 +2727,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2717,13 +2760,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2750,13 +2793,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2783,13 +2826,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2816,13 +2859,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2849,13 +2892,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2882,13 +2925,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2915,13 +2958,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2948,13 +2991,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -2981,13 +3024,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3014,13 +3057,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3048,13 +3091,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3081,13 +3124,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3114,13 +3157,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3147,13 +3190,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3180,13 +3223,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3213,13 +3256,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3246,13 +3289,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3279,13 +3322,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3312,13 +3355,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3345,13 +3388,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3378,13 +3421,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3411,13 +3454,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3444,13 +3487,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3477,13 +3520,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3510,13 +3553,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3544,13 +3587,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3577,13 +3620,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3610,13 +3653,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3643,13 +3686,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
@@ -3675,13 +3718,13 @@ const ArticleListMessages = [
           },
         },
         {
-          video: {
-            videoURL: "/images/article",
+          paragraph: {
+            text: "",
           },
         },
         {
-          paragraph: {
-            text: "",
+          video: {
+            videoURL: "/images/article",
           },
         },
       ],
