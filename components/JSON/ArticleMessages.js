@@ -1217,13 +1217,8 @@ const ArticleListMessages = [
           },
         },
         {
-          paragraph: {
-            text: "",
-          },
-        },
-        {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1615099635421085.jpg",
           },
         },
         {
