@@ -6048,7 +6048,62 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
+            text: "温哥华-威斯敏斯特新小学的一位老师要求她的学生们进入内心的雷诺阿河和艾米丽·卡尔斯（Emily Carrs），但他们的材料不是毛笔和画笔，而是毛绒动物，乐高和玩偶。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "Connaught Heights小学的Montesorri小学三年级和四年级老师Sara Fox已指派她的学生使用他们的玩具重制著名的艺术品。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1591139822863098.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "由于COVID-19大流行，福克斯被迫接受在线教育，但是她的学生的常规美术老师无法继续他们的课程，因为他们被要求指导基本工人的孩子们。因此，福克斯（Fox）发挥了自己的创造力，以保持教学的进行，并让她的学生利用他们的想象力，将自己的想法摆在经典艺术品上。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1591139839959235.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "达·芬奇（Leonardo da Vinci）的《最后的晚餐》由福克斯的学生奥黛丽（Audrey）重新构想，他用塑料杯形蛋糕，香蕉和胖胖的填充动物（包括圆形浣熊和长颈鹿）代替了原作中的酒，碟子和使徒杯。她将自己的作品命名为《南瓜味晚餐》。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1591139558785183.jpeg",
+          },
+        },
+        {
+          paragraph: {
             text: "",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/",
           },
         },
         {
