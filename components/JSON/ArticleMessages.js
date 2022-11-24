@@ -1086,8 +1086,13 @@ const ArticleListMessages = [
           },
         },
         {
-          paragraph: {
-            text: "",
+          image: {
+            imageSRC: "/images/article/1621544763723268.jpeg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1621544775696305.jpeg",
           },
         },
       ],
