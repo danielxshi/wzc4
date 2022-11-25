@@ -437,6 +437,10 @@ a:hover {
   }
 }
 
+.circle-list{
+  list-style-type: disc;
+}
+
 @media only screen and (max-width: $medQuery) {
   .col-start-13 {
     grid-column-start: 5;

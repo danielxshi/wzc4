@@ -54,6 +54,19 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
+    case "bList":
+      return (
+        // <p className="text-2xl leading-loose mr-2 text-right">
+        //   {value["text"]}
+        // </p>
+        <ul>
+          {value.map((obj, index) => (
+            <li className="text-2xl circle-list" key={index}>
+              <strong>{obj.text}</strong>
+            </li>
+          ))}
+        </ul>
+      );
     case "image":
       return (
         <div className={style["image--contain"]}>
@@ -70,6 +83,12 @@ export const renderSwitch = (params) => {
         <video width="100%" height="500" controls>
           <source src={"" + value["videoURL"]} type="video/mp4" />
         </video>
+      );
+    case "citeMid":
+      return (
+        <p className="text-center text-2xl leading-loose mr-2 text-gray-400">
+          {value["text"]}
+        </p>
       );
     case "cite":
       return (
