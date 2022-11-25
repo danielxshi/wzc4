@@ -36,6 +36,24 @@ export const renderSwitch = (params) => {
   switch (keys[0]) {
     case "paragraph":
       return <p className="text-2xl leading-loose mr-2">{value["text"]}</p>;
+    case "bParagraph":
+      return (
+        <p className="text-2xl leading-loose mr-2">
+          <strong>{value["text"]}</strong>
+        </p>
+      );
+    case "pMid":
+      return (
+        <p className="text-2xl leading-loose mr-2 text-center">
+          {value["text"]}
+        </p>
+      );
+    case "paragraphRight":
+      return (
+        <p className="text-2xl leading-loose mr-2 text-right">
+          {value["text"]}
+        </p>
+      );
     case "image":
       return (
         <div className={style["image--contain"]}>
@@ -54,10 +72,23 @@ export const renderSwitch = (params) => {
         </video>
       );
     case "cite":
-      return <p className="text-2xl leading-loose mr-2 text-gray-400">{value["text"]}</p>;
+      return (
+        <p className="text-2xl leading-loose mr-2 text-gray-400">
+          {value["text"]}
+        </p>
+      );
     case "link":
       return (
         <a className="text-red-800 text-2xl" href={value["linkURL"]}>
+          {value["linkText"]}
+        </a>
+      );
+    case "linkMid":
+      return (
+        <a
+          className="text-red-800 text-2xl text-center"
+          href={value["linkURL"]}
+        >
           {value["linkText"]}
         </a>
       );
