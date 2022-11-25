@@ -60,11 +60,27 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
+    case "paragraphRightBold":
+      return (
+        <p className="text-2xl leading-loose mr-2 text-right">
+          <strong>{value["text"]}</strong>
+        </p>
+      );
+    case "listNoStyle":
+      return (
+        <ul>
+          {value.map((obj, index) => (
+            <li className="indent-8 text-2xl" key={index}>
+              {obj.text}
+            </li>
+          ))}
+        </ul>
+      );
     case "list":
       return (
         <ul>
           {value.map((obj, index) => (
-            <li className="text-2xl circle-list" key={index}>
+            <li className="ml-8 text-2xl circle-list" key={index}>
               {obj.text}
             </li>
           ))}
@@ -74,7 +90,7 @@ export const renderSwitch = (params) => {
       return (
         <ul>
           {value.map((obj, index) => (
-            <li className="text-2xl circle-list" key={index}>
+            <li className="ml-8 text-2xl circle-list" key={index}>
               <strong>{obj.text}</strong>
             </li>
           ))}
