@@ -48,6 +48,12 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
+    case "pMidBold":
+      return (
+        <p className="text-2xl leading-loose mr-2 text-center">
+          <strong>{value["text"]}</strong>
+        </p>
+      );
     case "paragraphRight":
       return (
         <p className="text-2xl leading-loose mr-2 text-right">
@@ -69,12 +75,12 @@ export const renderSwitch = (params) => {
       );
     case "image":
       return (
-        <div className={style["image--contain"]}>
+        <div className={style["unset-img"]}>
           <Image
-            objectFit="cover"
+            className={style["custom-img"]}
             src={"" + value["imageSRC"]}
             layout="fill"
-            priority
+            objectFit="contain"
           />
         </div>
       );

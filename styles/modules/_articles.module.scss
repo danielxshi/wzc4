@@ -23,6 +23,24 @@
   background-color: $bg-light-blue;
 }
 
+.custom-img{
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+.unset-img {
+  width: 100vw;
+  min-height: 500px;
+  height: 100%;
+  max-height: 1200px;
+}
+.unset-img > div {
+  position: unset !important;
+  position: relative !important;
+}
+
 .image--contain {
   width: calc(100% - 1.5rem);
   position: relative;
@@ -135,6 +153,7 @@
 }
 
 .article--content--item{
+  position: relative;
   * {
     margin-bottom: $sm-margin;
   }
