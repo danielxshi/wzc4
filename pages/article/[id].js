@@ -60,11 +60,18 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
+    case "list":
+      return (
+        <ul>
+          {value.map((obj, index) => (
+            <li className="text-2xl circle-list" key={index}>
+              {obj.text}
+            </li>
+          ))}
+        </ul>
+      );
     case "bList":
       return (
-        // <p className="text-2xl leading-loose mr-2 text-right">
-        //   {value["text"]}
-        // </p>
         <ul>
           {value.map((obj, index) => (
             <li className="text-2xl circle-list" key={index}>
