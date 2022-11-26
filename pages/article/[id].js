@@ -29,10 +29,12 @@ export const renderSwitch = (params) => {
     return "";
   }
   const keys = Object.keys(params);
-  if (keys.length !== 1) {
-    throw new Error("err");
-  }
+  // if (keys.length !== 1) {
+  //   throw new Error("err");
+  // }
   const value = params[keys[0]];
+  const test = params[keys[1]];
+
   switch (keys[0]) {
     case "paragraph":
       return <p className="text-2xl leading-loose mr-2">{value["text"]}</p>;
@@ -66,6 +68,44 @@ export const renderSwitch = (params) => {
           <strong>{value["text"]}</strong>
         </p>
       );
+
+    case "paragraphLink":
+      return (
+        <p className="text-2xl leading-loose mr-2">
+          {value["text"]}{" "}
+          <a className="mb-0 text--link--red" href={value["link1URL"]}>
+            {value["text1link"]}
+          </a>
+          <strong>{value["text1bold"]}</strong>
+          {value["text1Cont"]}
+        </p>
+      );
+
+    case "paragraphLink2":
+      return (
+        <p className="text-2xl leading-loose mr-2">
+          {value.map((obj, index) => (
+            <span className="text-2xl leading-loose" key={index}>
+              {obj.text}
+              <strong>{obj.bold}</strong>
+              <a className="m-0 text--link--red">{obj.link}</a>
+            </span>
+          ))}
+        </p>
+      );
+
+    case "paragraphContainsBold":
+      return (
+        <p className="leading-loose">
+          {value.map((obj, index) => (
+            <span className="text-2xl leading-loose" key={index}>
+              {obj.text}
+              <strong>{obj.bold}</strong>
+              <a className="m-0 text--link--red">{obj.link}</a>
+            </span>
+          ))}
+        </p>
+      );
     case "listNoStyle":
       return (
         <ul>
@@ -85,6 +125,95 @@ export const renderSwitch = (params) => {
             </li>
           ))}
         </ul>
+      );
+    case "listWithSub2":
+      return (
+        <div>
+          {value.map((obj, index) => (
+            <ul className="text-2xl ml-8" key={index}>
+              <div>
+                <li className="circle-list">
+                  {obj.text1}
+                  <a href={obj.text1linkURL} className="text--link--red">
+                    {obj.text1link}
+                  </a>
+                  {obj.text1Cont}
+                  {obj.content1.map((obj, index) => (
+                    <li className="ml-8 text-2xl circle-list" key={index}>
+                      {obj.text}
+                    </li>
+                  ))}
+                </li>
+              </div>
+
+              <div>
+                <li className="circle-list">
+                  {obj.text2}
+                  <a href={obj.text2linkURL} className="text--link--red">
+                    {obj.text2link}
+                  </a>
+                  {obj.text2Cont}
+                  {obj.content2.map((obj, index) => (
+                    <li className="ml-8 text-2xl circle-list" key={index}>
+                      {obj.text}
+                    </li>
+                  ))}
+                </li>
+              </div>
+            </ul>
+          ))}
+        </div>
+      );
+
+    case "listWithSub3":
+      return (
+        <div>
+          {value.map((obj, index) => (
+            <ul className="text-2xl ml-8" key={index}>
+              <div>
+                <li className="circle-list">
+                  {obj.text1}
+                  <strong>{obj.text1bold}</strong>
+                  <a href={obj.text1linkURL} className="text--link--red">
+                    {obj.text1link}
+                  </a>
+                  {obj.text1Cont}
+                  {/* <div>
+                    {obj.content1.map((obj, index) => (
+                      <li className="ml-8 text-2xl circle-list" key={index}>
+                        {obj.text}
+                      </li>
+                    ))}
+                  </div> */}
+                </li>
+                <div>
+                  {obj.content1.map((obj, index) => (
+                    <li className="ml-8 text-2xl circle-list" key={index}>
+                      {obj.text}
+                      <strong>{obj.bold}</strong>
+                    </li>
+                  ))}
+                </div>
+              </div>
+            </ul>
+          ))}
+        </div>
+      );
+
+    case "listWithSub":
+      return (
+        <div>
+          <ul>
+            <li className="ml-8 text-2xl circle-list">
+              {value}
+              {test.map((obj, index) => (
+                <li className="ml-8 text-2xl circle-list" key={index}>
+                  {obj.text}
+                </li>
+              ))}
+            </li>
+          </ul>
+        </div>
       );
     case "bList":
       return (

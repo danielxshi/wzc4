@@ -437,6 +437,13 @@ a:hover {
   }
 }
 
+.text--link--red{
+  color: #991b1b;
+  &:hover{
+    color: $cta--blue;
+  }
+}
+
 .circle-list{
   list-style-type: disc;
 }

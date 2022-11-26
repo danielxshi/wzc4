@@ -11960,6 +11960,71 @@ const ArticleListMessages = [
             imageSRC: "/images/article/1587421248845336.png",
           },
         },
+        {
+          bParagraph: {
+            text: "何时就医？",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "一位里士满居民提出了一个问题，即那些在家里与COVID-19自我隔离的人何时应该就医。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "在里士满一名男子死亡后，卫生官员多次被问到这个问题。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "据Daly称，大多数有病毒的人有轻微的症状，大约80%的人正在家中康复。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "戴利说，这些人每天都会接到来自公共卫生的随访电话，看看他们的症状是好转还是恶化。通常，症状在大约10天后解决。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "但是有些情况的症状会恶化，比如大约五到七天，她说。任何开始经历呼吸急促或胸痛，或感觉更糟的人，应拨打911。",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "对已经康复的人的限制是否会放宽？",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "另一位里士满居民问，是否可以首先取消对从COVID-19康复的人的身体疏远限制。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "不列颠哥伦比亚省卫生官员目前正在验证血液测试，以确定某人是否有足够的抗冠病毒抗体，这意味着他们已经产生了免疫力，戴利说，尽管目前没有证据表明免疫将是终生的。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: '戴利说："我们每天都在从一些正在进行的研究中学习更多，一旦我们得到这种新的抗体测试的一些（研究）结果，你就会找到更多的指导。',
+          },
+        },
+
+        {
+          paragraph: {
+            text: "文章摘自列治文新闻 Richmond News",
+          },
+        },
       ],
     },
   },
@@ -11979,12 +12044,76 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "随着国外疫情的扩散，以及回国航班的锐减，国际机票的价格水涨船高，回国机票从2万多的经济舱全价到10万元的实际成交价，背后经过了层层加价的多次转手，甚至加价方都不一定是拥有正规牌照的机票代理，而是拥有客户资源的黄牛。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "中国民航局17日披露，为进一步加强疫情期间国际机票销售管理，确保国际航空运输市场平稳有序，切实维护旅客的合法权益，民航局下发《关于进一步明确疫情期间国际机票销售有关问题的通知》，要求航空公司对国际机票全部采取直销模式，确保公开透明、明码标价，杜绝中间环节倒票、炒票行为。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "《通知》要求，自通知发布之日起，航空公司在国际航线“五个一”(一航空公司、一个国家、一条航线、一周、一个航班)疫情防控政策实施期间，要加强国际机票销售渠道管理，对国际机票全部采取直销模式。同时，对已由代理企业销售的国际机票要加强管控，严禁换票，订座及购票后禁止更改旅客姓名，以杜绝中间环节倒票、炒票行为。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "《通知》指出，航空公司要严格落实市场主体责任，严格执行国际运价政策，确保公开透明、明码标价。同时，要进一步加强内部管理，杜绝内部员工的违规操作行为。民航业主管部门将会同市场监管等部门，依法严肃查处国际运价违法违规行为，并依据《民航行业信用管理办法(试行)》实施信用惩戒，加大市场监管力度。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "《通知》还要求，航空公司要加大宣传力度，引导广大旅客通过航空公司直销渠道购买机票，并提醒旅客保留好有关凭证，避免上当受骗。如发现价格违法违规行为，鼓励旅客向国家有关部门投诉举报，切实维护自身合法权益。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "从加拿大回中国，需提前14天填报健康信息，否则无法登机",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "4月7日，中国民用航空局、中华人民共和国海关总署联合发布关于中国籍旅客乘坐航班回国前填报防疫健康信息的公告。公告指出，为减少疫情跨境传播，从意大利、美国、西班牙、德国、伊朗、法国、韩国、瑞士、英国、荷兰、奥地利、比利时、挪威、葡萄牙、瑞典、澳大利亚、巴西、土耳其、马来西亚、丹麦、加拿大、以色列、捷克、爱尔兰、菲律宾、泰国26个国家已购买回国机票的中国籍旅客需要提前填报防疫健康信息。旅客未按要求填报的，将无法登机；填报虚假信息，将导致行程受阻，并须承担相应法律责任。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "具体要求如下：",
           },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          paragraph: {
+            text: "一、自2020年4月8日起，已购票旅客在登机前需要提前通过防疫健康码国际版微信小程序，逐日填报个人资料、健康状况、近期出行情况等信息。特殊情况可由他人代为填报。",
+          },
+        },
+        {
+          paragraph: {
+            text: "二、2020年4月8日至4月22日为过渡期。过渡期内乘坐航班的中国籍旅客，应于4月8日起连续逐日填报。过渡期后乘坐航班的，应于登机前第14天起连续逐日填报。",
+          },
+        },
+        {
+          paragraph: {
+            text: "三、未按上述要求填报的，将无法登机。旅客填报虚假信息，将导致行程受阻，并须承担相应法律责任。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "3月26日，中国民航局宣布调减国际客运航班量的措施，即一家航空公司在一个国家保留一条航线、一周至多有一个航班的“五个一”政策。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "目前从加拿大回中国航班共计6个航线，其中温哥华4条，多伦多两条。",
           },
         },
       ],
@@ -12005,14 +12134,1206 @@ const ArticleListMessages = [
         "返回加拿大的旅行者加拿大政府已根据《检疫法》发出紧急命令。它适用于所有抵达加拿大的旅行者。其目的是减缓COVID-19在加拿大的传播。根据《检疫法》，不遵守这项命令属违法。有症状的旅行者：强制隔离如果您是加拿…",
       content: [
         {
+          bParagraph: {
+            text: "返回加拿大的旅行者",
+          },
+        },
+
+        {
           paragraph: {
-            text: "",
+            text: "加拿大政府已根据《检疫法》发出紧急命令。它适用于所有抵达加拿大的旅行者。其目的是减缓COVID-19在加拿大的传播。根据《检疫法》，不遵守这项命令属违法。",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "有症状的旅行者：强制隔离",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "如果您是加拿大人或永久居民，并且症状与 COVID-19 一致，您仍可以通过陆路、铁路或海上进入加拿大。您不得乘飞机进入加拿大，以保护所有旅客的健康。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "如果您需要，我们将立即为您提供医疗照顾，当您到达加拿大。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "如果你有症状，你必须隔离14天。这是强制性的。",
           },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          listWithSub:
+            "您必须隔离在一个不会与弱势人群接触的地方，例如：          ",
+          content: [
+            {
+              text: "65岁或以上的人，或",
+            },
+            {
+              text: "具有基本医疗条件的人",
+            },
+          ],
+        },
+
+        {
+          list: [
+            {
+              text: "您需要确认您有合适的地方可以隔离，在那里您可以获得基本必需品，如食品和药品              ",
+            },
+            {
+              text: "您必须使用私人交通工具（如您自己的车辆）才能到达您的隔离地点              ",
+            },
+            {
+              text: "在前往隔离地点时，您必须戴上非医疗面罩或面罩",
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: "如果您没有私人交通工具或适当的隔离场所，加拿大首席公共卫生官将指定一个必须隔离 14 天的设施。",
           },
+        },
+
+        {
+          list: [
+            {
+              text: "直接前往您的隔离地点，而不停止任何位置",
+            },
+          ],
+        },
+
+        {
+          listWithSub: "待在里面，除非是寻求医疗照顾，否则不要离开14天",
+          content: [
+            {
+              text: "不上学、工作或任何其他公共场所",
+            },
+          ],
+        },
+
+        {
+          list: [
+            {
+              text: "留在单独的房间，并使用一个单独的浴室，从其他人，如果可能的话",
+            },
+            {
+              text: "不允许访客",
+            },
+            {
+              text: "限制在隔离场所与他人接触，包括儿童",
+            },
+            {
+              text: "如果您的症状恶化，请立即联系您的医疗保健提供者或公共卫生当局，并按照他们的指示",
+            },
+          ],
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article/travellers-symptoms-new-eng.jpg",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "无症状的旅行者：强制隔离",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "如果你最近回到加拿大，你没有任何症状，你必须隔离（自我隔离）14天。这是强制性的。您有出现症状和感染他人的风险。",
+          },
+        },
+
+        {
+          listWithSub:
+            "您必须隔离（自我隔离）在一个与弱势人群没有接触的地方，例如：",
+          content: [
+            {
+              text: "65岁或以上的人，或",
+            },
+            {
+              text: "具有基本医疗条件的人",
+            },
+          ],
+        },
+
+        {
+          list: [
+            {
+              text: "您需要确认您有一个合适的地方来隔离，在那里您将能够获得基本必需品，如食品和药品。",
+            },
+            {
+              text: "在前往隔离地点（自我隔离）时，您必须戴上非医疗面罩或面罩。",
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "如果您没有足够的隔离场所（自我隔离），加拿大首席公共卫生官将指定一个设施，您必须在其中停留 14 天。",
+          },
+        },
+
+        {
+          cite: {
+            text: "除上述情况外，强制隔离（自隔离）意味着您必须：",
+          },
+        },
+
+        {
+          listWithSub:
+            "直接前往您的隔离地点，不停止任何地方，并在那里停留 14 天",
+          content: [
+            {
+              text: "不上学、工作或其他公共区域和社区设置",
+            },
+          ],
+        },
+
+        {
+          list: [
+            {
+              text: "监测您的健康，以寻找COVID-19的症状",
+            },
+            {
+              text: "安排有人为你买杂货或药品等必需品",
+            },
+            {
+              text: "没有访客",
+            },
+            {
+              text: "留在一个私人的地方，如你的院子或阳台，如果你去外面新鲜空气",
+            },
+            {
+              text: "与他人保持至少 2 臂长（约 2 米）的距离",
+            },
+          ],
+        },
+        {
+          image: {
+            imageSRC: "/images/article/coronavirus-handout-eng.jpg",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "如果您在 14 天内出现症状：",
+          },
+        },
+
+        {
+          listWithSub2: [
+            {
+              text1: "把自己与别人隔离开来",
+              text1link: "公共卫生机构",
+              text1linkURL:
+                "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/provincial-territorial-resources-covid-19.html",
+              text1Cont: "，并：",
+              content1: [
+                {
+                  text: "描述您的症状和旅行历史记录",
+                },
+                {
+                  text: "仔细按照他们的指示",
+                },
+              ],
+
+              text2: "症状出现后将隔离期延长至 14 天",
+              // text2link: "link",
+              // text2Cont: "",
+              linkURL: "",
+              content2: [],
+            },
+          ],
+        },
+        {
+          bParagraph: {
+            text: "检查您是否已暴露",
+          },
+        },
+        {
+          paragraphLink: {
+            text: "您是否乘坐过最近的航班、游轮、火车或公共聚会？检查列出的",
+            text1link: "曝光位置",
+            link1URL:
+              "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
+            text1Cont: "了解您是否已暴露于 COVID-19。",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "遵守和执行《检疫法》",
+          },
+        },
+        {
+          paragraph: {
+            text: "加拿大政府正在与联邦和省级伙伴合作，通过积极的沟通和抽查，促进和核查紧急命令的遵守情况。",
+          },
+        },
+        {
+          paragraph: {
+            text: "如果您被允许进入加拿大，您将：",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "询问您是否咳嗽、发烧或呼吸困难",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                // {
+                //   text: "content1-1",
+                // },
+                // {
+                //   text: "content1-2",
+                // },
+              ],
+            },
+            {
+              text1: "需要确认您必须：",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "如果您有 COVID-19或",
+                },
+                {
+                  text: "隔离（自我隔离）14天，如果你没有症状",
+                },
+              ],
+            },
+
+            {
+              text1: "询问您是否有合适的隔离或隔离位置（自隔离）",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "一个合适的地方，你会有基本必需品，如食品和药物，在那里你不会接触弱势人群",
+                },
+              ],
+            },
+
+            {
+              text1: "就您根据紧急命令承担的义务发出指示",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: "根据《检疫法》，违反您进入加拿大时提供给您的任何指示均属违法行为，并可能导致：",
+          },
+        },
+        {
+          list: [{ text: "6个月监禁和/或" }, { text: "$750，000 罚款" }],
+        },
+
+        {
+          paragraph: {
+            text: "此外，在故意或鲁莽地违反本法或条例的情况下，对另一人造成即将死亡或严重身体伤害的风险的人，可能负有责任：",
+          },
+        },
+        {
+          list: [
+            { text: "最高 1，000，000 美元罚款或" },
+            { text: "最高3年监禁或" },
+            { text: "两者" },
+          ],
+        },
+        {
+          paragraph: {
+            text: "《违反者法》已经修改，赋予警察（包括皇家骑警、省和当地警察）更多的权力来执行《检疫法》。他们现在可以向不遵守该法案的人发放罚单。罚款从275美元到1000美元不等。",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          bParagraph: {
+            text: "旅行限制豁免",
+          },
+        },
+        {
+          paragraph: {
+            text: "货物和人员的持续全球流动以及基本服务的持续提供，对加拿大对COVID-19的反应至关重要。",
+          },
+        },
+        {
+          paragraphLink: {
+            text: "几类人",
+            text1link: "免于",
+            link1URL:
+              "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/covid-19-information-essential-service-workers.html",
+            text1Cont:
+              "这项命令，因为他们提供关键服务，如果他们没有症状。这些人包括：",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "正在进行必要的医疗分娩，以治疗患者，例如：",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "细胞",
+                },
+                {
+                  text: "器官",
+                },
+                {
+                  text: "组织",
+                },
+                {
+                  text: "血液和血液制品",
+                },
+                {
+                  text: "其他类似的救生人体器官",
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "在贸易和运输部门工作，对货物和人员流动很重要，包括：",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "卡车司机",
+                },
+                {
+                  text: "任何飞机、火车或海船的船员",
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "定期跨越边境上班，包括在卫生保健部门或关键基础设施工人",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+
+            {
+              text1:
+                "必须跨越边界，提供或接受基本服务，包括应急人员和向加拿大人提供与COVID-19疫情有关的基本服务",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "这些部门的工人应：",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "练习",
+              text1link: "身体（社交）距离",
+              text1linkURL:
+                "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/social-distancing.html",
+              text1Cont: "（与其他人保持2米的距离）",
+              content1: [],
+            },
+
+            {
+              text1: "密切自监控",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: "这些部门的雇主应：",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "每日积极监察员工的COVID-19症状（检查咳嗽、发烧或呼吸急促",
+              content1: [],
+            },
+
+            {
+              text1: "在",
+              text1link:
+                "COVID-19 大流行期间，使用工作场所/企业的风险知情决策指南",
+              text1linkURL:
+                "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents/risk-informed-decision-making-workplaces-businesses-covid-19-pandemic.html",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        // English translation
+        {
+          bParagraph: {
+            text: "Travellers returning to Canada",
+          },
+        },
+
+        {
+          paragraphLink: {
+            text: "The Government of Canada has put in place an",
+            text1link: "emergency order",
+            link1URL:
+              "https://orders-in-council.canada.ca/attachment.php?attach=38989&lang=en",
+            text1Cont:
+              " under the Quarantine Act. It applies to all travellers arriving in Canada. Its purpose is to slow the spread of COVID-19 in Canada. Failure to comply with this order is an offence under the Quarantine Act.",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "Travellers with symptoms: mandatory isolation",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "If you are Canadian or a permanent resident, and you have symptoms consistent with COVID-19,",
+            },
+            {
+              bold: " you may still enter Canada by land, rail or sea.",
+            },
+            {
+              text: " You may",
+            },
+            {
+              bold: " not",
+            },
+            {
+              text: " enter Canada by air, to protect the health of all travellers.",
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "If you need it, we will provide you with immediate medical attention when you arrive in Canada.",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "If you have symptoms, ",
+            },
+            {
+              bold: "you must ",
+            },
+            {
+              link: "isolate",
+              linkURL:
+                "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/travellers-with-symptoms-return-canada.html",
+            },
+            {
+              text: " for 14 days.",
+            },
+            {
+              bold: " This is mandatory.",
+            },
+          ],
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "You must isolate in a place where you will not have contact with vulnerable people, such as:",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "people 65 years or older, ",
+                  bold: "or",
+                },
+                {
+                  text: "people with underlying medical conditions",
+                },
+                // {
+                //   text: "content1-2",
+                // },
+              ],
+            },
+            {
+              text1:
+                "You will need to confirm you have a suitable place to isolate where you will have access to basic necessities, such as food and medication",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+
+            {
+              text1:
+                "You must use private transportation (such as your own vehicle) to get to your place of isolation",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+
+            {
+              text1:
+                "You must wear a non-medical mask or face covering while traveling to your place of isolation",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "If you do not have private transportation or an adequate place to isolate, the Chief Public Health Officer of Canada will designate a facility where you must isolate for 14 days.",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "In addition to the above, mandatory isolation means you must:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "go directly to your place of isolation without stopping anywhere",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "people 65 years or older, ",
+                  bold: "or",
+                },
+                {
+                  text: "people with underlying medical conditions",
+                },
+                // {
+                //   text: "content1-2",
+                // },
+              ],
+            },
+            {
+              text1:
+                "stay inside and do not leave for 14 days unless it is to seek medical attention",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "do not go to school, work or any other public areas",
+                },
+              ],
+            },
+
+            {
+              text1:
+                "You must use private transportation (such as your own vehicle) to get to your place of isolation",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+
+            {
+              text1:
+                "stay in a separate room and use a separate bathroom from others, if possible",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+
+            {
+              text1: "do not allow visitors",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+            {
+              text1:
+                "limit contact with others in the place of isolation, including children",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+            {
+              text1:
+                "contact your health care provider or public health authority immediately if your symptoms get worse, and follow their instructions",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article/travellers-symptoms-new-eng.jpg",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "Travellers without symptoms: mandatory quarantine",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "If you have recently returned to Canada and ",
+            },
+            {
+              bold: "you have no symptoms,  ",
+            },
+            {
+              text: "you must ",
+            },
+            {
+              link: "quarantine",
+              linkURL:
+                "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/2019-novel-coronavirus-information-sheet.html",
+            },
+            {
+              text: " (self-isolate) for 14 days.",
+            },
+            {
+              bold: " This is mandatory.",
+            },
+            {
+              text: " You are at risk of developing symptoms and infecting others.",
+            },
+          ],
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "You must quarantine (self-isolate) in a place where you will have no contact with vulnerable people, such as:",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "people 65 years or older, ",
+                  bold: "or",
+                },
+                {
+                  text: "people with underlying medical conditions",
+                },
+                // {
+                //   text: "content1-2",
+                // },
+              ],
+            },
+            {
+              text1:
+                "You will need to confirm you have a suitable place to isolate where you will have access to basic necessities, such as food and medication.",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "do not go to school, work or any other public areas",
+                },
+              ],
+            },
+
+            {
+              text1:
+                "You must use private transportation (such as your own vehicle) to get to your place of isolation",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+
+            {
+              text1:
+                "You must wear a non-medical mask or face covering while traveling to the place you will quarantine (self-isolate).",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "If you do not have an adequate place to quarantine (self-isolate), the Chief Public Health Officer of Canada will designate a facility where you must remain for 14 days.",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "In addition to the above, mandatory quarantine (self-isolate) means you must:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "go directly to your place of quarantine, without stopping anywhere, and stay there for 14 days",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "do not go to school, work or other public areas and community settings",
+                },
+              ],
+            },
+            {
+              text1: "monitor your health for symptoms of COVID-19",
+              content1: [],
+            },
+            {
+              text1:
+                "arrange to have someone pick up essentials like groceries or medication for you",
+              content1: [],
+            },
+            {
+              text1: "do not have visitors",
+              content1: [],
+            },
+            {
+              text1:
+                "stay in a private place like your yard or balcony if you go outside for fresh air",
+              content1: [],
+            },
+            {
+              text1:
+                "keep a distance of at least 2 arms lengths (approximately 2 metres) from others",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article/coronavirus-handout-eng.jpg",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "If you develop symptoms within 14 days:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "isolate yourself from others",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+            {
+              text1: "immediately call a health care professional or ",
+              text1link: "public health authority ",
+              text1linkURL:
+                "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/provincial-territorial-resources-covid-19.html",
+              text1Cont: "and:",
+              content1: [
+                {
+                  text: "describe your symptoms and travel history",
+                },
+                {
+                  text: "follow their instructions carefully",
+                },
+              ],
+            },
+
+            {
+              text1:
+                "extend your quarantine to 14 days following the appearance of symptoms",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          bParagraph: {
+            text: "Check if you have been exposed",
+          },
+        },
+        {
+          paragraphLink: {
+            text: "Have you been on a recent flight, cruise, train, or at a public gathering? Check the listed",
+            text1link: "exposure locations",
+            link1URL:
+              "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
+            text1Cont: " to see if you may have been exposed to COVID-19.",
+          },
+        },
+
+        {
+          bParagraph: {
+            text: "Compliance and enforcement of the Quarantine Act",
+          },
+        },
+        {
+          paragraph: {
+            text: "The Government of Canada is working with federal and provincial partners to promote and verify compliance of the emergency order with active communication and spot checks.",
+          },
+        },
+        {
+          paragraph: {
+            text: "If you are permitted to enter Canada, you will be:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "asked if you have a cough, fever or difficulty breathing",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                // {
+                //   text: "content1-1",
+                // },
+                // {
+                //   text: "content1-2",
+                // },
+              ],
+            },
+            {
+              text1: "required to acknowledge that you must:              ",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "isolate for 14 days if you have symptoms of COVID-19",
+                  bold: " or ",
+                },
+                {
+                  text: "quarantine (self-isolate) for 14 days if you do not have symptoms",
+                },
+              ],
+            },
+
+            {
+              text1:
+                "asked if you have a suitable place to isolate or quarantine (self-isolate)",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "a suitable place is one where you will have basic necessities, such as food and medication, and where you will not have contact with vulnerable people",
+                },
+              ],
+            },
+
+            {
+              text1:
+                "given instructions about your obligations under the emergency order",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: "Violating any instructions provided to you when you entered Canada is an offence under the Quarantine Act and could lead to up to:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "6 months in prison",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              text1bold: " and/or",
+              content1: [
+                // {
+                //   text: "content1-2",
+                // },
+              ],
+            },
+            {
+              text1: "$750,000 in fines",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "Further, a person who causes a risk of imminent death or serious bodily harm to another person while wilfully or recklessly contravening this act or the regulations could be liable for:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "a fine of up to $1,000,000",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              text1bold: " or",
+              content1: [],
+            },
+
+            {
+              text1: "imprisonment of up to 3 years",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              text1bold: " or",
+              content1: [],
+            },
+            {
+              text1: "both",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "The Contraventions Act has been changed to give police (including RCMP, provincial and local police) more power to enforce the Quarantine Act. They can now issue tickets to people who do not comply with the act. Fines range from $275 to $1000.",
+          },
+        },
+        {
+          space: {},
+        },
+        {
+          bParagraph: {
+            text: "Exemptions to travel restrictions",
+          },
+        },
+        {
+          paragraph: {
+            text: "The continued global movement of goods and people and the ongoing delivery of essential services will be important for Canada's response to COVID-19.",
+          },
+        },
+
+        // {
+        //   paragraphLink: {
+        //     text: "Several categories of people are",
+        //     text1link: " exempted",
+        //     link1URL:
+        //       "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/covid-19-information-essential-service-workers.html",
+        //     text1Cont:
+        //       " from this order because they provide critical services, if they have",
+        //     text1bold: " no symptons ",
+        //     text: "These include people who:",
+        //   },
+        // },
+
+        {
+          paragraphLink2: [
+            {
+              text: "Several categories of people are ",
+              link: " exempted",
+            },
+
+            {
+              text: " from this order because they provide critical services, if they have",
+              bold: " no symptoms.",
+            },
+            {
+              text: " These include people who:",
+            },
+          ],
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "are making necessary medical deliveries required for patient care, such as:",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "cells",
+                },
+
+                {
+                  text: "organs",
+                },
+
+                {
+                  text: "tissues",
+                },
+
+                {
+                  text: "blood and blood products",
+                },
+
+                {
+                  text: "other similar lifesaving human body parts",
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "work in the trade and transportation sector who are important for the movement of goods and people, including:",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [
+                {
+                  text: "truck drivers",
+                },
+
+                {
+                  text: "crew on any plane, train or marine vessel",
+                },
+              ],
+            },
+          ],
+        },
+
+        {
+          list: [
+            {
+              text: "cross the border regularly to go to work, including in the health care sector or critical infrastructure workers",
+            },
+            {
+              text: "have to cross the border to provide or receive essential services, including emergency responders and personnel providing essential services to Canadians related to the COVID-19 outbreak",
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "Workers in these sectors should:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1: "practise ",
+              text1link: " physical (social) distancing",
+              text1linkURL:
+                "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/social-distancing.html",
+              text1Cont: " (maintain a distance of 2 metres from others)",
+              content1: [],
+            },
+
+            {
+              text1: "closely",
+              // text1link: "text1link",
+              // text1linkURL: "",
+              // text1Cont: "text1cont",
+              content1: [],
+              text1bold: " self-monitor",
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: "Should they exhibit any symptoms, they must isolate and contact their local public health authority.",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "Employers in these sectors should:",
+          },
+        },
+
+        {
+          listWithSub3: [
+            {
+              text1:
+                "conduct active daily monitoring of their staff for COVID-19 symptoms (checking for cough, fever or shortness of breath)",
+              content1: [],
+            },
+
+            {
+              text1: "use the",
+              text1link:
+                "risk-informed decision-making guidelines for workplaces/businesses during the COVID-19 pandemic",
+              text1linkURL:
+                "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents/risk-informed-decision-making-workplaces-businesses-covid-19-pandemic.html",
+              // text1Cont: "text1cont",
+              content1: [],
+            },
+          ],
         },
       ],
     },
