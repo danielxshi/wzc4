@@ -101,7 +101,7 @@ export const renderSwitch = (params) => {
             <span className="text-2xl leading-loose" key={index}>
               {obj.text}
               <strong>{obj.bold}</strong>
-              <a className="m-0 text--link--red">{obj.link}</a>
+              <a href={obj.linkURL} className="m-0 text--link--red">{obj.link}</a>
             </span>
           ))}
         </p>

@@ -13829,7 +13829,17 @@ const ArticleListMessages = [
         {
           paragraphContainsBold: [
             {
-              text: "3月20日，加拿大政府就已经开始向加拿大所有的企业和制造商发出行动呼吁，要求各行各业齐心协力，共同协助政府抗疫。",
+              text: "3月20日，",
+              link: "加拿大",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+            },
+            {
+              text: "政府就已经开始向",
+              link: "加拿大",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+            },
+            {
+              text: "所有的企业和制造商发出行动呼吁，要求各行各业齐心协力，共同协助政府抗疫。",
             },
           ],
         },
@@ -13875,6 +13885,368 @@ const ArticleListMessages = [
           image: {
             imageSRC: "/images/article/1585930696933-3.jpg",
           },
+        },
+        {
+          paragraph: {
+            text: "麦迪康的口罩",
+          },
+        },
+        {
+          paragraphContainsBold: [
+            {
+              text: "位于渥太华的DNA快速诊断设备制造商SpartanBioscience已经研发出了新冠病毒快速检测试剂盒，只等",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "卫生部和美国FDA下发认证，即可大规模批量生产。",
+            },
+          ],
+        },
+        {
+          paragraphContainsBold: [
+            {
+              text: "另外，",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "政府还和以下企业签署了意向书，支援国家生产抗议抗疫物资：",
+            },
+          ],
+        },
+        {
+          paragraphContainsBold: [
+            {
+              text: "位于圭尔夫的生物技术公司PrecisionBiomonitoring正在开发核酸检测试剂盒，确保",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "实现核酸试剂盒自给自足的能力。",
+            },
+          ],
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-4.jpg",
+          },
+        },
+        {
+          paragraphContainsBold: [
+            {
+              text: "位于卡尔加里的环保化学公司FluidEnergyGroupLtd.正在加紧改造生产线，专门生产洗手液和消毒液，确保",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "消毒制剂充足。",
+            },
+          ],
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "经营着",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "最大的炼油厂和900个加油站，总部设在圣约翰的IrvingOil正在改造生产线，生产消毒洗手液。",
+            },
+          ],
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-5.jpg",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "IrvingOil",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "位于蒙特利尔的CalkoGroup专业生产工业防护服和急救医疗用品，目前该该公司正在加班加点地生产防护面罩、医疗防护服等，全力支援抗议前线的医护人员。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "位于新斯科舍省的Stanfield’s是内衣和休闲服装制造商，目前正在调动资源及改造生产线，为医护工作者生产更多医疗防护服。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-6.jpg",
+          },
+        },
+        {
+          paragraphContainsBold: [
+            {
+              text: "Stanfield’s的生产线",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "联邦政府也欢迎已经相应政府抗疫行动号召，并且已经走到生产线上加紧生产物资的其他公司和企业们。",
+            },
+          ],
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "鹅(CanadaGoose)重新改造其位于多伦多和温尼伯的生产线，生产医护制服和防护服，并给无偿捐赠所有物资。",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "联邦政府也欢迎已经相应政府抗疫行动号召，并且已经走到生产线上加紧生产物资的其他公司和企业们。",
+            },
+          ],
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-7.jpg",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "鹅生产车间",
+            },
+          ],
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "通用电气已经将呼吸机的生产能力提供一倍，并计划在未来翻两番，为",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "政府提供500台呼吸机;",
+            },
+          ],
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "麦格纳汽车零件商、通用汽车、丰田汽车",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "、福特、壳牌、森科尔能源、利纳马汽车系统、HomeDepot以及阿里巴巴等一系列公司正在积极捐献个人防护设备，为医院提供消毒用品，帮助",
+            },
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "医务人员。",
+            },
+          ],
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "化妆品联会、",
+            },
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "消费者特殊产品协会、",
+            },
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "烈酒协会联手建立洗手液生产交易所，帮助汇集行业合作伙伴共同努力，最大限度地扩大洗手液",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "自产化。",
+            },
+          ],
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "科技担当：超级产业集群——",
+            },
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "制造次世代",
+            },
+            {
+              text: "(NextGenerationManufacturingCanada)，已经拨款5000万加元用于开发和生产急需的新技术，包括病毒筛查试验、疫苗、治疗手段、呼吸机、外围设备、个人防护、消毒化学品等。",
+            },
+          ],
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-8.jpg",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "目前全",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "已经有3个项目在支援国家的号召发出48小时内，从无到有被创造并且经审查批准，即将投入大规模生产并确保长期生产能力。",
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: "包括：",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "1.BurloakTechnologies的3D打防护面罩，目前该公司正在与当地的医疗专家、大学等合作，确保实现每周1.5万个面罩的生产目标。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-9.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "2.利纳马联合StarFishMedical论证了开源呼吸机——应急呼吸机制造方案的可行性。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "他们的第一个目标是创造出安全有效并且经济实惠的呼吸机设计，第二个目标是整合制造商和供应商，大规模生产这种经济型基础呼吸机。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-10.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "西班牙网友自制的开源呼吸机",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "SonaNanotech将于实验室、高校和医院E座，利用纳米技术开发能提高病毒检测准确性，且10分钟就能出结果的核酸检测盒。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "如果成功，该项目每周可生产2万个试剂盒，并有可能扩大到每周100万个试剂盒，同时将成本控制到最低。",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              text: "随着疫情的发展，老牌制造业强国",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "也已经进入紧急状态，开动了国家机器，全力抗疫。",
+            },
+          ],
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-11.jpg",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "政府已经开始与3,000家公司开展了合作，共同抗疫。",
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "作为普通民众，首先就是不要慌张。目前多伦多已经封城，我们唯一要做的也很简单，老老实实待在家里哪也不要去，冷静看待疫情，不过分紧张造谣传谣增大社区恐慌就行。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-12.jpg",
+          },
+        },
+
+        {
+          paragraphContainsBold: [
+            {
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "不仅制造业发达，农牧渔本身也在世界前列，和意大利等欧洲国家完全不一样，所以大家购买生活必需品也完全用不着疯狂囤积。",
+            },
+          ],
+        },
+
+        {
+          paragraph: {
+            text: "冷静、冷静、还是冷静。",
+          },
+        },
+        {
+          paragraphContainsBold: [
+            {
+              text: "相信",
+              linkURL: "https://www.vansky.com/news/tag/加拿大",
+              link: "加拿大",
+            },
+            {
+              text: "一定能力抗疫成功的，加油!",
+            },
+          ],
         },
       ],
     },
