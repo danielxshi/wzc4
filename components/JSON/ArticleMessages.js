@@ -13522,10 +13522,35 @@ const ArticleListMessages = [
         },
 
         {
+          paragraph: {
+            text: "已经有网友在自己的账户里看到了~",
+          },
+        },
+
+        {
           image: {
             imageSRC: "/images/article/1586016894243-3.jpg",
           },
         },
+
+        {
+          paragraph: {
+            text: "据联邦政府相关网页说明：",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "这个退税的福利是一次性的，符合资格的低收入、中产家庭都可以拿到GST/HST的退款资格不变，金额加码!",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "无需申请!",
+          },
+        },
+
         {
           image: {
             imageSRC: "/images/article/1586016894243-4.jpg",
@@ -13676,15 +13701,17 @@ const ArticleListMessages = [
         },
         {
           paragraph: {
-            text: "政府官网："
-          }
+            text: "政府官网：",
+          },
         },
         {
           link: {
-            linkText: "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/covid-19-gsthstc-increase.html",
-            linkURL: "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/covid-19-gsthstc-increase.html"
-          } 
-        }
+            linkText:
+              "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/covid-19-gsthstc-increase.html",
+            linkURL:
+              "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/covid-19-gsthstc-increase.html",
+          },
+        },
       ],
     },
   },
@@ -13703,13 +13730,83 @@ const ArticleListMessages = [
         "加拿大温州同乡总会抗疫慈善活动报道之 为食物应行捐款存爱心，慈善捐助脚步在路上....... 今天早上9:30分，由加拿大温州同乡总会会长带队，由同乡会理事组成的捐款小组准…",
       content: [
         {
+          pMid: {
+            text: "加拿大温州同乡总会",
+          },
+        },
+        {
+          pMid: {
+            text: "抗疫慈善活动报道之",
+          },
+        },
+        {
           paragraph: {
-            text: "",
+            text: "      为食物应行捐款存爱心，慈善捐助脚步在路上.......",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "      今天早上9:30分，由加拿大温州同乡总会会长带队，由同乡会理事组成的捐款小组准时来到位于本拿比的“大温哥华地区食物银行”总部，为食物银行捐献善款。本拿比市议员王白进先生也前来为捐款活动助阵。",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1585976281271243.jpeg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585976381140706.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "      加拿大温州同乡总会理事会了解到，随着新冠状肺炎疫情在加拿大的攀升，很多处于受助临界点的家庭由于疫情失去了工作。连购买食物都成了问题。越来越多的弱势群体需要食物的帮助！总理杜鲁多特别指出，虽然政府将帮助食物银行和各地的机构将食物送到弱势人群手中。但是，在疫情期间食物银行无疑需要更多支援，他呼吁并鼓励更多的人为食物银行捐款提供帮助！",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "      早上9点半食物银行门口非常繁忙。停车场已经没有停车位，工人们开着叉车忙碌地工作着。有5、6位受助者在工作人员的指引下排队等待领取食物。现场工作人员告诉我们，早上7点开始忙着发放食物，现在早晨的发放食物工作已经进入尾声，中午会有更多的人过来。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585976819175827.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "      在工作人员的指引下，我们来到办公室将此次加拿大温州同乡总会募集到的抗疫爱心款加币3万元的支票送到大温哥华地区食物银行总部CEO David Long手中。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "David Long表示：“非常感谢加拿大温州同乡总会捐献的善款，这是伟大的爱心奉献。在疫情如此艰难的时刻收到加拿大温州同乡总会的3万元捐款对于食物银行是很大的帮助。每一位受助者都会感受到来自你们的温暖！”",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "      大温哥华地区食物银行的工作人员还邀请我们参观了食物银行的仓库区和工作人员的工作情况。看到温州同乡总会老乡们的捐款将会以食物的方式送到有需要的人手里，每个人都感到十分欣慰！因为受助者他们更多的是老者、儿童、单亲母亲、失业的家庭......希望一份丰盛的晚餐能给这些家庭带来安慰和快乐!",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585976627670343.jpeg",
+          },
+        },
+        {
+          citeRight: {
+            text: "加拿大温州同乡总会 简讯",
+          },
+        },
+
+        {
+          citeRight: {
+            text: "二0二0年四月三日",
           },
         },
       ],
@@ -13730,13 +13827,53 @@ const ArticleListMessages = [
         "3月20日，加拿大政府就已经开始向加拿大所有的企业和制造商发出行动呼吁，要求各行各业齐心协力，共同协助政府抗疫。这是3月31日，杜鲁多在日常新冠疫情讲话时的部分摘要：目前正在与联邦政府开展合作，大规模生产医…",
       content: [
         {
+          paragraphContainsBold: [
+            {
+              text: "3月20日，加拿大政府就已经开始向加拿大所有的企业和制造商发出行动呼吁，要求各行各业齐心协力，共同协助政府抗疫。",
+            },
+          ],
+        },
+
+        {
           paragraph: {
-            text: "",
+            text: "这是3月31日，杜鲁多在日常新冠疫情讲话时的部分摘要：",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1585930696933-1.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "目前正在与联邦政府开展合作，大规模生产医疗设备的公司如下：",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "位于多伦多的康山医疗公司(ThornhillMedical)正在生产1500台便携式呼吸机，政府正在制定合理分配呼吸机的计划，争取每家医院都有补充。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-2.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "康山医疗生产的呼吸机",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "总部位于蒙特利尔的医疗级个人防护设备制造商麦迪康(Medicom)正在增建生产线，制造上千万个口罩，联邦政府已经向包括Medicom在内的制造商订购了超过1.57亿只外科口罩，为医护人员和病人提供保障。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1585930696933-3.jpg",
           },
         },
       ],
