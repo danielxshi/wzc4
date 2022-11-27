@@ -13354,12 +13354,62 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "在这个新冠疫情严峻时刻，长者是高危一群。列治文北中选区省议员屈洁冰与加拿大温州同乡总会代表在4月13日星期一复活节长周末公众假期，专程把一批N95口罩赠送给华埠的中侨李国贤护理安老院。",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1587184108562704.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "屈洁冰对加拿大温州同乡总会的善举表示衷心感谢。称赞在这个防疫保护装备物资短缺的非常时期，温州同乡总会慷慨地把一批N95口罩捐赠给安老院，供长者和照顾他们的医护人员使用，尽显同乡会对社区的关爱。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1587184125465646.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "为安全起见，屈洁冰和温州同乡总会的朱建国会长及张光辉常务副会长戴上口罩，互相保持安全距离，把送赠的口罩摆放在安老院门外，再由工作人员搬入室内。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1587184140689102.jpeg",
+          },
+        },
+        {
+          paragraph: {
+            text: "屈洁冰指出，疫情仍在持续恶化，请大家遵守防疫指引，尽量留在家中，外出时谨记要和他人保持最少两米社交距离，避免触摸公共物品，勤洗手，以及避免用手触摸面部。齐心合力阻止病毒在社区传播。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1587184156253334.jpeg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1587184232123038.jpeg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1587184256457063.jpeg",
+          },
+        },
+        {
+          citeRight: {
+            text: "加拿大温州同乡总会",
+          },
+        },
+        {
+          citeRight: {
+            text: "2020年4月17日",
           },
         },
       ],
@@ -13381,12 +13431,31 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "加拿大温州同乡总会官网正式升级至SSL加密数字证书。新的加密数字证书为浏览者带来绝对安全的使用体验。",
           },
         },
         {
-          image: {
-            imageSRC: "/images/article/",
+          list: [
+            {
+              text: "何为SSL加密数字证书？",
+            },
+          ],
+        },
+        {
+          paragraph: {
+            text: " SSL证书是数字证书的一种，类似于驾驶证、护照和营业执照的电子副本。因为配置在服务器上，也称为SSL服务器证书。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "SSL 证书就是遵守 SSL协议，由受信任的数字证书颁发机构CA，在验证服务器身份后颁发，具有服务器身份验证和数据传输加密功能。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "SSL证书通过在客户端浏览器和Web服务器之间建立一条SSL安全通道（Secure socket layer(SSL)安全协议是由Netscape Communication公司设计开发。该安全协议主要用来提供对用户和服务器的认证；对传送的数据进行加密和隐藏；确保数据在传送中不被改变，即数据的完整性，现已成为该领域中全球化的标准。由于SSL技术已建立到所有主要的浏览器和WEB服务器程序中，因此，仅需安装服务器证书就可以激活该功能了），即通过它可以激活SSL协议，实现数据信息在客户端和服务器之间的加密传输，可以防止数据信息的泄露，保证了双方传递信息的安全性，而且用户可以通过服务器证书验证他所访问的网站是否是真实可靠。数字签名又名数字标识、签章 (即 Digital Certificate，Digital ID )，提供了一种在网上进行身份验证的方法，是用来标志和证明网络通信双方身份的数字信息文件，概念类似日常生活中的司机驾照或身份证。 数字签名主要用于发送安全电子邮件、访问安全站点、网上招标与投标、网上签约、网上订购、网上公文安全传送、网上办公、网上缴费、网上缴税以及网上购物等安全的网上电子交易活动。",
           },
         },
       ],
@@ -13408,14 +13477,214 @@ const ArticleListMessages = [
       content: [
         {
           paragraph: {
-            text: "",
+            text: "疫情中的好消息!",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "加拿大人又可以领钱了!",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "除了CERB和特殊EI，政府还有一笔福利!",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "几乎人人有份!",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "那就是：为疫情而特别增额的GST/HST退税。",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-1.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "这笔增加了额度的退税款项会在4月9日起自动打到你账户，也就是说只要你有税务关联的银行账户，就可以看到钱直接打入了!",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/",
+            imageSRC: "/images/article/1586016894243-2.jpg",
           },
         },
+
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-3.jpg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-4.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "以下人士可享有增加的福利(满足一项)：",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "年满19岁;",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "有(或曾有)配偶或同居伴侣;",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "是(或曾)是父母，并(或曾)与孩子同住;",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "此外你需要是2018年的加拿大税务居民。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "并且报过2018年的税。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-5.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "你能拿多少钱?",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "GST/HST的一次性增额退款，基于你2018年申报税表数据进行计算。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "2019-2020年度最高金额如下：",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "单身人士，$443涨至$886",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "已婚或同居伴侣，$580涨至$1,160",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "19岁以下的每个孩子153涨至$306(不包括单亲的第一个子女)",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "单身父母的第一个子女$290涨至$580",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-6.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "如果以前没资格获得GST/HST抵免，但已申报了2018年的税，那还是可以根据家庭净收入获得一次性退税。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "本次发款金额是根据2018年所得税和申报中的数字计算。如果2018年没报税，则无法收到这笔付款。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "但是，政府建议尽快补交申报，申报后还有资格获得追溯的退款福利。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "那么有人可能要问了，还没有申报2019年的税会影响吗?",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "答案是：没关系，你依然可以收到这笔额外的福利，因为这是根据2018年的数字计算和支付的。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-7.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "大家赶紧留意下CRA的网上账户及银行吧~",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "毕竟现在补助，津贴，发钱....",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "有一点算一点!多一些好一些!",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article/1586016894243-8.jpg",
+          },
+        },
+        {
+          paragraph: {
+            text: "政府官网："
+          }
+        },
+        {
+          link: {
+            linkText: "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/covid-19-gsthstc-increase.html",
+            linkURL: "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/covid-19-gsthstc-increase.html"
+          } 
+        }
       ],
     },
   },

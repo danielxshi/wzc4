@@ -248,6 +248,13 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
+
+    case "citeRight":
+      return (
+        <p className="text-right text-2xl leading-loose mr-2 text-gray-400">
+          {value["text"]}
+        </p>
+      );
     case "cite":
       return (
         <p className="text-2xl leading-loose mr-2 text-gray-400">
