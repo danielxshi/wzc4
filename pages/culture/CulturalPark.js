@@ -72,7 +72,7 @@ function PaginatedItems({ itemsPerPage }) {
   );
 }
 
-const category = "活动分享"
+const category = "文化园地"
 
 function Culture({ ArticleItems }) {
   return (

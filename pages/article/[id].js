@@ -44,6 +44,16 @@ export const renderSwitch = (params) => {
   switch (keys[0]) {
     case "paragraph":
       return <p className="text-2xl leading-loose mr-2">{value["text"]}</p>;
+    case "paragraphIndent":
+      return (
+        <p className="indent-8 text-2xl leading-loose mr-2">{value["text"]}</p>
+      );
+    case "paragraphIndentBold":
+      return (
+        <p className="indent-8 text-2xl leading-loose mr-2">
+          <strong>{value["text"]}</strong>
+        </p>
+      );
     case "bParagraph":
       return (
         <p className="text-2xl leading-loose mr-2">
@@ -114,11 +124,36 @@ export const renderSwitch = (params) => {
           ))}
         </p>
       );
+      case "paragraphContainsBoldIndent":
+        return (
+          <p className="indent-8 leading-loose">
+            {value.map((obj, index) => (
+              <span className="text-2xl leading-loose" key={index}>
+                {obj.text}
+                <strong>{obj.bold}</strong>
+                <a href={obj.linkURL} className="m-0 text--link--red">
+                  {obj.link}
+                </a>
+              </span>
+            ))}
+          </p>
+        );
     case "listNoStyle":
       return (
         <ul>
           {value.map((obj, index) => (
             <li className="indent-8 text-2xl" key={index}>
+              {obj.text}
+            </li>
+          ))}
+        </ul>
+      );
+
+    case "listNoStyleNoIndent":
+      return (
+        <ul>
+          {value.map((obj, index) => (
+            <li className="text-2xl" key={index}>
               {obj.text}
             </li>
           ))}
@@ -282,12 +317,12 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
-      case "citeIndent":
-        return (
-          <p className="text-2xl indent-8 leading-loose mr-2 text-gray-500">
-            {value["text"]}
-          </p>
-        );
+    case "citeIndent":
+      return (
+        <p className="text-2xl indent-8 leading-loose mr-2 text-gray-500">
+          {value["text"]}
+        </p>
+      );
     case "cite":
       return (
         <p className="text-2xl leading-loose mr-2 text-gray-500">
