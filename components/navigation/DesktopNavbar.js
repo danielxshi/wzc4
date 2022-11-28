@@ -4,7 +4,6 @@ import style from "../../styles/modules/_nav.module.scss";
 import { debounce } from "../../utilities/helpers";
 import Topbar from "./Topbar";
 import DesktopMenu from "./DesktopMenu";
-import MobileMenu from "./MobileMenu";
 import MenuItems from "../JSON/MenuItems";
 import Image from "next/image";
 
@@ -48,7 +47,7 @@ function Navbar() {
   return (
     <div
       style={{ ...navbarStyles, top: visible ? "0" : "-48px" }}
-      className={[style["nav--bg--extend"]].join(" ")}
+      className={[style["desktop--nav--wrapper"]].join(" ")}
     >
       <Topbar />
       <nav className={[style["navbar"], style["nav-grid"]].join(" ")}>
@@ -72,7 +71,6 @@ function Navbar() {
         </Link>
 
         <DesktopMenu />
-        <MobileMenu />
       </nav>
     </div>
   );

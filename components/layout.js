@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import Nav from './navigation/Navbar';
+import DesktopNav from './navigation/DesktopNavbar';
 import FooterNavigation from './footer/FooterNavigation';
 import FooterBottomBar from './footer/FooterBottomBar';
 import Footer from './footer/Footer';
+import MobileNav from './navigation/MobileMenu'
 
 
 function Layout({ children }) {
@@ -11,7 +12,8 @@ function Layout({ children }) {
       <Head>
         <title>Wenzhou Friendship Society</title>
       </Head>
-      <Nav />
+      <DesktopNav />
+      <MobileNav/>
       <main>{children}</main>
       <Footer/>
     </>
