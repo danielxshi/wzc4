@@ -169,7 +169,7 @@ const NavMenuItems = [
     // culture
     // pName: "/culture",
     title: "同乡会介绍",
-    url: "/",
+    url: "/culture/CulturalPark",
     submenu: [
       {
         title: "家乡的艺术和文化",
