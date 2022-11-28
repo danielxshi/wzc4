@@ -31,6 +31,9 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  font-family: Arial, 宋体;
+  text-rendering: optimizelegibility;
+  font-weight: 600;
 }
 h2 {
   color: $header--blue;

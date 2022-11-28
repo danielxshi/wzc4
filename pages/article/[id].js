@@ -265,27 +265,39 @@ export const renderSwitch = (params) => {
       );
     case "citeMid":
       return (
-        <p className="text-center text-2xl leading-loose mr-2 text-gray-400">
+        <p className="text-center text-2xl leading-loose mr-2 text-gray-500">
           {value["text"]}
         </p>
       );
 
     case "citeRight":
       return (
-        <p className="text-right text-2xl leading-loose mr-2 text-gray-400">
+        <p className="text-right text-2xl leading-loose mr-2 text-gray-500">
           {value["text"]}
         </p>
       );
+    case "citeIndentLarge":
+      return (
+        <p className="text-2xl indent-16 leading-loose mr-2 text-gray-500">
+          {value["text"]}
+        </p>
+      );
+      case "citeIndent":
+        return (
+          <p className="text-2xl indent-8 leading-loose mr-2 text-gray-500">
+            {value["text"]}
+          </p>
+        );
     case "cite":
       return (
-        <p className="text-2xl leading-loose mr-2 text-gray-400">
+        <p className="text-2xl leading-loose mr-2 text-gray-500">
           {value["text"]}
         </p>
       );
 
     case "citeImage":
       return (
-        <p className="text-center text-base leading-loose mr-2 text-gray-400">
+        <p className="text-center text-base leading-loose mr-2 text-gray-500">
           {value["text"]}
         </p>
       );
@@ -306,7 +318,7 @@ export const renderSwitch = (params) => {
                 </div>
               </li>
 
-              <p className="text-center text-base leading-loose mr-2 text-gray-400">
+              <p className="text-center text-base leading-loose mr-2 text-gray-500">
                 {obj.text}
               </p>
             </div>
