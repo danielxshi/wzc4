@@ -1,5 +1,5 @@
 import style from '../../styles/modules/_header.module.scss';
-import ExtraSmallLayout from '../layout/ExtraSmallLayout';
+import ExtraSmallLayout from '../layouts/ExtraSmallLayout';
 import Image from 'next/image';
 
 function SmallHeader(props) {

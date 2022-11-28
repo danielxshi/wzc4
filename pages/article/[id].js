@@ -5,6 +5,12 @@ import style from "../../styles/modules/_articles.module.scss";
 import Carousel from "../../components/header/Carousel";
 import Image from "next/image";
 
+/* 
+TODO 
+---
+Abstract The `Messages` to be reused with different JSON files 
+
+*/
 export const getStaticProps = async ({ params }) => {
   const playlistList = Messages.ArticleListMessages.filter(
     (p) => p.id.toString() === params.id
@@ -101,7 +107,9 @@ export const renderSwitch = (params) => {
             <span className="text-2xl leading-loose" key={index}>
               {obj.text}
               <strong>{obj.bold}</strong>
-              <a href={obj.linkURL} className="m-0 text--link--red">{obj.link}</a>
+              <a href={obj.linkURL} className="m-0 text--link--red">
+                {obj.link}
+              </a>
             </span>
           ))}
         </p>
@@ -112,6 +120,19 @@ export const renderSwitch = (params) => {
           {value.map((obj, index) => (
             <li className="indent-8 text-2xl" key={index}>
               {obj.text}
+            </li>
+          ))}
+        </ul>
+      );
+
+    case "listNum":
+      return (
+        <ul>
+          {value.map((obj, index) => (
+            <li className="ml-8 text-2xl list-decimal" key={index}>
+              {obj.text}
+              <strong>{obj.bold}</strong>
+              {obj.text2}
             </li>
           ))}
         </ul>
@@ -261,6 +282,38 @@ export const renderSwitch = (params) => {
           {value["text"]}
         </p>
       );
+
+    case "citeImage":
+      return (
+        <p className="text-center text-base leading-loose mr-2 text-gray-400">
+          {value["text"]}
+        </p>
+      );
+
+    case "citeImages":
+      return (
+        <ul>
+          {value.map((obj, index) => (
+            <div>
+              <li className="flex flex-col" key={index}>
+                <div className={style["unset-img"]}>
+                  <Image
+                    className={style["custom-img"]}
+                    src={obj.imageSRC}
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
+              </li>
+
+              <p className="text-center text-base leading-loose mr-2 text-gray-400">
+                {obj.text}
+              </p>
+            </div>
+          ))}
+        </ul>
+      );
+
     case "link":
       return (
         <a className="text-red-800 text-2xl" href={value["linkURL"]}>

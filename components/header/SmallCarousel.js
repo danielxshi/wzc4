@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import MediumLayout from "../layout/MediumLayout";
+import MediumLayout from "../layouts/MediumLayout";
 
 function UncontrolledExample() {
   return (

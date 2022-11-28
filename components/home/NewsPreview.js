@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SectionHeader from "../organisms/sectionHeader";
-import LargeLayout from "../layout/LargeLayout";
+import LargeLayout from "../layouts/LargeLayout";
 import style from "../../styles/modules/_banner.module.scss";
 import MenuItems from "../JSON/ArticleMessages";
 

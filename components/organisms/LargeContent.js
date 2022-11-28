@@ -1,5 +1,5 @@
 import style from "../../styles/modules/_banner.module.scss";
-import LargeLayout from "../layout/LargeLayout";
+import LargeLayout from "../layouts/LargeLayout";
 import Image from "next/image";
 import React, { Component } from "react";
 

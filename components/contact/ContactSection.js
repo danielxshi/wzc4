@@ -1,4 +1,4 @@
-import ExtendableLayout from '../layout/ExtendableLayout';
+import ExtendableLayout from '../layouts/ExtendableLayout';
 import ContactInformation from './ContactInformation';
 import ContactForm from '../contact/ContactForm';
 import style from '../../styles/modules/_contact.module.scss';

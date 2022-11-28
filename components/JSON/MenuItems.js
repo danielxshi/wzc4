@@ -145,7 +145,7 @@ const NavMenuItems = [
     // events
     // pName: "/events",
     title: "文化园地",
-    url: "/",
+    url: "/events/events",
     submenu: [
       {
         title: "2022年活动",

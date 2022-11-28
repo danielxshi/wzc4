@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import MediumLayout from "../layout/MediumLayout";
+import MediumLayout from "../layouts/MediumLayout";
 import MenuItems from "../JSON/MenuItems";
 import FooterMenuItems from "./FooterMenuItems";
 import FooterItemLink from "./FooterItemLink";
