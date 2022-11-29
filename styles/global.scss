@@ -552,6 +552,7 @@ a:hover {
     flex-direction: column !important;
 
     .news--preview--item {
+      margin-bottom: $sm-margin;
       width: 100%;
     }
   }

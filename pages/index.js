@@ -9,9 +9,9 @@ export default function Home() {
     <>
       <DeviceDetector>
         <Carousel />
-        {/* <ArticleSection />
+        <ArticleSection />
         <NewsPreview />
-        <SelfIntro /> */}
+        <SelfIntro />
       </DeviceDetector>
     </>
   );

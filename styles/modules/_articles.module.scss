@@ -2,6 +2,12 @@
 @import "../framework/layout";
 @import "../modules/button.module";
 
+.article--flex--container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+}
+
 .article--detail--section {
   background-color: $primary--white;
   grid-column: span 8 / span 8;
@@ -199,6 +205,7 @@
   .large--module {
     width: 100%;
     margin-right: 0;
+    margin-bottom: $sm-margin;
   }
   .article--flex--container {
     flex-direction: column;
