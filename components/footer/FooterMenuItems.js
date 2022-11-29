@@ -3,7 +3,7 @@ import FooterMenuTitle from "./FooterMenuTitle";
 
 function FooterMenuItems(props) {
   return (
-    <div className="mr-16">
+    <div className={style["footer--menu--module--container"]}>
       <FooterMenuTitle 
         title={props.title}
       />

@@ -7,13 +7,14 @@ import FooterMenuItems from "./FooterMenuItems";
 import FooterItemLink from "./FooterItemLink";
 import FooterListItem from "./FooterListItem";
 import FooterMenuTitle from "./FooterMenuTitle";
+import style from "../../styles/modules/_footer.module.scss"
 
 export default function Footer() {
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
   return (
     <MediumLayout>
-      <div className="flex">
+      <div className={style["footer--container"]}>
         <FooterMenuItems title={MenuItems.FooterC1Title}>
           <ul>
             {MenuItems.FooterC1MenuItems.map((item, index) => {

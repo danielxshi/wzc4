@@ -3,7 +3,8 @@
 @import "../modules/button.module";
 
 // Footer base
-.footer{
+.footer {
+  z-index: -1;
   color: $primary--white;
   background-color: $dark--blue;
 }
@@ -95,6 +96,14 @@
   display: grid;
 }
 
+.footer--container {
+  display: flex;
+}
+
+.footer--menu--module--container{
+  margin-right: 4rem;
+}
+
 @media only screen and (min-width: $largeQuery) {
   .grid--container {
     max-width: $max--width;
@@ -105,8 +114,22 @@
   }
 }
 
+@media only screen and (min-width: $medQuery) {
+  .footer--container {
+    flex-wrap: wrap;
+  }
+}
+
 @media only screen and (max-width: $minQuery) {
   .footer--links--row {
     flex-direction: column;
+  }
+
+  .footer--container {
+    flex-wrap: wrap;
+    padding-bottom: 0 !important;
+    > div {
+      margin-bottom: $sm-margin;
+    }
   }
 }
