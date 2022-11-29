@@ -10,12 +10,12 @@ export default function Services(props) {
     <LargeLayout>
       <div className={style["opportunity--wrapper"]}>
         <SectionHeader header={"公告板"} />
-        <div className="grid--spread ">
+        <div className="grid--spread news--preview--container">
           {MenuItems.NewsPreviewItems.map((item, index) => {
             return (
               <div
                 key={index}
-                className="rounded-md w-1/3 h-auto relative shadow-md	"
+                className="rounded-md news--preview--item w-1/3 h-auto relative shadow-md	"
               >
                 <div
                   style={{

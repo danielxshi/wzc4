@@ -16,7 +16,6 @@ function ArticleModuleLarge(props) {
             <Image
               objectFit="cover"
               layout="intrinsic"
-              // width=""
               src={item.imageURL}
               height={235}
               width={419}

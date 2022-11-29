@@ -7,7 +7,7 @@ function ArticleModule(props) {
   return (
     <div className={style["current--news--section--container"]}>
       <h2 className="text-2xl font-bold mb-4">同乡会动态</h2>
-      <div className="flex">
+      <div className={style["article--flex--container"]}>
         <ArticleModuleLarge />
         <div className={[style["news--flex"], style["news--small"]].join(" ")}>
           {ArticleItems.CurrentEvents.map((item, index) => {
