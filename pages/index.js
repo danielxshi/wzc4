@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <DeviceDetector>
-        {/* <Carousel /> */}
+        <Carousel />
         <ArticleSection />
         <NewsPreview />
         <SelfIntro />
