@@ -541,6 +541,9 @@ a:hover {
       width: 100%;
     }
   }
+  .whitespace-nowrap {
+    white-space: pre-wrap;
+  }
 }
 
 @media only screen and (max-width: $medQuery) {
@@ -562,6 +565,7 @@ a:hover {
   .carousel {
     height: 60vh !important;
   }
+
 }
 
 

@@ -46,7 +46,7 @@ export default function Footer() {
 
       {/* Right section */}
       <div className="flex col-start-13">
-        <div className="col-start-12 flex ml-16 w-max flex-col ">
+        <div className="col-start-12 flex flex-wrap ml-16 w-max flex-col ">
           <FooterMenuTitle title={MenuItems.FooterC5Title} />
           <Image
             objectFit="contain"
