@@ -162,7 +162,17 @@
   grid-column-end: -1;
   z-index: 100;
   display: none;
-  background-color: black;
+  background-color: $nav-bg-color;
+  align-items: center;
+  // background: $nav-bg-color !important;
+  .burger-strip {
+    background: $nav-bg-color !important;
+  }
+  .burger-strip div:nth-child(3){
+    margin-bottom: 0;
+  }
+  padding: 0.2rem .5rem;
+  border-radius: 4px;
   position: fixed;
   right: 0;
   margin-right: $sm-margin;
@@ -205,8 +215,11 @@
   transition: all 0.55s cubic-bezier(0.075, 0.82, 0.165, 1);
   width: 25px;
 }
+.strip div:nth-child(2){
+  width: 20px;
+}
 .burger:hover .strip div {
-  background: white;
+  background: $cta--blue;
 }
 
 .burger:hover .burger-strip-4 div:first-child {
