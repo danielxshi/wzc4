@@ -192,6 +192,18 @@
 }
 
 @media only screen and (max-width: $medQuery) {
+  .margin-realign {
+    margin-top: $lrg-margin + 3rem;
+    margin-left: $lrg-margin;
+    padding-bottom: $lrg-margin;
+    flex-direction: column;
+    small {
+      margin: 0;
+    }
+  }
+  .article--item--container {
+    flex-direction: column;
+  }
   .news--small {
     width: 100%;
     > div {
