@@ -2,35 +2,31 @@ const ContactDetailItems = [
   {
     name: 'location',
     href: '/',
-    contactInfo: 'VANCOUVER, BC CANADA',
+    contactInfo: '4266 Hazelbridge Way, Richmond, BC V6X 0J5',
+    contactHeader: "地址/AddressAddress:"
   },
   {
     name: 'mail',
     href: '/',
-    contactInfo: 'kevin@garsonbryanprojects.ca',
+    contactInfo: 'wenzhouren.ca@outlook.com',
+    contactHeader: "邮箱/E-mail Address:"
   },
   {
     name: 'phone',
     href: '/',
-    contactInfo: '604-250-5850',
-  },
-];
-
-const SocialMediaItems = [
-  {
-    name: 'LinkedIN',
-    href: 'https://ca.linkedin.com/in/kevin-lofstrom',
-    alt: 'LinkedIN icon',
+    contactInfo: '778-588-3588',
+    contactHeader: "办公室电话/Office Phone:"
   },
   {
-    name: 'HAVAN',
-    href: 'https://www.google.ca/',
-    alt: 'HAVAN icon',
+    name: 'phone2',
+    href: '/',
+    contactInfo: '604-379-9888',
+    contactHeader: "移动电话/Mobile Phone:"
   },
 ];
 
 const ContactItems = {
-  SocialMediaItems: SocialMediaItems,
+
   ContactDetailItems: ContactDetailItems,
 };
 

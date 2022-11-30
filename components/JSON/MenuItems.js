@@ -82,13 +82,6 @@ const FooterC4MenuItems = [
   },
 ];
 
-// submenu: [
-//   {
-//     title: 'web design',
-//     url: 'web-design',
-//   },
-//   {
-
 const NavMenuItems = [
   {
     // Home
@@ -102,7 +95,7 @@ const NavMenuItems = [
     // About
     // pName: "/information",
     title: "信息咨询",
-    url: "/About",
+    url: "/about/council",
     submenu: [
       {
         title: "董事",
@@ -185,7 +178,7 @@ const NavMenuItems = [
   {
     // pName: "/contact",
     title: "联系我们",
-    url: "/Contact",
+    url: "/contact",
   },
 ];
 

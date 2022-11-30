@@ -1,4 +1,7 @@
 @import "../base/variables";
+.contact--container {
+  margin: $med-margin 0;
+}
 
 .contact--icon {
   margin-right: $xs-margin;
@@ -13,6 +16,10 @@
 }
 
 .contact--information {
+  .active,
+  .inactive {
+    margin-top: 0.25rem !important;
+  }
   .contact--information--item {
     display: flex;
     margin-top: $xs-margin;
@@ -53,66 +60,66 @@
 }
 
 .contact--form--title {
-  color: $primary--white;
+  color: tomato;
 }
 
 .form--content--wrapper {
-  width: 84%;
-  // position: absolute;
-  * {
+  .label--input--wrapper {
+    border-radius: 4px;
     margin: 0 !important;
     padding: $xs-margin !important;
     border-style: none !important;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF7FE;
+    margin-bottom: $sm-margin !important;
   }
 }
 
 .container {
   position: relative;
-  background-color: $secondary--gray !important;
-  // background-color: transparent !important;
 
   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color: $primary--white;
+    color: tomato;
     opacity: 0.65;
   }
   :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: $primary--white;
+    color: tomato;
     opacity: 0.65;
   }
   ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: $primary--white;
+    color: tomato;
     opacity: 0.65;
   }
   :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: $primary--white;
+    color: tomato;
     opacity: 0.65;
   }
   ::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: $primary--white;
+    color: tomato;
     opacity: 0.65;
   }
 
   ::placeholder {
     /* Most modern browsers support this now. */
-    color: $primary--white;
+    color: tomato;
     opacity: 0.65;
   }
 
   input,
   textarea {
-    color: $primary--white !important;
+    color: tomato !important;
     font-weight: 500;
     border: none;
     outline: none;
     border-radius: 2px;
-    background-color: $tertiary--gray !important;
   }
 
   textarea {
@@ -120,27 +127,34 @@
   }
 
   button {
-    background: $cta--gray !important;
+    border-radius: 2px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
     text-transform: uppercase;
     color: $primary--white;
-    background-color: $secondary--brown;
+    background-color: $cta--blue;
     cursor: pointer;
     outline: none;
     border-radius: 2px;
     border: none;
+    svg {
+      margin-right: .5rem;    }
   }
 
   div {
     padding: 0 !important;
   }
 
-  background-color: $primary--brown;
+  box-shadow: 0px 3px 15px rgba(70, 69, 69, 0.07);
+
   padding: $med-margin;
   border-radius: 2px;
 
   .form--label {
-    background-color: $tertiary--gray;
-    color: $primary--white;
+    color: $jet--grey;
     font-size: $caption--font-sz;
     letter-spacing: $caption--tk;
   }
@@ -151,16 +165,10 @@
     background-color: transparent;
   }
 
-  .label--input--wrapper {
-    display: flex;
-    flex-direction: column;
-    background-color: $tertiary--brown;
-    margin-bottom: $sm-margin !important;
-  }
   @keyframes autofill {
     0%,
     100% {
-      color: $primary--white;
+      color: tomato;
       background: transparent;
     }
   }
@@ -169,10 +177,9 @@
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus,
   input:-webkit-autofill:active {
-    background-color: $tertiary--gray !important;
-    color: $primary--white !important;
+    color: tomato !important;
     transition: background-color 5000s ease-in-out 0s;
-    -webkit-text-fill-color: $primary--white !important;
+    -webkit-text-fill-color: tomato !important;
   }
 }
 

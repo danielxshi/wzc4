@@ -124,20 +124,20 @@ export const renderSwitch = (params) => {
           ))}
         </p>
       );
-      case "paragraphContainsBoldIndent":
-        return (
-          <p className="indent-8 leading-loose">
-            {value.map((obj, index) => (
-              <span className="text-2xl leading-loose" key={index}>
-                {obj.text}
-                <strong>{obj.bold}</strong>
-                <a href={obj.linkURL} className="m-0 text--link--red">
-                  {obj.link}
-                </a>
-              </span>
-            ))}
-          </p>
-        );
+    case "paragraphContainsBoldIndent":
+      return (
+        <p className="indent-8 leading-loose">
+          {value.map((obj, index) => (
+            <span className="text-2xl leading-loose" key={index}>
+              {obj.text}
+              <strong>{obj.bold}</strong>
+              <a href={obj.linkURL} className="m-0 text--link--red">
+                {obj.link}
+              </a>
+            </span>
+          ))}
+        </p>
+      );
     case "listNoStyle":
       return (
         <ul>
@@ -234,13 +234,6 @@ export const renderSwitch = (params) => {
                     {obj.text1link}
                   </a>
                   {obj.text1Cont}
-                  {/* <div>
-                    {obj.content1.map((obj, index) => (
-                      <li className="ml-8 text-2xl circle-list" key={index}>
-                        {obj.text}
-                      </li>
-                    ))}
-                  </div> */}
                 </li>
                 <div>
                   {obj.content1.map((obj, index) => (
