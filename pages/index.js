@@ -7,12 +7,12 @@ import DeviceDetector from "../components/DeviceDetector";
 export default function Home() {
   return (
     <>
-      <DeviceDetector>
+      {/* <DeviceDetector> */}
         <Carousel />
         <ArticleSection />
         <NewsPreview />
         <SelfIntro />
-      </DeviceDetector>
+      {/* </DeviceDetector> */}
     </>
   );
 }
