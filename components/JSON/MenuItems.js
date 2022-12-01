@@ -82,6 +82,97 @@ const FooterC4MenuItems = [
   },
 ];
 
+const NavMenuItems2 = [
+  {
+    menu: [
+      {
+        title: "首页",
+        url: "/",
+        submenu: [],
+      },
+      {
+        title: "信息咨询",
+        url: "/about/council",
+        submenu: [
+          {
+            subtitle: "董事",
+            url: "/",
+          },
+          {
+            subtitle: "家乡协会简介",
+            url: "/",
+          },
+        ],
+      },
+      {
+        title: "活动分享",
+        url: "/info/information",
+        submenu: [
+          {
+            subtitle: "家乡协会",
+            url: "/",
+          },
+          {
+            subtitle: "加拿大新闻",
+            url: "/",
+          },
+          {
+            subtitle: "中国新闻",
+            url: "/",
+          },
+
+          {
+            subtitle: "当地生活信息",
+            url: "/",
+          },
+        ],
+      },
+      {
+        title: "文化园地",
+        url: "/events/events",
+        submenu: [
+          {
+            subtitle: "2022年活动",
+            url: "/",
+          },
+          {
+            subtitle: "2021年活动",
+            url: "/",
+          },
+          {
+            subtitle: "2020年活动",
+            url: "/",
+          },
+
+          {
+            subtitle: "2019年活动",
+            url: "/",
+          },
+        ],
+      },
+      {
+        title: "同乡会介绍",
+        url: "/events/events",
+        submenu: [
+          {
+            subtitle: "家乡的艺术和文化",
+            url: "/",
+          },
+          {
+            subtitle: "家乡温州",
+            url: "/",
+          },
+        ],
+      },
+      {
+        title: "联系我们",
+        url: "/contact",
+        submenu: [],
+      },
+    ],
+  },
+];
+
 const NavMenuItems = [
   {
     // Home
@@ -189,6 +280,7 @@ const MenuItems = {
   FooterC4MenuItems: FooterC4MenuItems,
 
   NavMenuItems: NavMenuItems,
+  NavMenuItems2: NavMenuItems2,
 
   CompanyNameCH: CompanyNameCH,
   CompanyNameEN: CompanyNameEN,

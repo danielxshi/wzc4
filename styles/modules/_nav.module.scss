@@ -55,6 +55,7 @@
   grid-column-end: -1;
   display: flex;
   flex-direction: row;
+  justify-content: right;
 }
 .nav-menu {
   // justify-content: right;
@@ -70,6 +71,7 @@
     background: $primary--white;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
+    position: absolute;
   }
 
   a:hover:after,
@@ -96,7 +98,7 @@
   flex-direction: row;
   width: 100%;
   // justify-content: flex-end;
-  justify-content: space-between;
+  justify-content: right;
   height: 100%;
   li {
     // margin-left: $sm-margin;
@@ -168,10 +170,10 @@
   .burger-strip {
     background: $nav-bg-color !important;
   }
-  .burger-strip div:nth-child(3){
+  .burger-strip div:nth-child(3) {
     margin-bottom: 0;
   }
-  padding: 0.2rem .5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 4px;
   position: fixed;
   right: 0;
@@ -215,7 +217,7 @@
   transition: all 0.55s cubic-bezier(0.075, 0.82, 0.165, 1);
   width: 25px;
 }
-.strip div:nth-child(2){
+.strip div:nth-child(2) {
   width: 20px;
 }
 .burger:hover .strip div {
@@ -244,6 +246,15 @@
 .burger-strip-4-active div:last-child {
   width: 15px;
   transform: translateY(-4px) rotate(30deg);
+}
+
+.menu--content--item {
+  display: flex;
+  align-items: end;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  position: relative;
+  // padding-bottom: 16px;
 }
 
 @media only screen and (max-width: $minQuery) {

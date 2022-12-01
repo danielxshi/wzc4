@@ -2,6 +2,7 @@ import style from "../../styles/modules/_nav.module.scss";
 import React, { useState, useEffect } from "react";
 import MenuItems2 from "./MenuItems2";
 import MenuItems from "../JSON/MenuItems";
+import MenuItems3 from "./MenuItems3"
 import { useRouter } from "next/router";
 import Link from "next/link";
 
@@ -21,9 +22,10 @@ function DesktopMenu() {
       }
     >
       <ul className={style["nav-menu"]}>
-        {MenuItems.NavMenuItems.map((menu, index) => {
+        {/* {MenuItems.NavMenuItems.map((menu, index) => {
           return <MenuItems2 items={menu} key={index} />;
-        })}
+        })} */}
+        <MenuItems3/>
       </ul>
     </div>
   );

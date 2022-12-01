@@ -399,7 +399,6 @@ button {
 
 .dropdown {
   display: none;
-  background-color: $nav-bg-color;
   position: absolute;
   z-index: 1;
   padding: 0 15px;
@@ -522,7 +521,6 @@ a:hover {
   transform: translateY(-4px) rotate(30deg);
 }
 
-
 @media only screen and (max-width: $minQuery) {
   .w-100 {
     object-fit: cover;
@@ -606,4 +604,61 @@ a:hover {
 }
 .contant_box_404 {
   margin-top: -50px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  border: none;
+
+  position: relative;
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+  margin: 0 !important;
+  padding-bottom: 16px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0 !important;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $nav-bg-color;
+  z-index: 1;
+  // margin-top: 16px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: $hover--blue;
+  color: $primary--white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+// .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.menu--container {
+  margin: 0 !important;
+  div:last-child{
+    padding-right: 0;
+  }
 }
