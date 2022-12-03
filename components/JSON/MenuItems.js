@@ -115,7 +115,7 @@ const NavMenuItems2 = [
         submenu: [
           {
             subtitle: "家乡协会",
-            url: "/info/Association",
+            url: "/info/association",
           },
           {
             subtitle: "加拿大新闻",
