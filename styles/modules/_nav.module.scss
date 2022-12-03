@@ -278,6 +278,15 @@
 }
 
 @media only screen and (max-width: $medQuery) {
+  .menu-icon {
+    display: block;
+  }
+  .mobile-nav-menu-wrapper {
+    display: flex;
+  }
+  .desktop--nav--wrapper {
+    display: none;
+  }
   .navbar {
     height: 58px;
   }

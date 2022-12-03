@@ -128,7 +128,7 @@ const NavMenuItems2 = [
 
           {
             subtitle: "当地生活信息",
-            url: "/info/Local",
+            url: "/info/local",
           },
         ],
       },

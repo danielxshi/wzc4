@@ -9,7 +9,7 @@ $small--layout--height: 25vh;
 $xs--layout--height: 12.5vh;
 
 // Nav
-$nav--height--base: 4rem;
+$nav--height--base: 58px;
 $nav--height--small: 3rem;
 $nav--height--base--px: 64px;
 $nav--height--small--px: 48px;
@@ -84,9 +84,9 @@ $tertiary--gray: #5C5449;
 $cta--gray: #3D3830;
 $accent--yellow: #cd9743;
 
-$largeQuery: 1281px;
-$medQuery: 1280px;
-$minQuery: 868px;
+$largeQuery: 1024px;
+$medQuery: 1023px;
+$minQuery: 768px;
 
 // Page width
 $smWidth: 600px;
