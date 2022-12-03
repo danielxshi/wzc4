@@ -1,13 +1,14 @@
 import ArticleItems from "../JSON/ArticleMessages";
 import style from "../../styles/modules/_articles.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 
 function CurrentNews(props) {
   return (
     <div className={style["sponsor--item--container"]}>
       <div className={style["sponsor--image--container"]}>
         <Image
-          src={ArticleItems.sponsorImage1}
+          src={props.src}
           layout="fill"
         />
       </div>

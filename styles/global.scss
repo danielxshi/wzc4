@@ -658,7 +658,52 @@ a:hover {
 
 .menu--container {
   margin: 0 !important;
-  div:last-child{
+  div:last-child {
     padding-right: 0;
+  }
+}
+
+$arrow-height: 9px;
+$arrow-width: 2px;
+$interactive-color: #4338ca;
+$black-color: #111827;
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 24px;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px 0px rgba(31, 41, 55, 0.14);
+  background-color: #fff;
+  position: relative;
+
+  &__number-indicator {
+    position: absolute;
+    height: 2px;
+    background-color: $interactive-color;
+    opacity: 0;
+    bottom: 38px;
+    transition: all 0.2s ease;
+  }
+
+  &__number {
+    font-weight: 600;
+    font-size: 16px;
+    color: #d1d5db;
+  }
+
+  &__number--active {
+    color: $black-color !important;
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  &__number,
+  &__arrow {
+    color: #d1d5db;
+    padding: 16px;
   }
 }

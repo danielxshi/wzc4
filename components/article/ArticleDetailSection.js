@@ -4,7 +4,7 @@ function ArticleDetailSection(props) {
   return (
     <div className={style["article--detail--section"]}>
       <div className={style["margin-realign"]}>
-        <div className="flex">
+        <div className={style["article--detail--heading--container"]}>
           <h2 className="text-2xl font-bold">{props.category}</h2>
           <small className="mr-2 ml-auto text-base">
             当前位置: 

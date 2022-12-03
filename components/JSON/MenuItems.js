@@ -82,6 +82,7 @@ const FooterC4MenuItems = [
   },
 ];
 
+// Desktop menu
 const NavMenuItems2 = [
   {
     menu: [
@@ -110,25 +111,25 @@ const NavMenuItems2 = [
         submenu: [
           {
             subtitle: "家乡协会",
-            url: "/",
+            url: "/info/Association",
           },
           {
             subtitle: "加拿大新闻",
-            url: "/",
+            url: "/info/Canada",
           },
           {
             subtitle: "中国新闻",
-            url: "/",
+            url: "/info/China",
           },
 
           {
             subtitle: "当地生活信息",
-            url: "/",
+            url: "/info/Local",
           },
         ],
       },
       {
-        title: "文化园地",
+        title: "活动分享",
         url: "/events/events",
         submenu: [
           {
@@ -141,26 +142,26 @@ const NavMenuItems2 = [
           },
           {
             subtitle: "2020年活动",
-            url: "/",
+            url: "/events/Events2020",
           },
 
           {
             subtitle: "2019年活动",
-            url: "/",
+            url: "/events/Events2019",
           },
         ],
       },
       {
-        title: "同乡会介绍",
-        url: "/events/events",
+        title: "文化园地",
+        url: "/culture/CulturalPark",
         submenu: [
           {
             subtitle: "家乡的艺术和文化",
-            url: "/",
+            url: "/culture/art",
           },
           {
             subtitle: "家乡温州",
-            url: "/",
+            url: "/culture/wenzhou",
           },
         ],
       },
@@ -173,6 +174,7 @@ const NavMenuItems2 = [
   },
 ];
 
+// Mobile menu
 const NavMenuItems = [
   {
     // Home
@@ -245,7 +247,7 @@ const NavMenuItems = [
       },
       {
         title: "2019年活动",
-        url: "",
+        url: "/events/Events2019",
       },
     ],
   },

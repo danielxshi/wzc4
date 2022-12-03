@@ -3,15 +3,16 @@ import SelfIntro from "../components/home/About";
 import Carousel from "../components/header/Carousel";
 import ArticleSection from "../components/article/ArticleSection";
 import DeviceDetector from "../components/DeviceDetector";
+import React from "react";
 
 export default function Home() {
   return (
     <>
       {/* <DeviceDetector> */}
-        <Carousel />
-        <ArticleSection />
-        <NewsPreview />
-        <SelfIntro />
+      <Carousel />
+      <ArticleSection />
+      <NewsPreview />
+      <SelfIntro />
       {/* </DeviceDetector> */}
     </>
   );

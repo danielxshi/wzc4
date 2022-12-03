@@ -14,7 +14,8 @@ function CurrentNews(props) {
                 key={index}
                 title={item.Title}
                 date={item.date}
-                src={ArticleItems.sponsorImage1}
+                src={item.Image}
+                URL={`/article/${item.id}`}
               ></CurrentNewsItem>
             )
           })

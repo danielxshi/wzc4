@@ -1,13 +1,7 @@
-import Carousel from "../../components/header/Carousel";
-import CouncilMessages from "../../components/JSON/CouncilMessages";
-// import Image from "next/image";
 import style from "../../styles/modules/_nav.module.scss";
-import Image from "next/image";
-import Link from "next/link";
-import SectionHeader from "../../components/organisms/sectionHeader";
-import LargeLayout from "../../components/layouts/LargeLayout";
-import MenuItems from "../../components/JSON/ArticleMessages";
 import MenuMessages from "../JSON/MenuItems";
+// import { a } from "react-router-dom";
+// // // import { BrowserRouter as Router } from "react-router-dom";
 
 export const renderSwitch = (params) => {
   if (!params) {
@@ -17,18 +11,45 @@ export const renderSwitch = (params) => {
   const value = params[keys[0]];
   const test = params[keys[1]];
 
+  // Testing
+  let activeStyle = {
+    textDecoration: "underline",
+  };
+
+  let activeClassName = "underline";
+
   switch (keys[0]) {
     case "menu":
       return (
         <div className="menu--container">
           {value.map((item, index) => (
             <div className="dropdown">
-              <a href={item.url} className="dropbtn">{item.title}</a>
-              <ul className="dropdown-content">
-                {item.submenu.map((item, index) => {
-                  return <a className="whitespace-nowrap" href={item.url}>{item.subtitle}</a>;
-                })}
-              </ul>
+              {/* <Router> */}
+                <a
+                  // style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                  key={index}
+                  href={item.url}
+                  className="dropbtn"
+                >
+                  {item.title}
+                </a>
+                <ul className="dropdown-content">
+                  {item.submenu.map((item2, index) => {
+                    return (
+                      <a
+                        key={index}
+                        className="whitespace-nowrap"
+                        href={item2.url}
+                        // style={({ isActive }) =>
+                        //   isActive ? activeStyle : undefined
+                        // }
+                      >
+                        {item2.subtitle}
+                      </a>
+                    );
+                  })}
+                </ul>
+              {/* </Router> */}
             </div>
           ))}
         </div>

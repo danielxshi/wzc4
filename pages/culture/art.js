@@ -3,7 +3,7 @@ import ArticleMessages from "../../components/JSON/Articles/CultureMessages";
 import React, { useState, useEffect } from "react";
 import Paginate from "../../components/article/PaginateItems";
 
-const category = "家乡温州";
+const category = "家乡的艺术和文化";
 
 // export const renderSwitch = (params) => {
 //   if (!params) {
@@ -26,11 +26,11 @@ const category = "家乡温州";
 //   }
 // };
 
-function Wenzhou({ ArticleItems }) {
+function Art({ ArticleItems }) {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    const response = ArticleMessages.WenzhouListMessages;
+    const response = ArticleMessages.ArtListMessages;
     setImages(response);
   }, []);
 
@@ -46,4 +46,4 @@ function Wenzhou({ ArticleItems }) {
   );
 }
 
-export default Wenzhou;
+export default Art;

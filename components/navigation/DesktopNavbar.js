@@ -52,6 +52,7 @@ function Navbar() {
       <Topbar />
       <nav className={[style["navbar"], style["nav-grid"]].join(" ")}>
         <Image
+        className="cursor-pointer"
           objectFit="contain"
           width={36}
           height={36}
@@ -63,7 +64,7 @@ function Navbar() {
           href="/"
           // onClick={closeMobileMenu}
         >
-          <div className="ml-neg-1 text-left whitespace-nowrap">
+          <div className="cursor-pointer ml-neg-1 text-left whitespace-nowrap">
             {MenuItems.CompanyNameCH}
             <br />
             {MenuItems.CompanyNameEN}
