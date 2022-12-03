@@ -34,6 +34,9 @@ body {
   font-family: Arial, 宋体;
   text-rendering: optimizelegibility;
 }
+body {
+  margin-top: 106px;
+}
 h2 {
   color: $header--blue;
 }

@@ -108,10 +108,10 @@ const NavMenuItems2 = [
       {
         title: "活动分享",
         url: "/info/information",
-        p1: "/info/Association",
-        p2: "/info/Canada",
-        p3: "/info/China",
-        p4: "/info/Local",
+        p1: "/info/association",
+        p2: "/info/canada",
+        p3: "/info/china",
+        p4: "/info/local",
         submenu: [
           {
             subtitle: "家乡协会",
@@ -119,11 +119,11 @@ const NavMenuItems2 = [
           },
           {
             subtitle: "加拿大新闻",
-            url: "/info/Canada",
+            url: "/info/canada",
           },
           {
             subtitle: "中国新闻",
-            url: "/info/China",
+            url: "/info/china",
           },
 
           {
