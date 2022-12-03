@@ -1,9 +1,11 @@
 import style from "../../styles/modules/_nav.module.scss";
 import MenuMessages from "../JSON/MenuItems";
-// import { a } from "react-router-dom";
-// // // import { BrowserRouter as Router } from "react-router-dom";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import Router from "router";
 
 export const renderSwitch = (params) => {
+  const router = useRouter();
   if (!params) {
     return "";
   }
@@ -11,45 +13,36 @@ export const renderSwitch = (params) => {
   const value = params[keys[0]];
   const test = params[keys[1]];
 
-  // Testing
-  let activeStyle = {
-    textDecoration: "underline",
-  };
-
-  let activeClassName = "underline";
-
   switch (keys[0]) {
     case "menu":
       return (
         <div className="menu--container">
           {value.map((item, index) => (
             <div className="dropdown">
-              {/* <Router> */}
-                <a
-                  // style={({ isActive }) => (isActive ? activeStyle : undefined)}
-                  key={index}
-                  href={item.url}
-                  className="dropbtn"
-                >
+              <Link href={item.url}>
+                <a className={router.pathname == `${item.url}` || router.pathname  == `${item.p1}` || router.pathname  == `${item.p2}` || router.pathname  == `${item.p3}`|| router.pathname  == `${item.p4}`   ? "active" : ""}>
                   {item.title}
                 </a>
-                <ul className="dropdown-content">
-                  {item.submenu.map((item2, index) => {
-                    return (
+              </Link>
+              <ul className="dropdown-content">
+                {item.submenu.map((item2, index) => {
+                  return (
+                    <Link
+                      key={index}
+                      className="whitespace-nowrap"
+                      href={item2.url}
+                    >
                       <a
-                        key={index}
-                        className="whitespace-nowrap"
-                        href={item2.url}
-                        // style={({ isActive }) =>
-                        //   isActive ? activeStyle : undefined
-                        // }
+                        className={
+                          router.pathname == `${item2.url}` ? "superactive" : ""
+                        }
                       >
                         {item2.subtitle}
                       </a>
-                    );
-                  })}
-                </ul>
-              {/* </Router> */}
+                    </Link>
+                  );
+                })}
+              </ul>
             </div>
           ))}
         </div>

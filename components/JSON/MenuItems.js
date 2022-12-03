@@ -95,19 +95,23 @@ const NavMenuItems2 = [
         title: "信息咨询",
         url: "/about/council",
         submenu: [
-          {
-            subtitle: "董事",
-            url: "/",
-          },
-          {
-            subtitle: "家乡协会简介",
-            url: "/",
-          },
+          // {
+          //   subtitle: "董事",
+          //   url: "/",
+          // },
+          // {
+          //   subtitle: "家乡协会简介",
+          //   url: "/",
+          // },
         ],
       },
       {
         title: "活动分享",
         url: "/info/information",
+        p1: "/info/Association",
+        p2: "/info/Canada",
+        p3: "/info/China",
+        p4: "/info/Local",
         submenu: [
           {
             subtitle: "家乡协会",
@@ -131,15 +135,19 @@ const NavMenuItems2 = [
       {
         title: "活动分享",
         url: "/events/events",
+        p1: "/events/Events2022",
+        p2: "/events/Events2021",
+        p3: "/events/Events2020",
+        p4: "/events/Events2019",
         submenu: [
-          {
-            subtitle: "2022年活动",
-            url: "/",
-          },
-          {
-            subtitle: "2021年活动",
-            url: "/",
-          },
+          // {
+          //   subtitle: "2022年活动",
+          //   url: "/",
+          // },
+          // {
+          //   subtitle: "2021年活动",
+          //   url: "/",
+          // },
           {
             subtitle: "2020年活动",
             url: "/events/Events2020",
@@ -154,6 +162,8 @@ const NavMenuItems2 = [
       {
         title: "文化园地",
         url: "/culture/CulturalPark",
+        p1: "/culture/art",
+        p2: "/culture/wenzhou",
         submenu: [
           {
             subtitle: "家乡的艺术和文化",
