@@ -12,9 +12,9 @@ export default function handler(req, res) {
   `;
 
   const data = {
-    to: 'kevin@garsonbryanprojects.ca',
-    from: 'webform@garsonbryanprojects.ca',
-    subject: 'GarsonBryanProjects Web Form Message',
+    to: '',
+    from: '',
+    subject: '',
     text: message,
     html: message.replace(/\r\n/g, '<br>')
   };
