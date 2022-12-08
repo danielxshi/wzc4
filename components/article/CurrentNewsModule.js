@@ -4,7 +4,7 @@ import ArticleItems from "../JSON/ArticleMessages";
 
 function CurrentNews(props) {
   return (
-    <div className="col-start-9 row-start-1 col-span-4">
+    <div className="col-start-9 row-start-1 col-span-4 current--news--module">
       <h2 className="text-2xl font-bold mb-4">加拿大新闻</h2>
       <div>
         {

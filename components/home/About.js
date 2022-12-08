@@ -2,7 +2,7 @@ import LargeContent from "../organisms/LargeContent";
 import Hero from "../../public/images/index-committee.png";
 export default function SelfIntro() {
   return (
-    <>
+    <div className="bg--primary--white">
       <LargeContent imageSrc={Hero}>
         <div className="mb-4">
           <h3 className="font-bold text-2xl mb-4">加拿大温州同乡会宗旨</h3>
@@ -21,6 +21,6 @@ export default function SelfIntro() {
           联合加拿大本地商界社团，组织各项商务、文化交流活动，构建平台，协助华人开创事业，促进加中经贸往来和科技、文化交流。
         </p>
       </LargeContent>
-    </>
+    </div>
   );
 }

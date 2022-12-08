@@ -12,7 +12,7 @@ function ArticleModule(props) {
         <div className={[style["news--flex"], style["news--small"]].join(" ")}>
           {ArticleItems.CurrentEvents.map((item, index) => {
             return (
-              <div className="flex flex-col" key={index}>
+              <div className="max-h-max flex flex-col" key={index}>
                 <Image
                   objectFit="cover"
                   layout="intrinsic"
@@ -23,10 +23,10 @@ function ArticleModule(props) {
                 />
                 <div className="mt-2 p-2">
                   <h3 className="text-base font-bold">{item.title}</h3>
-                  <div className="flex flex-row mt-2">
-                    <small>{item.date}</small>
+                  <div className="flex justify-between flex-wrap flex-row mt-2">
+                    <small className="flex content-center">{item.date}</small>
                     <a
-                      className="whitespace-nowrap mb-2 text-base text-blue-500 ml-auto mr-0"
+                      className="whitespace-nowrap text-base text-blue-500 m-0 mr-0"
                       href={`/article/${item.id}`}
                     >
                       阅读全文

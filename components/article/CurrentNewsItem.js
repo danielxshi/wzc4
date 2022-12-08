@@ -12,7 +12,7 @@ function CurrentNews(props) {
           layout="fill"
         />
       </div>
-      <div className="w-8/12 ml-2 m-2">
+      <div className={style["sponsor--content--container"]}>
         <h4 className="text-base">
           {props.title}
         </h4>

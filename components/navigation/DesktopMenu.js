@@ -1,6 +1,5 @@
 import style from "../../styles/modules/_nav.module.scss";
 import React, { useState, useEffect } from "react";
-import MenuItems2 from "./MenuItems2";
 import MenuItems from "../JSON/MenuItems";
 import MenuItems3 from "./MenuItems3";
 import { useRouter } from "next/router";

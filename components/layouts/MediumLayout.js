@@ -10,7 +10,7 @@ class MediumLayout extends Component {
     }
 
     section = (
-      <section className={className +' medium--layout grid--container'}>
+      <section className={className +' medium--layout grid--container ' + this.props.className2}>
         {this.props.children}
       </section>
     );

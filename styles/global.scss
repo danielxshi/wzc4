@@ -33,6 +33,7 @@ body {
   box-sizing: border-box;
   font-family: Arial, 宋体;
   text-rendering: optimizelegibility;
+  background-color: $bg-light-blue;
 }
 body {
   margin-top: 106px;
@@ -72,6 +73,16 @@ button {
   &:hover {
     cursor: pointer;
   }
+}
+
+.current--news--module {
+  > div {
+    margin-bottom: $sm-margin;
+  }
+}
+
+.bg--primary--white {
+  background-color: $primary--white;
 }
 
 // Images
@@ -420,6 +431,11 @@ a:hover,
   color: $cta--blue;
 }
 
+.subactive {
+  color: $jet--grey !important;
+  pointer-events: none;
+}
+
 .desktopNavButton {
   position: relative;
   display: inline-block;
@@ -453,13 +469,28 @@ a:hover,
   list-style-type: disc;
 }
 
+.article--list--item--border--radius {
+  border-radius: 11px;
+}
+
+.footer--container {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: $medQuery) {
+  .footer--container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
   body {
     margin-top: 0;
   }
-  .col-start-13 {
-    grid-column-start: 5;
-  }
+  // .col-start-13 {
+  //   grid-column-start: 5;
+  // }
 }
 
 // moved from mobile nav
@@ -716,4 +747,14 @@ $black-color: #111827;
     color: #d1d5db;
     padding: 16px;
   }
+}
+
+.mobile--active{
+  color: $cta--blue;
+  pointer-events: none;
+  font-weight: 700;
+}
+
+.carousel-item{
+  max-height: 70vh;
 }

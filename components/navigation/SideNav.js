@@ -1,47 +1,64 @@
-import SideNavItems from "../JSON/MenuItems";
 import style from "../../styles/modules/_nav.module.scss";
+import MenuItems from "../JSON/MenuItems";
+import { useRouter } from "next/router";
 
-export const renderSwitch = (params) => {
-  if (!params) {
-    return "";
-  }
-  const keys = Object.keys(params);
-  const value = params[keys[0]];
-  const test = params[keys[1]];
+/*
 
-  switch (keys[0]) {
-    case "paragraphLink2":
-      return (
-        <p className="text-2xl leading-loose mr-2">
-          {value.map((obj, index) => (
-            <span className="text-2xl leading-loose" key={index}>
-              {obj.text}
-              <strong>{obj.bold}</strong>
-              <a className="m-0 text--link--red">{obj.link}</a>
-            </span>
-          ))}
-        </p>
-      );
-  }
-};
+Get current path if path is as follows ie: /info 
+pass info arrayItems or use previous method of switch case for culture | info | events
+retrieve messages from info:
+pass infoMessages object into currentItem and return sidenav with respective menuItems 
 
+*/
+
+// export const getCurrentItem = {};
+
+// export const renderSwitch = (params) => {
+//   const router = useRouter();
+//   if (!params) {
+//     return "";
+//   }
+//   const keys = Object.keys(params);
+//   const value = params[keys[0]];
+
+//   switch (keys[0]) {
+//     case "culture":
+//       return (
+//         <div>
+//           {value.map((obj, index) => (
+//             <div className={style["menu--item--container"]}>
+//               <Link href={obj.url}>
+//                 <a
+//                   className={router.pathname == `${obj.url}` ? "subactive" : ""}
+//                 >
+//                   {obj.subtitle}
+//                 </a>
+//               </Link>
+//             </div>
+//           ))}
+//         </div>
+//       );
+
+//     default:
+//       return "";
+//   }
+// };
 export default function SideNav(props) {
-  const value = params[keys[0]];
   return (
-    <div className="col-start-9 row-start-1 col-span-4">
-      <div className="side-nav--container">
-        <h3>{props.category}</h3>
-        <ul>
-          {/* Add map */}
-          {test.map((item, index) => {
-            return (
-              <div key={index} className={style["side-nav--item"]}>
-                <Link href={item.url}>{item.link}</Link>
-              </div>
-            );
-          })}
-        </ul>
+    <>
+      <div className={style["side-nav--container"]}>
+        <div className={style["header--container"]}>
+          <h4 className="text-xl">{props.category}</h4>
+        </div>
+        <div className={style["side-nav--menu--container"]}>
+          {/* <ul>
+              {currentItem.SideNavMenuItems.map((items, index) => {
+                return <div key={index}>{renderSwitch(items)}</div>;
+              })}
+            </ul> */}
+          {props.children}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

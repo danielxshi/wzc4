@@ -8,7 +8,7 @@ const ContactDetailItems = [
   {
     name: 'mail',
     href: '/',
-    contactInfo: 'wenzhouren.ca@outlook.com',
+    contactInfo: 'info@wzcanada.com',
     contactHeader: "邮箱/E-mail Address:"
   },
   {

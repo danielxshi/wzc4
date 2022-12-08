@@ -11,6 +11,7 @@ function Layout({ children }) {
     <>
       <Head>
         <title>Wenzhou Friendship Society</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <DesktopNav />
       <MobileNav/>

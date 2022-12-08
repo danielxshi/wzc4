@@ -72,7 +72,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid1Title,
       date: pid1Date,
@@ -86,7 +86,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid2Title,
       date: pid2Date,
@@ -100,7 +100,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid3Title,
       date: pid3Date,
@@ -114,7 +114,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid4Title,
       date: pid4Date,
@@ -128,7 +128,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid5Title,
       date: pid5Date,
@@ -142,7 +142,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title:
         "2021年世界温州人新生代国情研修班结业 加拿大温州同乡总会选送学员收获满满",
@@ -158,7 +158,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title:
         "浙江侨界“侨心向党再出发”初心之旅开幕式暨嘉兴站活动成功举行（报道之一）",
@@ -239,7 +239,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "党有号召 侨有行动",
       date: "2021-05-20",
@@ -304,7 +304,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid8Title,
       date: pid8Date,
@@ -423,7 +423,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid7Title,
       date: pid7Date,
@@ -588,7 +588,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "2021加拿大温州同乡总会给您拜年啦！",
       date: "2021-02-10",
@@ -662,7 +662,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: pid6Title,
       date: pid6Date,
@@ -733,7 +733,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "“侨连五洲•情满西湖” 特别报道之一",
       date: "2020-12-12",
@@ -810,7 +810,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "丹桂飘香又一年，秋菊溢彩迎中秋",
       date: "2020-09-27",
@@ -904,7 +904,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会会长朱建国先生祝乡亲们国庆快乐（视频）",
       date: "2020-07-01",
@@ -926,7 +926,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "老爸老爸我爱你❤️儿女心里装着你",
       date: "2020-06-20",
@@ -1210,7 +1210,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "今天是母亲节，祝母亲们节日快乐！",
       date: "2020-05-08",
@@ -1381,7 +1381,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "祝愿温州乡亲们五一国际劳动节快乐",
       date: "2020-05-01",
@@ -1455,7 +1455,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会向Finnish Manor老人院捐赠防疫口罩",
       date: "2020-04-24",
@@ -1541,7 +1541,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会再次收到乡亲捐赠防疫物资",
       date: "2020-04-21",
@@ -1619,7 +1619,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会向中侨护理安老院捐赠N95口罩",
       date: "2020-04-18",
@@ -1696,7 +1696,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会官网升级至SSL加密数字证书",
       date: "2020-04-17",
@@ -1742,7 +1742,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会助力温哥华食物银行",
       date: "2020-04-04",
@@ -1839,7 +1839,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "枫华温情 众志成城",
       date: "2020-04-02",
@@ -2000,7 +2000,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会捐款倡议书",
       date: "2020-03-22",
@@ -2058,7 +2058,7 @@ const AssociationListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "association",
     article: {
       title: "加拿大温州同乡总会紧急呼吁防范新冠肺炎",
       date: "2020-03-22",

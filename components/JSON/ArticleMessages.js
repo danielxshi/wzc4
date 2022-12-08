@@ -74,37 +74,6 @@ const pid8PreviewText =
   "加拿大温州同乡总会的姐妹们，国际女神节快乐！世界上若没有女人，这个世界至少要失去十分之五的真，十分之六的善，十分之七的美。 ———冰心三八妇女节，是国际上的惯用称呼，但在面对我们身边人的时候，我们…";
 const pid8 = "15";
 
-//Big news
-//item: 1
-const bin1Title = "";
-const bin1Date = "";
-const bin1ImageURL = "";
-const bin1ID = "";
-
-//item: 2
-const bin2Title = "";
-const bin2Date = "";
-const bin2ImageURL = "";
-const bin2ID = "";
-
-//item: 3
-const bin3Title = "";
-const bin3Date = "";
-const bin3ImageURL = "";
-const bin3ID = "";
-
-//item: 4
-const bin4Title = "";
-const bin4Date = "";
-const bin4ImageURL = "";
-const bin4ID = "";
-
-//item: 5
-const bin5Title = "";
-const bin5Date = "";
-const bin5ImageURL = "";
-const bin5ID = "";
-
 const NewsPreviewItems = [
   {
     id: pid6,
@@ -133,7 +102,13 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
     article: {
       title: pid1Title,
       date: pid1Date,
@@ -255,7 +230,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid2Title,
       date: pid2Date,
@@ -439,7 +415,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid3Title,
       date: pid3Date,
@@ -549,7 +526,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid4Title,
       date: pid4Date,
@@ -618,7 +596,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid5Title,
       date: pid5Date,
@@ -669,7 +648,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大華裔投票促進會「就差你一票」街頭促票活動",
       date: "2021-09-24",
@@ -706,7 +686,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大大選在即 志願者上街促華裔投票 视频",
       date: "2021-09-24",
@@ -733,7 +714,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "温州同乡会线上投票科普动员会-投票指南",
       date: "2021-09-10",
@@ -755,7 +737,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "温州同乡会线上投票科普动员会-朱会长发言和联邦大选简介",
       date: "2021-09-09",
@@ -777,7 +760,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "联邦大选即将来临，华人如何积极参与",
       date: "2021-08-18",
@@ -902,7 +886,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title:
         "2021年世界温州人新生代国情研修班结业 加拿大温州同乡总会选送学员收获满满",
@@ -985,7 +970,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "加拿大温州同乡总会 祝福祖国繁荣昌盛",
       date: "2021-07-01",
@@ -1011,7 +997,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title:
         "浙江侨界“侨心向党再出发”初心之旅开幕式暨嘉兴站活动成功举行（报道之一）",
@@ -1092,7 +1079,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "党有号召 侨有行动",
       date: "2021-05-20",
@@ -1157,7 +1145,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid8Title,
       date: pid8Date,
@@ -1276,7 +1265,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid7Title,
       date: pid7Date,
@@ -1441,7 +1431,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "2021加拿大温州同乡总会给您拜年啦！",
       date: "2021-02-10",
@@ -1515,7 +1506,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: pid6Title,
       date: pid6Date,
@@ -1586,7 +1578,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "“侨连五洲•情满西湖” 特别报道之一",
       date: "2020-12-12",
@@ -1663,7 +1656,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "2020年温州公共外交研修班圆满落幕",
       date: "2020-12-01",
@@ -1735,7 +1729,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "丹桂飘香又一年，秋菊溢彩迎中秋",
       date: "2020-09-27",
@@ -1829,7 +1824,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大考虑CERB后全民继续发钱 每人最高$4800！",
       date: "2020-07-08",
@@ -1956,7 +1952,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "夏天临近 大温地区U-PICK采水果全攻略",
       date: "2020-07-07",
@@ -2517,7 +2514,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "外国人利用“快捷通道”来华进入浙告知书",
       date: "2020-07-02",
@@ -2593,7 +2591,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "始无前例的加拿大日线上庆典，演唱会，PNE，烟花秀",
       date: "2020-07-01",
@@ -2852,7 +2851,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会会长朱建国先生祝乡亲们国庆快乐（视频）",
       date: "2020-07-01",
@@ -2874,7 +2874,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "温州大学瓯江学院2020年人才选聘公告",
       date: "2020-06-27",
@@ -3268,7 +3269,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "浙江高考有6项重大调整，2023年起，语文数学将使用全国卷",
       date: "2020-06-23",
@@ -3470,7 +3472,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "老爸老爸我爱你❤️儿女心里装着你",
       date: "2020-06-20",
@@ -3754,7 +3757,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大人见美国车牌如见鬼！上前质问怎么来的？",
       date: "2020-06-20",
@@ -3975,7 +3979,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "和平门公园关闭！温哥华机场禁止亲友送行！",
       date: "2020-06-20",
@@ -4102,7 +4107,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "杜鲁多疫情发钱统计：每人最多可领1万2加币！",
       date: "2020-06-18",
@@ -4279,7 +4285,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "好消息！加拿大重开中国10个签证中心！",
       date: "2020-06-14",
@@ -4376,7 +4383,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "解放须谨慎，卑诗家庭晚宴疫情！最少15人中招！",
       date: "2020-06-12",
@@ -4563,7 +4571,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "重磅！加拿大可能在7月1日取消旅行限制重开边境",
       date: "2020-06-08",
@@ -4697,7 +4706,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "列治文14天无新增，战胜疫情！BC详细数据公开！",
       date: "2020-06-08",
@@ -5044,7 +5054,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "关于继续协助少数确有严重困难留学人员搭乘临时航班回国的预告",
       date: "2020-06-08",
@@ -5234,7 +5245,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "别说你不会广交会直播了！收齐7份参展指引吧",
       date: "2020-06-07",
@@ -5539,7 +5551,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "民航局出台国际航班管控新策 增加奖励和熔断措施",
       date: "2020-06-07",
@@ -5655,7 +5668,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大宣布强制口罩令新规！即将迎来全民戴口罩",
       date: "2020-06-05",
@@ -5917,7 +5931,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "联邦拨款140亿，帮助经济重启防止二次疫情！",
       date: "2020-06-05",
@@ -6001,7 +6016,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "温哥华的学生们以一种有趣的方式重建多幅著名艺术作品",
       date: "2020-06-02",
@@ -6093,7 +6109,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "习近平寄语广大少年儿童 致以六一节日祝贺",
       date: "2020-05-31",
@@ -6173,7 +6190,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC学校已经做好准备迎接部分学生返校",
       date: "2020-05-29",
@@ -6316,7 +6334,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省再度延长全省紧急状态令｜大温公交六一新规实行",
       date: "2020-05-28",
@@ -6457,7 +6476,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "今夏别想出国旅行！加拿大各省旅行限制令一览",
       date: "2020-05-26",
@@ -6628,7 +6648,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "丽水800亩山地的水土空气“卖”了279万元",
       date: "2020-05-25",
@@ -6736,7 +6757,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省Abbotsford阿勃斯福再次爆发新冠疫情",
       date: "2020-05-23",
@@ -6822,7 +6844,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "世卫组织：520全球现疫情暴发以来单日确诊新冠数最大增幅",
       date: "2020-05-21",
@@ -6916,7 +6939,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省今天进入重启第二阶段，实拍温哥华Robson商业街重启第1天",
       date: "2020-05-20",
@@ -7060,7 +7084,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大全国确诊新冠病例破7.7万 过半已经康复",
       date: "2020-05-18",
@@ -7206,7 +7231,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "Offer来袭，论高中生如何轻松收获加拿大名校offer",
       date: "2020-05-17",
@@ -8089,7 +8115,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省兰利地区一养老院第二次新冠爆发5人死亡，38人感染",
       date: "2020-05-16",
@@ -8174,7 +8201,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "线上跨国听证为侨胞申诉“搭桥” 温州“检侨驿站”为你解烦忧",
       date: "2020-05-14",
@@ -8232,7 +8260,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "31省区市明确返校时间，部分省份公布暑假时间",
       date: "2020-05-12",
@@ -8269,7 +8298,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省餐厅开业时间敲定！但是这几样短期内不会重开",
       date: "2020-05-11",
@@ -8413,7 +8443,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省官员表示：本周末请大家继续待在家里",
       date: "2020-05-09",
@@ -8453,7 +8484,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "今天是母亲节，祝母亲们节日快乐！",
       date: "2020-05-08",
@@ -8624,7 +8656,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省宣布幼儿班至12年级课堂教学将在6月部分恢复，完全恢复预计在9月",
       date: "2020-05-07",
@@ -8794,7 +8827,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "《关于明确新型冠状病毒抗体检测项目有关事项的通知》",
       date: "2020-05-07",
@@ -9043,7 +9077,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省省长宣布五月中旬全省部分重启",
       date: "2020-05-07",
@@ -9199,7 +9234,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "虚假申报紧急救助金CERB将被追责 退款外加2.5倍罚款！",
       date: "2020-05-06",
@@ -9287,7 +9323,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "今日立夏",
       date: "2020-05-05",
@@ -9669,7 +9706,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "奋进正当时！习近平与青年说 @青年人，总书记倡导这样奋斗",
       date: "2020-05-04",
@@ -9846,7 +9884,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "难以置信！海归女2小时被骗1919万…",
       date: "2020-05-03",
@@ -10071,7 +10110,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "照“靓”温州城！2020年“月光经济”产业、建设项目清单出炉！",
       date: "2020-05-03",
@@ -10175,7 +10215,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大全面禁止国民持有多达1500种攻击性武器 今日生效",
       date: "2020-05-02",
@@ -10243,7 +10284,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "祝愿温州乡亲们五一国际劳动节快乐",
       date: "2020-05-01",
@@ -10317,7 +10359,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "大温地区草坪浇水规定于5月1日生效",
       date: "2020-04-29",
@@ -10460,7 +10503,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "防疫健康码国际版程序更新的通知",
       date: "2020-04-29",
@@ -10499,7 +10543,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "最新！5月中国国国际航班计划出炉",
       date: "2020-04-28",
@@ -10738,7 +10783,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title: "秋冬新冠和流感会叠加！张文宏：今年我一定会去打流感疫苗",
       date: "2020-04-27",
@@ -11092,7 +11138,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "温哥华顶级体育俱乐部与水族馆联名发售口罩助力抗疫",
       date: "2020-04-25",
@@ -11268,7 +11315,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "中国新闻",
+    subDirectory: "/info/china",
     article: {
       title:
         "温州市城镇老旧小区改造三年行动方案 计划3年改造85个老旧小区 今年完成改造12个开工20个",
@@ -11417,7 +11465,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会向Finnish Manor老人院捐赠防疫口罩",
       date: "2020-04-24",
@@ -11503,7 +11552,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "BC省政府发放$1000加币 工作者紧急津贴",
       date: "2020-04-23",
@@ -11634,7 +11684,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "特鲁多总理宣布为学生提供新的90亿加元COVID-19资助",
       date: "2020-04-22",
@@ -11809,7 +11860,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会再次收到乡亲捐赠防疫物资",
       date: "2020-04-21",
@@ -11887,7 +11939,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "卑诗省实行有症状都检测 联系医生或打811",
       date: "2020-04-20",
@@ -12034,7 +12087,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "搭机入境中国注意！中国民航局再出最严新规",
       date: "2020-04-19",
@@ -12125,7 +12179,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大入境隔离新规即日生效 违者严惩",
       date: "2020-04-18",
@@ -13344,7 +13399,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会向中侨护理安老院捐赠N95口罩",
       date: "2020-04-18",
@@ -13421,7 +13477,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会官网升级至SSL加密数字证书",
       date: "2020-04-17",
@@ -13467,7 +13524,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "加拿大政府又发钱啦！每人$400！4月9日到账",
       date: "2020-04-05",
@@ -13721,7 +13779,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会助力温哥华食物银行",
       date: "2020-04-04",
@@ -13818,7 +13877,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "不要慌！加拿大抗疫软实力很强，呼吸机、口罩大批生产",
       date: "2020-04-03",
@@ -14257,7 +14317,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "枫华温情 众志成城",
       date: "2020-04-02",
@@ -14418,7 +14479,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "致旅加侨胞、留学生朋友们的一封信",
       date: "2020-03-24",
@@ -14481,7 +14543,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title:
         "加拿大奥委会宣布不参加东京奥运，除非推迟，国际奥委会将在4周内作决定",
@@ -14716,7 +14779,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "多伦多去年迎游客2810万人创新高，中国游客22.2万人",
       date: "2020-03-24",
@@ -14798,7 +14862,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "加拿大新闻",
+    subDirectory: "/info/canada",
     article: {
       title: "华人社区应该行动起来了！向加拿大的医护人员捐赠抗疫防护设备 ...",
       date: "2020-03-24",
@@ -14925,7 +14990,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会捐款倡议书",
       date: "2020-03-22",
@@ -14983,7 +15049,8 @@ const ArticleListMessages = [
     subCategoryClass: "placeholder",
     parentDirectory: "info",
     category: "信息资讯",
-    subcategory: "information2",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
     article: {
       title: "加拿大温州同乡总会紧急呼吁防范新冠肺炎",
       date: "2020-03-22",
@@ -15001,8 +15068,12 @@ const ArticleListMessages = [
   // EventMessages begin here
   {
     id: 96601,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "加拿大華裔投票促進會「就差你一票」街頭促票活動",
       imageURL: "/images/article/1632512090782665.jpeg",
@@ -15077,8 +15148,12 @@ const ArticleListMessages = [
   },
   {
     id: 96602,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "万水千山粽是情 - 加拿大温州同乡总会乡亲欢度端午节",
       content: [
@@ -15164,8 +15239,12 @@ const ArticleListMessages = [
   },
   {
     id: 96603,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
       content: [
@@ -15221,8 +15300,12 @@ const ArticleListMessages = [
   },
   {
     id: 96604,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "七百华人健儿参赛温马助力北京冬奥",
       content: [
@@ -15296,8 +15379,12 @@ const ArticleListMessages = [
   },
   {
     id: 96605,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "加拿大温州同乡总会考察团拜访温州市侨联",
       content: [
@@ -15323,8 +15410,12 @@ const ArticleListMessages = [
   },
   {
     id: 96606,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "快乐相聚同乡会",
       content: [
@@ -15398,8 +15489,12 @@ const ArticleListMessages = [
   },
   {
     id: 96607,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "加拿大温州同乡总会一众侨领家乡行",
       content: [
@@ -15425,8 +15520,12 @@ const ArticleListMessages = [
   },
   {
     id: 96608,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "加拿大温州同乡总会妇女分会欢庆国际三八妇女节",
       content: [
@@ -15500,8 +15599,12 @@ const ArticleListMessages = [
   },
   {
     id: 96609,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2020年活动",
+    subDirectory: "/events/Events2020",
+
     article: {
       title: "加拿大温州同乡总会父老乡亲欢喜过大年",
       content: [
@@ -15700,8 +15803,12 @@ const ArticleListMessages = [
   },
   {
     id: 96610,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "有那么一群生活在白求恩故乡的温州人⋯⋯",
       content: [
@@ -15763,8 +15870,12 @@ const ArticleListMessages = [
   },
   {
     id: 96611,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "摘蓝莓",
       content: [
@@ -15808,8 +15919,12 @@ const ArticleListMessages = [
   },
   {
     id: 96612,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "片片枫叶情",
       content: [
@@ -15853,8 +15968,12 @@ const ArticleListMessages = [
   },
   {
     id: 96613,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "加拿大温州同乡总会吁请加拿 大国会设立南京大屠杀纪念日",
       content: [
@@ -15895,8 +16014,12 @@ const ArticleListMessages = [
   },
   {
     id: 96614,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "英文班开课啦",
       content: [
@@ -15922,8 +16045,12 @@ const ArticleListMessages = [
   },
   {
     id: 96615,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "登山记",
       content: [
@@ -15970,8 +16097,12 @@ const ArticleListMessages = [
 
   {
     id: 96616,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2019年活动",
+    subDirectory: "/events/Events2019",
+
     article: {
       title: "加拿大温州同乡总会父老乡亲欢喜过大年",
       content: [
@@ -16158,8 +16289,12 @@ const ArticleListMessages = [
 
   {
     id: 96617,
+    categoryClass: "events",
+    parentDirectory: "events",
     category: "活动分享",
-    subcategory: "temp",
+    subcategory: "2020年活动",
+    subDirectory: "/events/Events2020",
+
     article: {
       title: "加拿大温州同乡总会换届成立",
       content: [
@@ -16223,10 +16358,14 @@ const ArticleListMessages = [
       ],
     },
   },
+  // Beginning of Cultural Garden Messages
   {
     id: 32201,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡温州",
+    subDirectory: "/culture/wenzhou",
     article: {
       content: [
         {
@@ -16583,8 +16722,11 @@ const ArticleListMessages = [
   },
   {
     id: 32202,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡温州",
+    subDirectory: "/culture/wenzhou",
     article: {
       content: [
         {
@@ -17770,8 +17912,11 @@ const ArticleListMessages = [
   },
   {
     id: 32203,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡的艺术和文化",
+    subDirectory: "/culture/art",
     article: {
       content: [
         {
@@ -17871,8 +18016,11 @@ const ArticleListMessages = [
   },
   {
     id: 32204,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡的艺术和文化",
+    subDirectory: "/culture/art",
     article: {
       content: [
         {
@@ -17978,8 +18126,11 @@ const ArticleListMessages = [
   },
   {
     id: 32205,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡的艺术和文化",
+    subDirectory: "/culture/art",
     article: {
       content: [
         {
@@ -18074,8 +18225,11 @@ const ArticleListMessages = [
   },
   {
     id: 32206,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡温州",
+    subDirectory: "/culture/wenzhou",
     article: {
       content: [
         {
@@ -18141,8 +18295,11 @@ const ArticleListMessages = [
   },
   {
     id: 32207,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡的艺术和文化",
+    subDirectory: "/culture/art",
     article: {
       content: [
         {
@@ -19171,8 +19328,11 @@ const ArticleListMessages = [
   },
   {
     id: 32208,
+    categoryClass: "CulturalPark",
+    parentDirectory: "culture",
     category: "文化园地",
-    subcategory: "temp",
+    subcategory: "家乡温州",
+    subDirectory: "/culture/wenzhou",
     article: {
       content: [
         {

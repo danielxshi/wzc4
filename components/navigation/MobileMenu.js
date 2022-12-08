@@ -58,7 +58,14 @@ function MobileMenu() {
                     smooth={true}
                     spy={true}
                   >
-                    {item.title}
+                    <a
+                      key={index}
+                      className={
+                        router.pathname == `${item.url}` ? "mobile--active" : ""
+                      }
+                    >
+                      {item.title}
+                    </a>
                   </Link>
                 </div>
               </li>

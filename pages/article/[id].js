@@ -5,6 +5,95 @@ import style from "../../styles/modules/_articles.module.scss";
 import Carousel from "../../components/header/Carousel";
 import Image from "next/image";
 
+import SideNews from "../../components/organisms/SideNews";
+import MenuItems from "../../components/JSON/MenuItems";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import style2 from "../../styles/modules/_nav.module.scss";
+
+// temp category
+const category = "信息资讯";
+
+export const renderSwitch2 = (params) => {
+  const router = useRouter();
+  if (!params) {
+    return "";
+  }
+  // const keys = Object.keys(params);
+  // const value = params[keys[0]];
+
+  switch (params) {
+    case "information":
+      return (
+        <ul>
+          {MenuItems.InfoSideNav.map((item, index) => {
+            return (
+              <div className={style2["menu--item--container"]}>
+                <Link href={item.url}>
+                  <a
+                    key={index}
+                    className={
+                      router.pathname == `${item.url}` ? "subactive" : ""
+                    }
+                  >
+                    {item.subtitle}
+                  </a>
+                </Link>
+              </div>
+            );
+          })}
+        </ul>
+      );
+
+    case "event":
+      return (
+        <ul>
+          {MenuItems.EventSideNav.map((item, index) => {
+            return (
+              <div className={style2["menu--item--container"]}>
+                <Link href={item.url}>
+                  <a
+                    key={index}
+                    className={
+                      router.pathname == `${item.url}` ? "subactive" : ""
+                    }
+                  >
+                    {item.subtitle}
+                  </a>
+                </Link>
+              </div>
+            );
+          })}
+        </ul>
+      );
+
+      case "CulturalPark":
+        return (
+          <ul>
+            {MenuItems.CultureSideNav.map((item, index) => {
+              return (
+                <div className={style2["menu--item--container"]}>
+                  <Link href={item.url}>
+                    <a
+                      key={index}
+                      className={
+                        router.pathname == `${item.url}` ? "subactive" : ""
+                      }
+                    >
+                      {item.subtitle}
+                    </a>
+                  </Link>
+                </div>
+              );
+            })}
+          </ul>
+        );
+
+    default:
+      return "";
+  }
+};
+
 /* 
 TODO 
 ---
@@ -406,6 +495,7 @@ export default ({ currentItem }) => (
           parentDirectory={currentItem.parentDirectory}
           subCategory={currentItem.subcategory}
           articleTitle={currentItem.article.title}
+          subDirectory={currentItem.subDirectory}
         >
           {/* {JSON.stringify((currentItem.article.content)[0])} */}
           {currentItem.article.content.map((items, index) => {
@@ -416,7 +506,12 @@ export default ({ currentItem }) => (
             );
           })}
         </ArticleDetailSection>
-        <CurrentNews />
+        {/* <CurrentNews /> */}
+        <SideNews category={category}>
+          {renderSwitch2(currentItem.categoryClass)}
+
+          {/* {JSON.stringify((currentItem.categoryClass))} */}
+        </SideNews>
       </div>
     </div>
   </div>

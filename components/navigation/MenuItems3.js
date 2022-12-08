@@ -2,7 +2,6 @@ import style from "../../styles/modules/_nav.module.scss";
 import MenuMessages from "../JSON/MenuItems";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Router from "router";
 
 export const renderSwitch = (params) => {
   const router = useRouter();
@@ -20,19 +19,27 @@ export const renderSwitch = (params) => {
           {value.map((item, index) => (
             <div className="dropdown">
               <Link href={item.url}>
-                <a className={router.pathname == `${item.url}` || router.pathname  == `${item.p1}` || router.pathname  == `${item.p2}` || router.pathname  == `${item.p3}`|| router.pathname  == `${item.p4}`   ? "active" : ""}>
+                <a
+                  key={index}
+                  className={
+                    router.pathname == `${item.url}` ||
+                    router.pathname == `${item.p1}` ||
+                    router.pathname == `${item.p2}` ||
+                    router.pathname == `${item.p3}` ||
+                    router.pathname == `${item.p4}`
+                      ? "active"
+                      : ""
+                  }
+                >
                   {item.title}
                 </a>
               </Link>
               <ul className="dropdown-content">
                 {item.submenu.map((item2, index) => {
                   return (
-                    <Link
-                      key={index}
-                      className="whitespace-nowrap"
-                      href={item2.url}
-                    >
+                    <Link className="whitespace-nowrap" href={item2.url}>
                       <a
+                        key={index}
                         className={
                           router.pathname == `${item2.url}` ? "superactive" : ""
                         }

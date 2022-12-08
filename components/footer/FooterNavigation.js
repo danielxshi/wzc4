@@ -13,7 +13,7 @@ export default function Footer() {
   const [isOpen, setIsOpen] = useState(false);
   const openMenu = () => setIsOpen(!isOpen);
   return (
-    <MediumLayout>
+    <MediumLayout className2="footer--container">
       <div className={style["footer--container"]}>
         <FooterMenuItems title={MenuItems.FooterC1Title}>
           <ul>
@@ -46,8 +46,8 @@ export default function Footer() {
       </div>
 
       {/* Right section */}
-      <div className="flex col-start-13">
-        <div className="col-start-12 flex flex-wrap ml-16 w-max flex-col ">
+      <div className="flex flex-wrap ">
+        <div className="flex flex-wrap ml-16 w-max flex-col ">
           <FooterMenuTitle title={MenuItems.FooterC5Title} />
           <Image
             objectFit="contain"
@@ -58,7 +58,7 @@ export default function Footer() {
           />
         </div>
 
-        <div className="col-start-12 flex ml-16">
+        <div className="flex-wrap flex ml-16">
           <div>
             <FooterMenuTitle title={MenuItems.FooterC6Title} />
             <ul>

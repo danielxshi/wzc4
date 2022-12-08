@@ -25,7 +25,7 @@ export default function Images(props) {
       <div className="images">
         {currentItems.map((currentItems) => {
           return (
-            <div className="image">
+            <div className="image bg--primary--white article--list--item--border--radius">
               <ArticleListItem
                 title={currentItems.article.title}
                 date={currentItems.article.date}

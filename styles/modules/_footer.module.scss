@@ -94,13 +94,15 @@
   padding-left: $lrg-margin;
   padding-right: $lrg-margin;
   display: grid;
+  margin: auto;
 }
 
 .footer--container {
   display: flex;
+  justify-content: space-between;
 }
 
-.footer--menu--module--container{
+.footer--menu--module--container {
   margin-right: 4rem;
 }
 
@@ -111,6 +113,12 @@
 
   .footer--links--row {
     margin-bottom: $med-margin;
+  }
+
+  .footer--grid--container {
+    > div > small:last-child {
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -123,6 +131,18 @@
 @media only screen and (max-width: $minQuery) {
   .footer--links--row {
     flex-direction: column;
+  }
+
+  .footer--grid--container {
+    max-width: $max--width;
+    padding-left: $sm-margin;
+    padding-right: $sm-margin;
+    display: grid;
+    margin: auto;
+    > div {
+      opacity: 50%;
+      flex-direction: column;
+    }
   }
 
   .footer--container {
