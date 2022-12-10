@@ -45,8 +45,8 @@ export default function ContactInformation() {
                 </div>
 
                 <div>
-                  <caption>{item.contactHeader}</caption>
-                  <caption>{item.contactInfo}</caption>
+                  <span>{item.contactHeader}</span>
+                  <span>{item.contactInfo}</span>
                 </div>
               </li>
             );

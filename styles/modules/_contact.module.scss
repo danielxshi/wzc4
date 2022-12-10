@@ -23,10 +23,13 @@
   .contact--information--item {
     display: flex;
     margin-top: $xs-margin;
-    caption {
+    span {
       margin-left: $xs-margin;
       align-items: center;
       display: flex;
+      opacity: 0.6;
+      letter-spacing: $caption--tk;
+      font-size: $caption--font-sz;
     }
   }
   :first-child {

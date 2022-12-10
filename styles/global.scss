@@ -425,6 +425,28 @@ button {
   }
 }
 
+.dropdown--mobile {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 0 15px;
+  margin-top: 1.35rem;
+  margin-left: -15px;
+  min-width: min-content;
+  li {
+    margin: 8px 0;
+    text-align: left;
+  }
+}
+
+.menu--container--mobile {
+  margin: 0 !important;
+  align-items: flex-end;
+  div:last-child {
+    padding-right: 0;
+  }
+}
+
 button:hover,
 a:hover,
 .active {
@@ -749,12 +771,12 @@ $black-color: #111827;
   }
 }
 
-.mobile--active{
+.mobile--active {
   color: $cta--blue;
   pointer-events: none;
   font-weight: 700;
 }
 
-.carousel-item{
+.carousel-item {
   max-height: 70vh;
 }

@@ -17,10 +17,10 @@ export const renderSwitch = (params) => {
       return (
         <div className="menu--container">
           {value.map((item, index) => (
-            <div className="dropdown">
+            <div key={index} className="dropdown">
               <Link href={item.url}>
                 <a
-                  key={index}
+                  // key={index}
                   className={
                     router.pathname == `${item.url}` ||
                     router.pathname == `${item.p1}` ||
@@ -35,11 +35,11 @@ export const renderSwitch = (params) => {
                 </a>
               </Link>
               <ul className="dropdown-content">
-                {item.submenu.map((item2, index) => {
+                {item.submenu.map((item2, index2) => {
                   return (
                     <Link className="whitespace-nowrap" href={item2.url}>
                       <a
-                        key={index}
+                        key={index2}
                         className={
                           router.pathname == `${item2.url}` ? "superactive" : ""
                         }

@@ -18,28 +18,28 @@ export default function Footer() {
         <FooterMenuItems title={MenuItems.FooterC1Title}>
           <ul>
             {MenuItems.FooterC1MenuItems.map((item, index) => {
-              return <FooterItemLink key={index}>{item.Item}</FooterItemLink>;
+              return <FooterItemLink link={item.Link} key={index}>{item.Item}</FooterItemLink>;
             })}
           </ul>
         </FooterMenuItems>
         <FooterMenuItems title={MenuItems.FooterC2Title}>
           <ul>
             {MenuItems.FooterC2MenuItems.map((item, index) => {
-              return <FooterItemLink key={index}>{item.Item}</FooterItemLink>;
+              return <FooterItemLink link={item.Link} key={index}>{item.Item}</FooterItemLink>;
             })}
           </ul>
         </FooterMenuItems>
         <FooterMenuItems title={MenuItems.FooterC3Title}>
           <ul>
             {MenuItems.FooterC3MenuItems.map((item, index) => {
-              return <FooterItemLink key={index}>{item.Item}</FooterItemLink>;
+              return <FooterItemLink link={item.Link} key={index}>{item.Item}</FooterItemLink>;
             })}
           </ul>
         </FooterMenuItems>
         <FooterMenuItems title={MenuItems.FooterC4Title}>
           <ul>
             {MenuItems.FooterC4MenuItems.map((item, index) => {
-              return <FooterItemLink key={index}>{item.Item}</FooterItemLink>;
+              return <FooterItemLink link={item.Link} key={index}>{item.Item}</FooterItemLink>;
             })}
           </ul>
         </FooterMenuItems>

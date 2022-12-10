@@ -1,8 +1,10 @@
 import style from "../../styles/modules/_contact.module.scss";
 import style2 from "../../styles/modules/_button.module.scss";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
+
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
-import { MdSend } from "react-icons/md";
+import { useState } from "react";
 import { FiSend } from "react-icons/fi";
 
 export default function EmailForm() {
@@ -10,8 +12,18 @@ export default function EmailForm() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
   const router = useRouter();
   const [route, setRoute] = useState();
+
+  // testing
+  const [value, setValue] = useState();
+
+  // Only take numbers
+  const handleChange = (e) => {
+    const value = e.target.value.replace(/\D/g, "");
+    setPhone(value);
+  };
 
   async function handleOnSubmit(e) {
     e.preventDefault();
@@ -20,23 +32,30 @@ export default function EmailForm() {
       if (!field.name) return;
       formData[field.name] = field.value;
     });
-    fetch("/api/mail", {
-      method: "post",
-      body: JSON.stringify(formData),
-    });
+
+    try {
+      await fetch("/api/mail", {
+        method: "post",
+        body: JSON.stringify(formData),
+      });
+    } catch (err) {
+      console.log(err);
+    }
+    // router.push("contact/");
+    router.reload(window.location.pathname)
     console.log(formData);
-    router.push("contact/" + "success");
   }
 
   return (
     <div className={style["form--content--wrapper"]}>
       <h3 className={style["contact--form--title"]}>在线留言</h3>
-      <form onSubmit={handleOnSubmit}>
+      <form method="post" onSubmit={handleOnSubmit}>
         <div className={style["label--input--wrapper"]}>
           <label className={style["form--label"]} htmlFor="name">
             全名
           </label>
           <input
+            required
             className={style["form--input"]}
             type="text"
             name="name"
@@ -47,17 +66,17 @@ export default function EmailForm() {
           />
         </div>
         <div className={style["label--input--wrapper"]}>
-          <label className={style["form--label"]} htmlFor="name">
+          <label className={style["form--label"]} htmlFor="phone">
             电话
           </label>
           <input
+            required
+            value={phone}
             className={style["form--input"]}
             type="text"
-            name="name"
+            name="phone"
             placeholder="请输入手机"
-            onChange={(e) => {
-              setFullname(e.target.value);
-            }}
+            onChange={handleChange}
           />
         </div>
         <div id={style["email"]} className={style["label--input--wrapper"]}>
@@ -65,6 +84,7 @@ export default function EmailForm() {
             主题词
           </label>
           <input
+            required
             className={style["form--input"]}
             type="email"
             name="email"

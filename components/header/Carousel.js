@@ -1,7 +1,4 @@
 import Carousel from "react-bootstrap/Carousel";
-import MediumLayout from "../layouts/MediumLayout";
-// const Hero1 = "../../public/images/hero.png";
-
 
 function UncontrolledExample() {
   return (

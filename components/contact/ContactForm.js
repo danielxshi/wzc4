@@ -7,5 +7,7 @@ export default function ContactForm() {
     <div className={style["container"]}>
       <EmailForm />
     </div>
+
+    
   );
 }
