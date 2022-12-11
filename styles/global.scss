@@ -423,6 +423,28 @@ button {
     margin: 8px 0;
     text-align: left;
   }
+
+  a {
+    border: none;
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    margin: 0 !important;
+    padding-bottom: 16px;
+  }
+
+  position: relative;
+  display: inline-block;
+  margin: 0 !important;
+}
+
+.dropdown-mobile-content {
+  display: none;
+  position: absolute;
+  background-color: $nav-bg-color;
+  z-index: 1;
+  // margin-top: 16px;
 }
 
 .dropdown--mobile {
@@ -437,6 +459,20 @@ button {
     margin: 8px 0;
     text-align: left;
   }
+
+  a {
+    border: none;
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    align-items: center;
+    margin: 0 !important;
+    padding-bottom: 16px;
+  }
+
+  position: relative;
+  display: inline-block;
+  margin: 0 !important;
 }
 
 .menu--container--mobile {
@@ -666,25 +702,7 @@ a:hover,
   margin-top: -50px;
 }
 
-/* Dropdown Button */
-.dropdown {
-  a {
-    border: none;
-    position: relative;
-    display: inline-block;
-    align-content: center;
-    align-items: center;
-    margin: 0 !important;
-    padding-bottom: 16px;
-  }
-}
-
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  margin: 0 !important;
-}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {

@@ -5,7 +5,7 @@ export default function SelfIntro() {
     <div className="bg--primary--white">
       <LargeContent imageSrc={Hero}>
         <div className="mb-4">
-          <h3 className="font-bold text-2xl mb-4">加拿大温州同乡会宗旨</h3>
+          <h3 className="font-bold text-2xl mb-4">加拿大温州同乡总会宗旨</h3>
           <h6 className="font-bold text-xl mb-4">团结、互助、携手、共进</h6>
         </div>
         <p className="mb-4">

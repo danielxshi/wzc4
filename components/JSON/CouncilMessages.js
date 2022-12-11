@@ -121,7 +121,7 @@ const CouncilExecMessages = [
 
         exec: [
           {
-            member: "王写照 叶福忠 叶建伟 朱建道 李益树 吴登金 陈时满 陈传武",
+            member: "王学照 叶福忠 叶建伟 朱建道 李益树 吴登金 陈时满 陈传武",
           },
           {
             member:
@@ -158,7 +158,7 @@ const CouncilExecMessages = [
         exec: [
           {
             member:
-              "王思福 王国光 李长生 陈素萍 陈飞舟 吴光通 林海镭 林万乐 林决定 ",
+              "吴光通 王思福 王国光 李长生 陈素萍 陈飞舟 林海镭 林万山 林决定 ",
           },
 
           {

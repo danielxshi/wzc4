@@ -440,6 +440,8 @@ const AssociationListMessages = [
             imageSRC: "/images/article/1615099293163695.jpg",
           },
         },
+        
+        // Start delete
         {
           paragraph: {
             text: "温州家乡领导温州市政府市委常委 统战部长 施艾珠、             ",
@@ -505,6 +507,8 @@ const AssociationListMessages = [
             text: "瓯海政协副主席 姜化钓、            ",
           },
         },
+
+        // 
         {
           paragraph: {
             text: "市侨联副主席钟体琪等领导参加了联谊会并现场发言，给予加拿大温州同乡总会在2020年抗疫期间在为家乡及居住国做出的贡献给予了充分肯定和高度赞扬。            ",

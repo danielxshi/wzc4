@@ -7,7 +7,7 @@ import ArticleListImage from "../../public/images/article/articlelist1.png";
 const Logo = NavLogo;
 const QRCode = QR;
 const CompanyNameEN = "Wenzhou Friendship Society";
-const CompanyNameCH = "加拿大温州同乡会";
+const CompanyNameCH = "加拿大温州同乡总会";
 const FooterC1Title = "信息咨询";
 const FooterC2Title = "活动分享";
 const FooterC3Title = "文化园地";
@@ -367,7 +367,40 @@ const NavMenuItems = [
   },
 ];
 
+const DayTwoItems = [
+  {
+    test: [
+      {
+        title: "Title A",
+        // desc: "During the preliminary presentations, teams will compete in their divisions for 1 of 5 spots in the finals",
+        // time: "10:10",
+        fulldesc: "A",
+      },
+      {
+        title: "Title B",
+        // desc: "Finalists for each division will be announced at the begining of the Finals Presentations",
+        // time: "12:20",
+        fulldesc: "B",
+      },
+      {
+        title: "Title C",
+        // desc: "",
+        // time: "2:00",
+        fulldesc: "",
+      },
+      {
+        title: "Title D",
+        // desc: "A celebration and wrap up to PIVOT 2022",
+        // time: "2:10",
+        fulldesc: "D",
+      },
+    ],
+  },
+];
+
 const MenuItems = {
+  DayTwoItems: DayTwoItems,
+
   FooterC1MenuItems: FooterC1MenuItems,
   FooterC2MenuItems: FooterC2MenuItems,
   FooterC3MenuItems: FooterC3MenuItems,
