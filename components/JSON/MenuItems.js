@@ -136,12 +136,12 @@ const SideNavMenuItems = [
     events: [
       {
         subtitle: "2020年活动",
-        url: "/events/Events2020",
+        url: "/events/events2020",
       },
 
       {
         subtitle: "2019年活动",
-        url: "/events/Events2019",
+        url: "/events/events2019",
       },
     ],
   },
@@ -230,12 +230,12 @@ const NavMenuItems2 = [
           // },
           {
             subtitle: "2020年活动",
-            url: "/events/Events2020",
+            url: "/events/events2020",
           },
 
           {
             subtitle: "2019年活动",
-            url: "/events/Events2019",
+            url: "/events/events2019",
           },
         ],
       },
@@ -266,147 +266,12 @@ const NavMenuItems2 = [
   },
 ];
 
-// Mobile menu
-const NavMenuItems = [
-  {
-    // Home
-    // pName: "/",
-    cName: "link",
-    title: "首页",
-    url: "/",
-    href: "/",
-  },
-  {
-    // About
-    // pName: "/information",
-    title: "信息咨询",
-    url: "/about/council",
-    submenu: [
-      {
-        title: "董事",
-        url: "/directors",
-      },
-
-      {
-        title: "家乡协会简介",
-        url: "/",
-      },
-    ],
-  },
-  {
-    // Information
-    // pName: "/information",
-    title: "活动分享",
-    url: "/info/information",
-    submenu: [
-      {
-        title: "家乡协会",
-        url: "",
-      },
-
-      {
-        title: "加拿大新闻",
-        url: "",
-      },
-      {
-        title: "中国新闻",
-        url: "",
-      },
-
-      {
-        title: "当地生活信息",
-        url: "",
-      },
-    ],
-  },
-  {
-    // events
-    // pName: "/events",
-    title: "文化园地",
-    url: "/events/events",
-    submenu: [
-      {
-        title: "2022年活动",
-        url: "",
-      },
-      {
-        title: "2021年活动",
-        url: "",
-      },
-      {
-        title: "2020年活动",
-        url: "",
-      },
-      {
-        title: "2019年活动",
-        url: "/events/Events2019",
-      },
-    ],
-  },
-  {
-    // culture
-    // pName: "/culture",
-    title: "同乡会介绍",
-    url: "/culture/CulturalPark",
-    submenu: [
-      {
-        title: "家乡的艺术和文化",
-        url: "",
-      },
-
-      {
-        title: "家乡温州",
-        url: "",
-      },
-    ],
-  },
-  {
-    // pName: "/contact",
-    title: "联系我们",
-    url: "/contact",
-  },
-];
-
-const DayTwoItems = [
-  {
-    test: [
-      {
-        title: "Title A",
-        // desc: "During the preliminary presentations, teams will compete in their divisions for 1 of 5 spots in the finals",
-        // time: "10:10",
-        fulldesc: "A",
-      },
-      {
-        title: "Title B",
-        // desc: "Finalists for each division will be announced at the begining of the Finals Presentations",
-        // time: "12:20",
-        fulldesc: "B",
-      },
-      {
-        title: "Title C",
-        // desc: "",
-        // time: "2:00",
-        fulldesc: "",
-      },
-      {
-        title: "Title D",
-        // desc: "A celebration and wrap up to PIVOT 2022",
-        // time: "2:10",
-        fulldesc: "D",
-      },
-    ],
-  },
-];
-
 const MenuItems = {
-  DayTwoItems: DayTwoItems,
-
   FooterC1MenuItems: FooterC1MenuItems,
   FooterC2MenuItems: FooterC2MenuItems,
   FooterC3MenuItems: FooterC3MenuItems,
   FooterC4MenuItems: FooterC4MenuItems,
 
-  NavMenuItems: NavMenuItems,
   NavMenuItems2: NavMenuItems2,
 
   SideNavMenuItems: SideNavMenuItems,
