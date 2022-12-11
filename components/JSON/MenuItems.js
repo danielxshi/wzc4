@@ -215,10 +215,10 @@ const NavMenuItems2 = [
         title: "活动分享",
         id: 3,
         url: "/events/events",
-        p1: "/events/Events2022",
-        p2: "/events/Events2021",
-        p3: "/events/Events2020",
-        p4: "/events/Events2019",
+        p1: "/events/events2022",
+        p2: "/events/events2021",
+        p3: "/events/events2020",
+        p4: "/events/events2019",
         submenu: [
           // {
           //   subtitle: "2022年活动",
