@@ -7,7 +7,7 @@ export default function NewsLayout(props) {
   return (
     <>
       <Carousel />
-      <div className="grid--container">
+      <div className="grid--container mobile--column--reverse">
         {props.children}
         {/* temp */}
       </div>
