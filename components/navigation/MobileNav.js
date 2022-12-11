@@ -109,7 +109,7 @@ export default function MobileMenu() {
             return (
               <li
                 onClick={handleClick}
-                className={[style["menu--content--item"]].join(" ")}
+                className={[style["menu--content--item"], style["mobile--menu--content--item"]].join(" ")}
                 key={index}
               >
                 <div className={style["mobile--menu--container"]}>

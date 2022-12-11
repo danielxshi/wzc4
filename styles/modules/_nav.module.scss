@@ -322,15 +322,18 @@
   transform: translateY(-4px) rotate(30deg);
 }
 
+.mobile--menu--content--item {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: 3rem;
+}
+
 .menu--content--item {
   display: flex;
   align-items: flex-end;
   grid-column-start: 1;
   grid-column-end: -1;
   position: relative;
-  margin-left: -1rem;
-  margin-right: -1rem;
-  margin-top: 3rem;
 }
 .copyright--container {
   white-space: nowrap;
