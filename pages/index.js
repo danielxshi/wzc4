@@ -56,7 +56,7 @@ function LandingDesktop() {
           {/* Header */}
           <div className={style["header--wrapper"]}>
             <h1 className="text--shadow ">加拿大温州同乡总会</h1>
-            <span className="text--shadow ">团结、互助、携手、共进</span>
+            <span className="text--shadow text-4xl">团结、互助、携手、共进</span>
           </div>
           {/* Nav Items */}
           <nav>
@@ -65,7 +65,7 @@ function LandingDesktop() {
                 return (
                   <li>
                     <Link href={item.link}>
-                      <a className="text--shadow" href="">{item.title}</a>
+                      <a className="text--shadow text-2xl whitespace-nowrap" href="">{item.title}</a>
                     </Link>
                   </li>
                 );

@@ -1,4 +1,127 @@
+// Popular items
+//id:1
+const pid1Title = "粽情端午";
+const pid1Date = "2022-05-15";
+const pid1ImageURL = "/images/article/1652652011399501.jpg";
+const pid1PreviewText =
+  "端午临中夏，千载吉运长，良辰榴花美，丰福九天祥。加拿大温州同乡总会的各位会长、理事、会员大家好！端午佳节来临之际，加拿大温州同乡总会祝乡亲们———身体“粽”是健康，家庭“粽”是美满，爱情“粽”是如糖，...";
+const pid1 = "1";
+
+//id:2
+const pid2Title = "北美新⽣代创业俱乐部⾸次⻅⾯会圆满举⾏";
+const pid2Date = "2022-04-12";
+const pid2ImageURL = "/images/article/1649739622433686.jpeg";
+const pid2PreviewText =
+  "北美新生代创业俱乐部首次⻅面会于 2022 年 4 月 9 日下午在加拿大温州同乡总会会所顺利举行。北美新生代创业俱乐部由温州同乡总会创立，是一个支持和帮助 新生代创业者交流发展的平台，秉承团结、互助、传承、发展…";
+const pid2 = "2";
+
+//id:3
+const pid3Title = "“浙里有爱·四海迎春”新春慰侨活动 - 温哥华站启动仪式成功举办";
+const pid3Date = "2022-01-18";
+const pid3ImageURL = "/images/article/1642476618572741.jpeg";
+const pid3PreviewText =
+  "无论我们走到多远，也走不出祖国的挂牵，无论我们身在何处，都能体会到祖国母亲的温暖！2022年1月16日，由浙江省侨办、浙江省侨联、加拿大温州同乡总会联合举办的“浙里有爱·四海迎春”新春慰侨活动 - 温哥华站启动…";
+const pid3 = "3";
+
+//id:4
+const pid4Title =
+  "加拿大溫州同乡总会在社交媒体上发起了为卑诗省洪水灾民募捐活动";
+const pid4Date = "2021-12-16";
+const pid4ImageURL = "/images/article/1639682988684483.jpeg";
+const pid4PreviewText =
+  "【明報專訊】日前，加拿大溫州同鄉總會在社交媒體上發起了為卑詩省洪水災民募捐活動。短短48小時就募集到來自溫州同鄉的8000仟多元加币善款。這些捐款來自加拿大境內外不同城市的溫州人。溫州同鄉會會長朱建國指出，…";
+const pid4 = "4";
+
+//id:5
+const pid5Title = "同乡会与中华会馆等社团交流";
+const pid5Date = "2021-11-23";
+const pid5ImageURL = "/images/article/1637649646295507.jpeg";
+const pid5PreviewText =
+  "11月21日，温州同乡总会在温哥华皇庭海鲜酒家举办了一个新老侨团的交流晚宴。邀请了列治文市议员欧泽光、国会议员Wilson Miao竞选团队的负责人Elsa Wong，以及近期合作过的一些社团领导参加，包括（排…";
+const pid5 = "5";
+
 const ArticleListMessages = [
+  {
+    id: pid1,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: pid1Title,
+      date: pid1Date,
+      imageURL: pid1ImageURL,
+      previewText: pid1PreviewText,
+    },
+  },
+  {
+    id: pid2,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid2Title,
+      date: pid2Date,
+      imageURL: pid2ImageURL,
+      previewText: pid2PreviewText,
+    },
+  },
+  {
+    id: pid3,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid3Title,
+      date: pid3Date,
+      imageURL: pid3ImageURL,
+      previewText: pid3PreviewText,
+    },
+  },
+  {
+    id: pid4,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid4Title,
+      date: pid4Date,
+      imageURL: pid4ImageURL,
+      previewText: pid4PreviewText,
+    },
+  },
+  {
+    id: pid5,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid5Title,
+      date: pid5Date,
+      imageURL: pid5ImageURL,
+      previewText: pid5PreviewText,
+    },
+  },
+
   {
     id: 96601,
     // category: "信息资讯",
@@ -348,10 +471,98 @@ const Events20 = [
   },
 ];
 
+const Events21 = [
+  {
+    id: pid4,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid4Title,
+      date: pid4Date,
+      imageURL: pid4ImageURL,
+      previewText: pid4PreviewText,
+    },
+  },
+  {
+    id: pid5,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid5Title,
+      date: pid5Date,
+      imageURL: pid5ImageURL,
+      previewText: pid5PreviewText,
+    },
+  },
+];
+
+const Events22 = [
+  {
+    id: pid1,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: pid1Title,
+      date: pid1Date,
+      imageURL: pid1ImageURL,
+      previewText: pid1PreviewText,
+    },
+  },
+  {
+    id: pid2,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid2Title,
+      date: pid2Date,
+      imageURL: pid2ImageURL,
+      previewText: pid2PreviewText,
+    },
+  },
+  {
+    id: pid3,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "/info/association",
+    article: {
+      title: pid3Title,
+      date: pid3Date,
+      imageURL: pid3ImageURL,
+      previewText: pid3PreviewText,
+    },
+  },
+];
+
 const Articles = {
   ArticleListMessages: ArticleListMessages,
   Events19: Events19,
   Events20: Events20,
+  Events21: Events21,
+  Events22: Events22,
 };
 
 export default Articles;

@@ -38,21 +38,21 @@ const FooterC1MenuItems = [
 ];
 
 const FooterC2MenuItems = [
-  // {
-  //   Item: "2022年活动",
-  //   Link: "",
-  // },
-  // {
-  //   Item: "2021年活动",
-  //   Link: "",
-  // },
+  {
+    Item: "2022年活动",
+    Link: "/events/events2022",
+  },
+  {
+    Item: "2021年活动",
+    Link: "/events/events2021",
+  },
   {
     Item: "2020年活动",
-    Link: "/events/Events2020",
+    Link: "/events/events2020",
   },
   {
     Item: "2019年活动",
-    Link: "/events/Events2019",
+    Link: "/events/events2019",
   },
 ];
 
@@ -97,13 +97,21 @@ const InfoSideNav = [
 
 const EventSideNav = [
   {
+    subtitle: "2022年活动",
+    url: "/events/events2022",
+  },
+  {
+    subtitle: "2021年活动",
+    url: "/events/events2021",
+  },
+  {
     subtitle: "2020年活动",
-    url: "/events/Events2020",
+    url: "/events/events2020",
   },
 
   {
     subtitle: "2019年活动",
-    url: "/events/Events2019",
+    url: "/events/events2019",
   },
 ];
 
@@ -134,6 +142,14 @@ const SideNavMenuItems = [
   },
   {
     events: [
+      {
+        subtitle: "2022年活动",
+        url: "/events/events2022",
+      },
+      {
+        subtitle: "2021年活动",
+        url: "/events/events2021",
+      },
       {
         subtitle: "2020年活动",
         url: "/events/events2020",
@@ -220,14 +236,14 @@ const NavMenuItems2 = [
         p3: "/events/events2020",
         p4: "/events/events2019",
         submenu: [
-          // {
-          //   subtitle: "2022年活动",
-          //   url: "/",
-          // },
-          // {
-          //   subtitle: "2021年活动",
-          //   url: "/",
-          // },
+          {
+            subtitle: "2022年活动",
+            url: "/events/events2022",
+          },
+          {
+            subtitle: "2021年活动",
+            url: "/events/events2021",
+          },
           {
             subtitle: "2020年活动",
             url: "/events/events2020",

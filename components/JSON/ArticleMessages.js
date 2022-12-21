@@ -426,7 +426,7 @@ const ArticleListMessages = [
         {
           iframe: {
             videoURL:
-              "https://drive.google.com/file/d/1k1mZeXtkFl__dpu54r5nONtWTfVMPOYs/preview",
+              "/images/article/1643090189871700.mp4",
           },
         },
         {
