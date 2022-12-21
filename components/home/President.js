@@ -10,11 +10,11 @@ export default function SelfIntro() {
       <LargeLayout>
         <div
           className={[
-            style2["small--content--container"],
-            // style[this.props.layoutStyle],
+            style2["small--content--container"], style2["content--container"]
+            // style2[this.props.layoutStyle],
           ].join(" ")}
         >
-          <div className={style["image--link--container"]}>
+          <div className={style2["image--link--container"]}>
             <div className="card--cta">
               <div className="cta--link">
                 {/* <a href="#" class="btn btn-default" role="button">
@@ -33,26 +33,26 @@ export default function SelfIntro() {
           </div>
           <div>
             <div className={style2["small--content--text--wrapper"]}>
-              <div className={style["presidient--text--content"]}>
+              <div className={style2["presidient--text--content"]}>
                 <div>
-                  <h5 className="text-4xl font-black">朱建國會長</h5>
-                  <h5 className="text-xl">Jianguo Zhu, President</h5>
+                  <h5 className={style2["header"]}>朱建國會長</h5>
+                  <h5 className={style2["sub-head"]}>Jianguo Zhu, President</h5>
                 </div>
                 <div>
-                  <h5 className="text-4xl font-black">加拿大温州商會 </h5>
-                  <h5 className="text-xl">
+                  <h5 className={style2["header"]}>加拿大温州商會 </h5>
+                  <h5 className={style2["sub-head"]}>
                     Wenzhou Business Association Canada
                   </h5>
                 </div>
 
                 <div>
-                  <h5 className="text-4xl font-black">加拿大温州同鄉總會 </h5>
-                  <h5 className="text-xl">Wenzhou Friendship Society Canada</h5>
+                  <h5 className={style2["header"]}>加拿大温州同鄉總會 </h5>
+                  <h5 className={style2["sub-head"]}>Wenzhou Friendship Society Canada</h5>
                 </div>
 
                 <div>
-                  <h5 className="text-4xl font-black">國結 五助務事共進</h5>
-                  <h5 className="text-xl">Shared Progress, Shared Success!</h5>
+                  <h5 className={style2["header"]}>國結 五助務事共進</h5>
+                  <h5 className={style2["sub-head"]}>Shared Progress, Shared Success!</h5>
                 </div>
               </div>
             </div>

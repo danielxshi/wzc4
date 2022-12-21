@@ -1,4 +1,4 @@
-@import '../base/variables';
+@import "../base/variables";
 
 %grid--container {
   padding: $lrg-margin;
@@ -14,16 +14,11 @@
   align-items: center;
 }
 
-.presidient--text--content{
-  // color: #c13f3f;
-}
-
-.image--link--container{
+.image--link--container {
   position: relative;
   a {
     position: absolute;
   }
-  
 }
 .header--text {
   * {
@@ -83,7 +78,7 @@
   @extend %grid--container;
 }
 
-.header--content{
+.header--content {
   position: relative;
   z-index: 5;
   color: $primary--white;
@@ -123,7 +118,7 @@
 .bg--dimmer {
   padding: 0 !important;
   margin: 0 !important;
-  content: ' ';
+  content: " ";
   z-index: 1;
   display: block;
   position: absolute;
@@ -141,12 +136,6 @@
       width: 17rem;
       align-self: center;
     }
-  }
-}
-
-@media only screen and (max-width: $medQuery) {
-  .sm--header--bg--extend {
-    padding-top: calc(64px);
   }
 }
 
