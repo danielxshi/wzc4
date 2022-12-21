@@ -14,6 +14,17 @@
   align-items: center;
 }
 
+.presidient--text--content{
+  // color: #c13f3f;
+}
+
+.image--link--container{
+  position: relative;
+  a {
+    position: absolute;
+  }
+  
+}
 .header--text {
   * {
     border-bottom: 1px solid white;
