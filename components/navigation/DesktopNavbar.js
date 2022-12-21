@@ -61,7 +61,7 @@ export default function DesktopNavbar() {
         />
         <Link
           passHref={true}
-          href="/"
+          href="/home"
           // onClick={closeMobileMenu}
         >
           <div className="cursor-pointer ml-neg-1 text-left whitespace-nowrap">

@@ -174,7 +174,7 @@ const NavMenuItems2 = [
     menu: [
       {
         title: "首页",
-        url: "/",
+        url: "/home",
         id: 1,
         submenu: [],
       },

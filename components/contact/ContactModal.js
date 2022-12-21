@@ -18,7 +18,7 @@ const Modal = ({ show, onClose, children, title }) => {
     <StyledModalOverlay>
       <StyledModal>
         <StyledModalHeader>
-          <a href="#" onClick={handleCloseClick}>
+          <a className="text-stone-900" href="#" onClick={handleCloseClick}>
             x
           </a>
         </StyledModalHeader>
@@ -55,7 +55,7 @@ const StyledModal = styled.div`
   background: white;
   width: 500px;
   height: 600px;
-  border-radius: 15px;
+  border-radius: 7px;
   padding: 15px;
 `;
 const StyledModalOverlay = styled.div`

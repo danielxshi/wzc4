@@ -1,6 +1,26 @@
 @import "../base/variables";
 @import "../framework/layout";
 @import "../modules/button.module";
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.239);
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+.header--wrapper, .content{
+  *{
+    z-index: 99;
+    display: block;
+
+  }
+  z-index: 99;
+  display: block;
+}
 .topbar--item--container {
   display: flex;
   align-items: center;
@@ -64,7 +84,7 @@
 .container {
   flex-direction: column;
   // margin-top: -106px;
-  background: url(https://superdevresources.com/wp-content/uploads/2015/12/new-york-background.jpg)
+  background: url(https://media.istockphoto.com/id/642809794/photo/quebec-city-and-old-port-aerial-view-quebec-canada.jpg?s=2048x2048&w=is&k=20&c=gLc5kkz1v5dsTioki3JBR9AEd44kHSscRgdizeJ3Kjc=)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;

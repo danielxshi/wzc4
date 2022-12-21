@@ -30,7 +30,7 @@ export default function SelfIntro() {
         </div>
 
         <a
-          href="/"
+          href="/contact"
           className="text-base text-center mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
           联系我们

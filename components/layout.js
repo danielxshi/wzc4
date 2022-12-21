@@ -8,10 +8,10 @@ import { useRouter } from "next/router";
 
 export const renderSwitch = (params) => {
   const router = useRouter();
-  if (router.pathname !== "/landing" ) {
+  if (router.pathname !== "/" ) {
     // console.log("renderSwitch func " + router.pathname);
     return (<DesktopNav></DesktopNav>)
-  } else if (router.pathname == "/landing") {
+  } else if (router.pathname == "/") {
     return (<></>);
   }
 }

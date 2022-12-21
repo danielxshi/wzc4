@@ -3,7 +3,7 @@ const MenuItems = [
     title: "加拿大温州同乡总会介绍   ",
     src: "/images/article/1621544763723268.jpeg",
     alt: "",
-    link: "/",
+    link: "/home",
   },
   {
     title: "信息资讯   ",
