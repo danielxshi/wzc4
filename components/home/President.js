@@ -10,7 +10,8 @@ export default function SelfIntro() {
       <LargeLayout>
         <div
           className={[
-            style2["small--content--container"], style2["content--container"]
+            style2["small--content--container"],
+            style2["content--container"],
             // style2[this.props.layoutStyle],
           ].join(" ")}
         >
@@ -38,6 +39,13 @@ export default function SelfIntro() {
                   <h5 className={style2["header"]}>朱建國會長</h5>
                   <h5 className={style2["sub-head"]}>Jianguo Zhu, President</h5>
                 </div>
+
+                <div>
+                  <h5 className={style2["header"]}>加拿大温州同鄉總會 </h5>
+                  <h5 className={style2["sub-head"]}>
+                    Wenzhou Friendship Society Canada
+                  </h5>
+                </div>
                 <div>
                   <h5 className={style2["header"]}>加拿大温州商會 </h5>
                   <h5 className={style2["sub-head"]}>
@@ -46,13 +54,10 @@ export default function SelfIntro() {
                 </div>
 
                 <div>
-                  <h5 className={style2["header"]}>加拿大温州同鄉總會 </h5>
-                  <h5 className={style2["sub-head"]}>Wenzhou Friendship Society Canada</h5>
-                </div>
-
-                <div>
                   <h5 className={style2["header"]}>國結 五助務事共進</h5>
-                  <h5 className={style2["sub-head"]}>Shared Progress, Shared Success!</h5>
+                  <h5 className={style2["sub-head"]}>
+                    Shared Progress, Shared Success!
+                  </h5>
                 </div>
               </div>
             </div>
