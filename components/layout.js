@@ -1,22 +1,35 @@
-import Head from 'next/head';
-import DesktopNav from './navigation/DesktopNavbar';
-import FooterNavigation from './footer/FooterNavigation';
-import FooterBottomBar from './footer/FooterBottomBar';
-import Footer from './footer/Footer';
-import MobileNav from './navigation/MobileNav'
+import Head from "next/head";
+import DesktopNav from "./navigation/DesktopNavbar";
+import FooterNavigation from "./footer/FooterNavigation";
+import FooterBottomBar from "./footer/FooterBottomBar";
+import Footer from "./footer/Footer";
+import MobileNav from "./navigation/MobileNav";
+import { useRouter } from "next/router";
 
+export const renderSwitch = (params) => {
+  const router = useRouter();
+  if (router.pathname !== "/landing" ) {
+    // console.log("renderSwitch func " + router.pathname);
+    return (<DesktopNav></DesktopNav>)
+  } else if (router.pathname == "/landing") {
+    return (<></>);
+  }
+}
+;
 
 function Layout({ children }) {
+  const router = useRouter();
   return (
     <>
       <Head>
         <title>Wenzhou Friendship Society</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <DesktopNav />
-      <MobileNav/>
+      {renderSwitch()}
+      {/* <DesktopNav /> */}
+      <MobileNav />
       <main>{children}</main>
-      <Footer/>
+      <Footer />
     </>
   );
 }

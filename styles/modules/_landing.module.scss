@@ -1,0 +1,140 @@
+@import "../base/variables";
+@import "../framework/layout";
+@import "../modules/button.module";
+.topbar--item--container {
+  display: flex;
+  align-items: center;
+  // height: 4rem;
+  padding-top: 1rem;
+  opacity: 0.8;
+  li {
+    margin-left: 0.5rem;
+  }
+}
+.logo--container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-height: 4rem;
+  display: flex;
+
+  .logo {
+    position: relative !important;
+    height: unset !important;
+    margin: 1rem;
+    // width: 100%;
+    // height: 100%;
+    // position: relative !important;
+    // object-fit: cover; // Optional
+  }
+}
+
+.landing--main {
+  background-color: $header--blue;
+}
+
+// Media query topbar margin
+.topbar {
+  position: absolute;
+  right: $lrg-margin;
+  z-index: 10;
+  display: flex;
+  color: $primary--white;
+  margin-top: $sm-margin;
+  min-height: 11rem;
+}
+.logo--container--wrapper {
+  min-height: min-content;
+  height: 5rem;
+  width: 100%;
+  // position: absolute;
+  margin: $sm-margin auto;
+  display: flex;
+  justify-content: center;
+  span {
+    padding: 0.3rem !important;
+  }
+}
+// .logo {
+//   width: 11rem;
+//   height: 11rem;
+//   position: absolute;
+//   margin: 4rem auto;
+// }
+.container {
+  flex-direction: column;
+  // margin-top: -106px;
+  background: url(https://superdevresources.com/wp-content/uploads/2015/12/new-york-background.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  // height: 100vh;
+  width: 100%;
+  display: flex;
+  h1 {
+    font-size: $h2--font-sz;
+  }
+  .content {
+    margin: auto;
+    margin-top: 28vh;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+  }
+  .menu {
+    li {
+      margin: 2rem 1rem;
+    }
+    display: flex;
+    // min-height: 120px;
+    width: 90%;
+    max-width: 700px;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+  }
+  //   padding: 0;
+  //   margin: 0;
+}
+
+.primary-nav--wrapper {
+  h1,
+  h1 a {
+    width: 90%;
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  p {
+    width: 90%;
+    max-width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width: $medQuery) {
+  .media-query--desktop {
+    display: none;
+  }
+  // Media query topbar margin
+  .topbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: $largeQuery) {
+  .container {
+    margin-top: -106px;
+  }
+}

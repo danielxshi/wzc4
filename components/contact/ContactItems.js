@@ -3,7 +3,7 @@ const ContactDetailItems = [
     name: 'location',
     href: '/',
     contactInfo: '4266 Hazelbridge Way, Richmond, BC V6X 0J5',
-    contactHeader: "地址/AddressAddress:"
+    contactHeader: "地址/Address:"
   },
   {
     name: 'mail',

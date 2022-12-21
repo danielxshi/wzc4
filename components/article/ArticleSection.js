@@ -1,12 +1,15 @@
 import ArticleModule from "./ArticleModule";
 import CurrentNews from "./CurrentNewsModule";
+import LargeLayout from "../layouts/LargeLayout";
 
 function ArticleSection(props) {
   return (
     <>
-      <div className="grid--container m-auto bg--primary--white">
-        <ArticleModule />
-        <CurrentNews />
+      <div className="bg--primary--white">
+        <LargeLayout className="bg--primary--white">
+          <ArticleModule />
+          <CurrentNews />
+        </LargeLayout>
       </div>
     </>
   );

@@ -7,7 +7,7 @@ import DesktopMenu from "./DesktopMenu";
 import MenuItems from "../JSON/MenuItems";
 import Image from "next/image";
 
-function Navbar() {
+export default function DesktopNavbar() {
   const [visible, setVisible] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const closeMobileMenu = () => setClick(false);
@@ -52,7 +52,7 @@ function Navbar() {
       <Topbar />
       <nav className={[style["navbar"], style["nav-grid"]].join(" ")}>
         <Image
-        className="cursor-pointer"
+          className="cursor-pointer"
           objectFit="contain"
           width={36}
           height={36}
@@ -77,4 +77,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+// export default DesktopNavbar;
