@@ -66,6 +66,29 @@ const pid8PreviewText =
 const pid8 = "15";
 
 const InfoListMessages = [
+
+  {
+    id: 12241,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    article: {
+      title: "瑞兔迎新春，温暖加国情。加拿大温州同乡总会向温州父老乡亲拜年",
+      date: "2022-12-17",
+      imageURL: "/images/article/温州同乡会 拜年视频.00_00_00_00.Still001.jpg",
+      // previewText: pid1PreviewText,
+      content: [
+        {
+          video: {
+            videoURL: "/images/article/温州同乡会 拜年视频.mp4",
+          },
+        },
+      ],
+    },
+  },
   {
     id: pid1,
     categoryClass: "information",

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MenuItems from "../components/JSON/LandingMenuItems";
 import Carousel from "react-bootstrap/Carousel";
+import buttonStyle from "../styles/modules/_button.module.scss";
 // import logo from "../public/images/logos/white-logo.png"
 
 // Desktop version
@@ -16,10 +17,30 @@ import Carousel from "react-bootstrap/Carousel";
 function LandingDesktop() {
   return (
     <section
-      class={[style["container"], style["media-query--desktop"]].join(" ")}
+      class={[
+        style["container"],
+        style["media-query--desktop"],
+        style["landing--desktop"],
+      ].join(" ")}
     >
+      <Carousel className={style["carousel--desktop"]}>
+        {MenuItems.LandingCarousel.map((item, index) => {
+          return (
+            <Carousel.Item key={index} className={style[""]}>
+              <div className={style["carousel-item--custom"]}>
+                <img
+                  className="d-block w-100 h-100"
+                  src={item.src}
+                  alt={item.alt}
+                />
+              </div>
+            </Carousel.Item>
+          );
+        })}
+      </Carousel>
+
       <div className={style["overlay"]}></div>
-      {/* Placeholder import Logo */}
+
       <div className={style["logo--container--wrapper"]}>
         <div className={style["logo--container"]}>
           <Image
@@ -32,7 +53,6 @@ function LandingDesktop() {
         </div>
       </div>
 
-      {/* Desktop top bar */}
       <div className={style["topbar"]}>
         <ul>
           {MenuItems.LandingTopBar.map((item, index) => {
@@ -48,24 +68,25 @@ function LandingDesktop() {
           })}
         </ul>
       </div>
-      {/* End of desktop */}
 
       <div className={style["content"]}>
-        {/* Desktop nav */}
         <div className={style["primary-nav--wrapper"]}>
-          {/* Header */}
           <div className={style["header--wrapper"]}>
             <h1 className="text--shadow ">加拿大温州同乡总会</h1>
-            <span className="text--shadow text-4xl">团结、互助、携手、共进</span>
+            <span className="text--shadow text-center">
+              团结、互助、携手、共进
+            </span>
           </div>
-          {/* Nav Items */}
+
           <nav>
             <ul className={style["menu"]}>
               {MenuItems.MenuItems.map((item, index) => {
                 return (
-                  <li>
+                  <li className={buttonStyle["text--underline--buton"]}>
                     <Link href={item.link}>
-                      <a className="text--shadow text-2xl whitespace-nowrap" href="">{item.title}</a>
+                      <a className="text--shadow whitespace-nowrap" href="">
+                        {item.title}
+                      </a>
                     </Link>
                   </li>
                 );
@@ -73,54 +94,50 @@ function LandingDesktop() {
             </ul>
           </nav>
         </div>
-        {/* End of desktop export */}
-
-        {/* Mobile only */}
-        {/* Carousel */}
-
-        {/* Mobile image menu items (5) */}
       </div>
     </section>
   );
 }
 
-function UncontrolledExample() {
+function MobileLanding() {
   return (
-    <section className="h-screen media-query--mobile">
-      <Carousel>
-        <Carousel.Item className="h-screen">
-          <img
-            className="carousel--img--container d-block h-100"
-            src="/images/istockphoto-642809794-2048x2048.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3 className="text--shadow">2021活动</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className="h-screen">
-          <img
-            className="carousel--img--container d-block h-100"
-            src="/images/hero2.png"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3 className="text--shadow">2022活动</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item className="h-screen">
-          <img
-            className="carousel--img--container d-block h-100"
-            src="/images/istockphoto-583807614-2048x2048.jpg"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3 className="text--shadow">2021活动</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
+    <section
+      className={[style["h-screen]"], style["media-query--mobile"]].join(" ")}
+    >
+      <Carousel className={style["carousel--mobile"]}>
+        {MenuItems.LandingCarousel.map((item, index) => {
+          return (
+            <Carousel.Item key={index}>
+              <div className={style["carousel-item--custom"]}>
+                <img
+                  className="d-block w-100 h-100"
+                  src={item.src}
+                  alt={item.alt}
+                />
+              </div>
+            </Carousel.Item>
+          );
+        })}
       </Carousel>
+
+      <div className={style["overlay"]}></div>
+
+      <div className={style["logo--container--wrapper"]}>
+        <div className={style["logo--container"]}>
+          <Image
+            objectFit="contain"
+            layout="fill"
+            src="/images/logos/white-logo.png"
+            priority
+            className={style["logo"]}
+          />
+        </div>
+      </div>
+
+      <div className={style["mobile--header--wrapper"]}>
+        <h1 className="text--shadow ">加拿大温州同乡总会</h1>
+        <span className="text--shadow text-center">团结、互助、携手、共进</span>
+      </div>
     </section>
   );
 }
@@ -143,8 +160,8 @@ function LandingNav() {
                   priority
                   className={style["logo"]}
                 />
-                <figcaption class="header__caption" role="presentation">
-                  <h4 class="title title--primary">{item.title}</h4>
+                <figcaption className="header__caption" role="presentation">
+                  <h4 className="title title--primary">{item.title}</h4>
                 </figcaption>
                 <div className="layer"></div>
               </figure>
@@ -160,7 +177,7 @@ export default function Landing() {
   return (
     <div className={style["landing--main"]}>
       <LandingDesktop />
-      <UncontrolledExample />
+      <MobileLanding />
 
       <LandingNav />
     </div>

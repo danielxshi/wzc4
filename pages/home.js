@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       {/* <DeviceDetector> */}
-      <Carousel />
+      {/* <Carousel /> */}
       <President />
       <ArticleSection />
       <NewsPreview />

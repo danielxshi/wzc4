@@ -31,6 +31,21 @@ const MenuItems = [
   },
 ];
 
+const LandingCarousel = [
+  {
+    src: "/images/pexels-james-wheeler-2782485.jpg",
+    alt: "Slide",
+  },
+  {
+    src: "/images/pexels-onur-kurtic-205377.jpg",
+    alt: "Slide",
+  },
+  {
+    src: "/images/pexels-jeremy-lee-11424500.jpg",
+    alt: "Slide",
+  },
+];
+
 const LandingTopBar = [
   {
     title: "同乡总会热线",
@@ -44,6 +59,7 @@ const LandingTopBar = [
 ];
 
 const LandingMenuItems = {
+  LandingCarousel: LandingCarousel,
   LandingTopBar: LandingTopBar,
   MenuItems: MenuItems,
 };

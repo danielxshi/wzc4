@@ -1,6 +1,67 @@
 @import "../base/variables";
 @import "../framework/layout";
 @import "../modules/button.module";
+.h-screen {
+  .carousel,
+  .carousel-item,
+  .carousel-inner {
+    height: 100vh !important;
+    max-height: 100vh !important;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+}
+
+.carousel--mobile {
+  height: 100vh;
+  * div {
+    height: 100%;
+  }
+}
+
+.mobile--header--wrapper {
+  h1 {
+    margin-bottom: $xs-margin;
+    font-weight: 700;
+  }
+  span {
+    font-size: 1.5rem;
+  }
+  position: absolute;
+  z-index: 99;
+  display: block;
+  top: 45%;
+  color: white;
+  text-align: center;
+}
+
+.media-query--mobile {
+  a {
+    display: none;
+  }
+  display: none;
+}
+.content {
+  color: $primary--white;
+  .menu {
+    a {
+      font-size: 2rem !important;
+      margin-top: $lrg-margin;
+      text-align: center;
+    }
+  }
+  .header--wrapper {
+    h1 {
+      font-size: 6rem;
+    }
+    span {
+      font-size: 2.5rem;
+    }
+  }
+}
+
 .overlay {
   position: absolute;
   left: 0;
@@ -12,11 +73,11 @@
   width: 100%;
   z-index: 1;
 }
-.header--wrapper, .content{
-  *{
+.header--wrapper,
+.content {
+  * {
     z-index: 99;
     display: block;
-
   }
   z-index: 99;
   display: block;
@@ -32,10 +93,10 @@
   }
 }
 .logo--container {
-  width: 100%;
+  width: 8rem;
   height: 100%;
   position: relative;
-  max-height: 4rem;
+  max-height: 8rem;
   display: flex;
 
   .logo {
@@ -55,6 +116,7 @@
 
 // Media query topbar margin
 .topbar {
+  top: 0;
   position: absolute;
   right: $lrg-margin;
   z-index: 10;
@@ -62,61 +124,63 @@
   color: $primary--white;
   margin-top: $sm-margin;
   min-height: 11rem;
+  z-index: 130;
 }
 .logo--container--wrapper {
+  top: 0;
+  position: absolute;
   z-index: 99;
   min-height: min-content;
-  height: 5rem;
+  height: 8rem;
   width: 100%;
   // position: absolute;
   margin: $sm-margin auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   span {
     padding: 0.3rem !important;
   }
 }
-// .logo {
-//   width: 11rem;
-//   height: 11rem;
-//   position: absolute;
-//   margin: 4rem auto;
-// }
-.container {
-  flex-direction: column;
-  // margin-top: -106px;
-  background: url(https://media.istockphoto.com/id/642809794/photo/quebec-city-and-old-port-aerial-view-quebec-canada.jpg?s=2048x2048&w=is&k=20&c=gLc5kkz1v5dsTioki3JBR9AEd44kHSscRgdizeJ3Kjc=)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 100vh;
-  // height: 100vh;
-  width: 100%;
-  display: flex;
-  .content {
-    margin: auto;
-    margin-top: 20vh;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-  }
-  .menu {
-    li {
-      margin: 2rem 1rem;
+.landing--desktop {
+  .carousel--desktop {
+    a {
+      display: none;
     }
-    display: flex;
-    // min-height: 120px;
-    width: 90%;
-    max-width: 700px;
-    justify-content: center;
-    margin: auto;
-    vertical-align: middle;
-    text-align: center;
   }
-  //   padding: 0;
-  //   margin: 0;
+  .carousel-item--custom {
+    img {
+      object-fit: cover;
+    }
+    height: 100vh;
+    display: flex;
+    .content {
+      margin: auto;
+      margin-top: 30vh;
+      text-align: center;
+      color: #fff;
+      width: 100%;
+    }
+    .menu {
+      li {
+        margin: 2rem 1rem;
+        width: min-content;
+        * {
+          margin: 0;
+          padding: 0;
+        }
+      }
+      display: flex;
+      // min-height: 120px;
+      width: 80%;
+      justify-content: center;
+      margin: auto;
+      vertical-align: middle;
+      text-align: center;
+    }
+    //   padding: 0;
+    //   margin: 0;
+  }
 }
 
 .primary-nav--wrapper {
@@ -141,6 +205,9 @@
 }
 
 @media only screen and (max-width: $medQuery) {
+  .media-query--mobile {
+    display: block;
+  }
   .media-query--desktop {
     display: none;
   }
@@ -151,6 +218,22 @@
 }
 
 @media only screen and (min-width: $largeQuery) {
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    height: min-content;
+    .menu {
+      display: flex;
+      width: 90% !important;
+      justify-content: space-between !important;
+      max-width: 1200px;
+      margin: auto;
+      li {
+        padding: 0 $xs-margin;
+      }
+    }
+  }
   .container {
     margin-top: -106px;
   }

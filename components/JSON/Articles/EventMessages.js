@@ -42,6 +42,26 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100092,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: "2022年10月9日加拿大工程院院士刘江川访谈录",
+      date: "2022-10-09",
+      imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
+      // previewText: pid1PreviewText,
+    },
+  },
+  {
     id: pid1,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -505,6 +525,26 @@ const Events21 = [
 ];
 
 const Events22 = [
+  {
+    id: 100092,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: "2022年10月9日加拿大工程院院士刘江川访谈录",
+      date: "2022-10-09",
+      imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
+      // previewText: pid1PreviewText,
+    },
+  },
   {
     id: pid1,
     categoryClass: "information",

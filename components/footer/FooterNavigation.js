@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         <div className="flex-wrap flex ml-16">
-          <div>
+          <div className={style["operation--info"]}>
             <FooterMenuTitle title={MenuItems.FooterC6Title} />
             <ul>
               <FooterListItem>{MenuItems.BusinessHours}</FooterListItem>

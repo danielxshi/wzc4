@@ -77,7 +77,7 @@ const CouncilListMessages = [
 
 const CouncilExecMessages = [
   {
-    councilTitle: [
+    councilPresident: [
       {
         title: "会长：",
 
@@ -158,7 +158,7 @@ const CouncilExecMessages = [
         exec: [
           {
             member:
-              "吴光通 王思福 王国光 李长生 陈素萍 陈飞舟 林海镭 林万山 林决定 ",
+              "吴光通 林萬山 陳素萍 夏燕 王國光 陳飛舟 林海鐳 李長生 楊曉东 王思福 楊小敏 孫蓓陽 林决定 林向榮 姜凌 韓惠 施昌东 瞿豪",
           },
 
           {
@@ -171,11 +171,11 @@ const CouncilExecMessages = [
   {
     councilTitle: [
       {
-        title: "秘书长：",
+        title: "秘书处：",
 
         exec: [
           {
-            member: "韩惠 陈捷凯 ",
+            member: "Yvonne 韩惠 周艳子 胡蓉 陈捷凯 ",
           },
         ],
       },

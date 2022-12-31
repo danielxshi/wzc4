@@ -71,6 +71,27 @@ export const renderSwitch = (params) => {
         </div>
       );
 
+      case "councilPresident":
+        return (
+          <div className="">
+            {value.map((obj, index) => (
+              <ul className={style["exec--wrapper"]}> 
+  
+                  <div className={style["title--container"]}>
+                    <h3>{obj.title}</h3>
+                  </div>
+  
+                  <ul key={index} className={style["exec--container"]}>
+                    {obj.exec.map((obj, index) => (
+                      <span className="text-4xl leading-loose">{obj.member}</span>
+                    ))}
+                  </ul>
+  
+              </ul>
+            ))}
+          </div>
+        );
+
     default:
       return "";
   }

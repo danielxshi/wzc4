@@ -12,17 +12,9 @@ export default function SelfIntro() {
           className={[
             style2["small--content--container"],
             style2["content--container"],
-            // style2[this.props.layoutStyle],
           ].join(" ")}
         >
           <div className={style2["image--link--container"]}>
-            <div className="card--cta">
-              <div className="cta--link">
-                {/* <a href="#" class="btn btn-default" role="button">
-                  Lets Go!
-                </a> */}
-              </div>
-            </div>
             <div className="card--content">
               <Image
                 layout="intrinsic"
@@ -32,32 +24,39 @@ export default function SelfIntro() {
               ></Image>
             </div>
           </div>
-          <div>
-            <div className={style2["small--content--text--wrapper"]}>
+          <div className="flex flex-col">
+            <div className={style2["president--content--text--wrapper"]}>
               <div className={style2["presidient--text--content"]}>
-                <div>
-                  <h5 className={style2["header"]}>朱建國會長</h5>
-                  <h5 className={style2["sub-head"]}>Jianguo Zhu, President</h5>
-                </div>
-
-                <div>
+                <div className={style2["content--block"]}>
                   <h5 className={style2["header"]}>加拿大温州同鄉總會 </h5>
                   <h5 className={style2["sub-head"]}>
                     Wenzhou Friendship Society Canada
                   </h5>
                 </div>
-                <div>
+                <div className={style2["content--block"]}>
                   <h5 className={style2["header"]}>加拿大温州商會 </h5>
                   <h5 className={style2["sub-head"]}>
                     Wenzhou Business Association Canada
                   </h5>
                 </div>
-
-                <div>
-                  <h5 className={style2["header"]}>國結 五助務事共進</h5>
-                  <h5 className={style2["sub-head"]}>
-                    Shared Progress, Shared Success!
+                <div className={style2["content--block"]}>
+                  <h5 className={style2["header"]}>
+                    加拿大温州北美新生代俱乐部
                   </h5>
+                  <h5 className={style2["sub-head"]}>
+                    New Generation Club of North America, Wenzhou, Canada
+                  </h5>
+                </div>
+
+                <div className={style2["president--label"]}>
+                  <h5 className={style2["header"]}>朱建國會長</h5>
+                  <h5 className={style2["sub-head"]}>Jianguo Zhu, President</h5>
+                  <a
+                    href="/contact"
+                    className="text-base text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  >
+                    联系我们
+                  </a>
                 </div>
               </div>
             </div>
