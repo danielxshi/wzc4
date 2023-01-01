@@ -155,8 +155,6 @@ function LandingNav() {
                   layout="fill"
                   src={item.src}
                   alt={item.alt}
-                  height={144}
-                  width={144}
                   priority
                   className={style["logo"]}
                 />
