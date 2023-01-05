@@ -4,15 +4,7 @@ import Image from "next/image";
 import MenuItems from "../components/JSON/LandingMenuItems";
 import Carousel from "react-bootstrap/Carousel";
 import buttonStyle from "../styles/modules/_button.module.scss";
-// import logo from "../public/images/logos/white-logo.png"
-
-// Desktop version
-// !TODO
-// Port both mobile and desktop and switch between two with media queries
-// Device detect
-
-// !TODO
-// Create a mobile and desktop template class>>>?
+import ImageWithFallback from "../components/ImageWithFallBack";
 
 function LandingDesktop() {
   return (
@@ -28,10 +20,12 @@ function LandingDesktop() {
           return (
             <Carousel.Item key={index} className={style[""]}>
               <div className={style["carousel-item--custom"]}>
-                <img
+                <ImageWithFallback
                   className="d-block w-100 h-100"
                   src={item.src}
+                  fallbackSrc={item.fallback}
                   alt={item.alt}
+                  layout="fill"
                 />
               </div>
             </Carousel.Item>
@@ -109,7 +103,9 @@ function MobileLanding() {
           return (
             <Carousel.Item key={index}>
               <div className={style["carousel-item--custom"]}>
-                <img
+                <ImageWithFallback
+                  fallbackSrc={item.fallback}
+                  layout="fill"
                   className="d-block w-100 h-100"
                   src={item.src}
                   alt={item.alt}
@@ -176,7 +172,6 @@ export default function Landing() {
     <div className={style["landing--main"]}>
       <LandingDesktop />
       <MobileLanding />
-
       <LandingNav />
     </div>
   );

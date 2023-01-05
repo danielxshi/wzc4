@@ -8,6 +8,7 @@ import FooterItemLink from "./FooterItemLink";
 import FooterListItem from "./FooterListItem";
 import FooterMenuTitle from "./FooterMenuTitle";
 import style from "../../styles/modules/_footer.module.scss"
+import ImageWithFallback from "../ImageWithFallBack";
 
 export default function Footer() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,14 +47,15 @@ export default function Footer() {
       </div>
 
       {/* Right section */}
-      <div className="flex flex-wrap mb-2">
+      <div className="flex flex-wrap">
         <div className="flex flex-wrap ml-16 w-max flex-col ">
           <FooterMenuTitle title={MenuItems.FooterC5Title} />
-          <Image
+          <ImageWithFallback
             objectFit="cover"
             width={180}
             height={180}
             src={MenuItems.QRCode}
+            fallbackSrc={MenuItems.QRFallBack}
             priority
           />
         </div>

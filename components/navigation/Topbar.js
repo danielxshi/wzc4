@@ -8,6 +8,7 @@ import { IoMdMail } from "react-icons/io";
 import SocialItems from "../JSON/SocialItems";
 import Modal from "../contact/ContactModal";
 import MenuItems from "../JSON/MenuItems";
+import ImageWithFallback from "../ImageWithFallBack";
 
 export default function Layout({ children }) {
   const [showModal, setShowModal] = useState(false);
@@ -21,7 +22,13 @@ export default function Layout({ children }) {
         <Modal onClose={() => setShowModal(false)} show={showModal}>
           <div className="flex flex-column justify-items-center m-auto mt-4 pt-4">
             <div className="m-auto w-3/4 h-64 relative">
-              <Image objectFit="contain" layout="fill" src={MenuItems.QRCode} priority />
+              <ImageWithFallback
+                objectFit="contain"
+                layout="fill"
+                fallbackSrc={MenuItems.QRFallBack}
+                src={MenuItems.QRCode}
+                priority
+              />
             </div>
             <div className="m-auto mt-4">
               <h1 className="text-2xl font-bold">加拿大温州同乡总会宗旨</h1>

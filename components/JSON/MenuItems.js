@@ -2,10 +2,12 @@ import { ImLinkedin2 } from "react-icons/im";
 import { FaFacebookF } from "react-icons/fa";
 import NavLogo from "../../public/images/logos/nav-logo.png";
 import QR from "../../public/images/qr.webp";
+import QRfb from "../../public/images/qr.jpg"
 import ArticleListImage from "../../public/images/article/articlelist1.png";
 
 const Logo = NavLogo;
 const QRCode = QR;
+const QRFallBack = QRfb;
 const CompanyNameEN = "Wenzhou Friendship Society";
 const CompanyNameCH = "加拿大温州同乡总会";
 const FooterC1Title = "信息咨询";
@@ -300,6 +302,7 @@ const MenuItems = {
 
   Logo: Logo,
   QRCode: QRCode,
+  QRFallBack: QRFallBack,
 
   PhoneNumber: PhoneNumber,
   BusinessHours: BusinessHours,

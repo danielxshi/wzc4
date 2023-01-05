@@ -34,14 +34,17 @@ const MenuItems = [
 const LandingCarousel = [
   {
     src: "/images/pexels-james-wheeler-2782485.webp",
+    fallback: "/images/pexels-james-wheeler-2782485.webp",
     alt: "Slide",
   },
   {
     src: "/images/pexels-onur-kurtic-205377.webp",
+    fallback: "/images/pexels-onur-kurtic-205377.webp",
     alt: "Slide",
   },
   {
     src: "/images/pexels-jeremy-lee-11424500.webp",
+    fallback: "/images/pexels-jeremy-lee-11424500.webp",
     alt: "Slide",
   },
 ];
