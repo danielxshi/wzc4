@@ -30,7 +30,7 @@
     font-size: 1.5rem;
   }
   position: absolute;
-  z-index: 99;
+  z-index: 1;
   display: block;
   top: 45%;
   color: white;
@@ -76,10 +76,10 @@
 .header--wrapper,
 .content {
   * {
-    z-index: 99;
+    z-index: 1;
     display: block;
   }
-  z-index: 99;
+  z-index: 1;
   display: block;
 }
 .topbar--item--container {
@@ -129,7 +129,7 @@
 .logo--container--wrapper {
   top: 0;
   position: absolute;
-  z-index: 99;
+  z-index: 1;
   min-height: min-content;
   height: 8rem;
   width: 100%;
