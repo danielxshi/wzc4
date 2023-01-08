@@ -2,7 +2,7 @@ import { ImLinkedin2 } from "react-icons/im";
 import { FaFacebookF } from "react-icons/fa";
 import NavLogo from "../../public/images/logos/nav-logo.png";
 import QR from "../../public/images/qr.webp";
-import QRfb from "../../public/images/qr.jpg"
+import QRfb from "../../public/images/qr.jpg";
 import ArticleListImage from "../../public/images/article/articlelist1.png";
 
 const Logo = NavLogo;
@@ -10,10 +10,10 @@ const QRCode = QR;
 const QRFallBack = QRfb;
 const CompanyNameEN = "Wenzhou Friendship Society";
 const CompanyNameCH = "加拿大温州同乡总会";
-const FooterC1Title = "信息咨询";
-const FooterC2Title = "活动分享";
+const FooterC1Title = "同乡会介绍";
+const FooterC2Title = "信息咨询";
 const FooterC3Title = "文化园地";
-const FooterC4Title = "同乡会介绍";
+const FooterC4Title = "活动分享";
 const FooterC5Title = "关注我们";
 const FooterC6Title = "联系我们";
 const BusinessHours = "营业时间: 周一至周五 9:00 - 18:00";
@@ -21,6 +21,13 @@ const PhoneNumber = "604-379-9888";
 const FooterPhone = "服务热线: " + PhoneNumber;
 
 const FooterC1MenuItems = [
+  {
+    Item: "同乡会简介",
+    Link: "/about/council",
+  },
+];
+
+const FooterC2MenuItems = [
   {
     Item: "家乡协会",
     Link: "/info/association",
@@ -39,7 +46,18 @@ const FooterC1MenuItems = [
   },
 ];
 
-const FooterC2MenuItems = [
+const FooterC3MenuItems = [
+  {
+    Item: "同乡文艺",
+    Link: "/culture/art",
+  },
+  {
+    Item: "故乡温州",
+    Link: "/culture/wenzhou",
+  },
+];
+
+const FooterC4MenuItems = [
   {
     Item: "2022年活动",
     Link: "/events/events2022",
@@ -55,24 +73,6 @@ const FooterC2MenuItems = [
   {
     Item: "2019年活动",
     Link: "/events/events2019",
-  },
-];
-
-const FooterC3MenuItems = [
-  {
-    Item: "同乡文艺",
-    Link: "/culture/art",
-  },
-  {
-    Item: "故乡温州",
-    Link: "/culture/wenzhou",
-  },
-];
-
-const FooterC4MenuItems = [
-  {
-    Item: "同乡会简介",
-    Link: "/about/council",
   },
 ];
 
@@ -115,6 +115,10 @@ const EventSideNav = [
     subtitle: "2019年活动",
     url: "/events/events2019",
   },
+  // {
+    // subtitle:"2018年之前活动"
+    // url:  "/events/pastevents",
+  // }
 ];
 
 const CultureSideNav = [
@@ -197,12 +201,12 @@ const NavMenuItems2 = [
         submenu: [],
       },
       {
-        title: "信息咨询",
+        title: "同乡会介绍",
         url: "/about/council",
         submenu: [],
       },
       {
-        title: "活动分享",
+        title: "信息咨询",
         id: 2,
         url: "/info/information",
         p1: "/info/association",

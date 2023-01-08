@@ -42,6 +42,46 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100094,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: "2022年7月2日温州同乡总会对老乡的孩子们考入全球排名50名内给予奖金，以资鼓励",
+      date: "2022-07-02",
+      // imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
+      // previewText: pid1PreviewText,
+    },
+  },
+  {
+    id: 100093,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: "2022年7月2日加拿大国庆纪念活动",
+      date: "2022-07-02",
+      // imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
+      // previewText: pid1PreviewText,
+    },
+  },
+  {
     id: 100092,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -525,6 +565,45 @@ const Events21 = [
 ];
 
 const Events22 = [
+  {
+    id: 100094,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: "2022年7月2日温州同乡总会对老乡的孩子们考入全球排名50名内给予奖金，以资鼓励",
+      date: "2022-07-02",
+      imageURL: "/images/article/微信图片_20220917160811.jpg",
+    },
+  },
+  {
+    id: 100093,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+    subnav: [
+      {
+        subtitle: "temp1",
+      },
+    ],
+    article: {
+      title: "2022年7月2日加拿大国庆纪念活动",
+      date: "2022-07-02",
+      imageURL: "/images/article/微信图片_20220917160920.jpg",
+      // previewText: pid1PreviewText,
+    },
+  },
   {
     id: 100092,
     categoryClass: "information",
