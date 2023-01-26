@@ -57,7 +57,7 @@ const ArticleListMessages = [
     article: {
       title: "2022年7月2日温州同乡总会对老乡的孩子们考入全球排名50名内给予奖金，以资鼓励",
       date: "2022-07-02",
-      // imageURL: "/images/article/still002.jpg",
+      imageURL: "/images/article/still002.jpg",
       // previewText: pid1PreviewText,
     },
   },
