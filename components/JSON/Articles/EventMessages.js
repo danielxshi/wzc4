@@ -59,7 +59,6 @@ const ArticleListMessages = [
         "2022年7月2日温州同乡总会对老乡的孩子们考入全球排名50名内给予奖金，以资鼓励",
       date: "2022-07-02",
       imageURL: "/images/article/still001.jpg",
-      // previewText: pid1PreviewText,
     },
   },
   {
@@ -78,8 +77,7 @@ const ArticleListMessages = [
     article: {
       title: "2022年7月2日加拿大国庆纪念活动",
       date: "2022-07-02",
-      imageURL: "/images/article/still003.jpg",
-      // previewText: pid1PreviewText,
+      imageURL: "/images/article/still003.JPEG",
     },
   },
   {
@@ -99,7 +97,6 @@ const ArticleListMessages = [
       title: "2022年10月9日加拿大工程院院士刘江川访谈录",
       date: "2022-10-09",
       imageURL: "/images/article/still002.jpg",
-      // previewText: pid1PreviewText,
     },
   },
   {
@@ -185,7 +182,7 @@ const ArticleListMessages = [
 
   {
     id: 96601,
-    // category: "信息资讯",
+
     article: {
       title: "温州同乡总会会所举办加拿大中国国家书画院教学活动",
       previewText:
@@ -195,7 +192,7 @@ const ArticleListMessages = [
   },
   {
     id: 96602,
-    // category: "信息资讯",
+
     article: {
       title: "万水千山粽是情 - 加拿大温州同乡总会乡亲欢度端午节",
       previewText:
@@ -205,7 +202,7 @@ const ArticleListMessages = [
   },
   {
     id: 96603,
-    // category: "信息资讯",
+
     article: {
       title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
       previewText:
@@ -215,7 +212,7 @@ const ArticleListMessages = [
   },
   {
     id: 96604,
-    // category: "信息资讯",
+
     article: {
       title: "七百华人健儿参赛温马助力北京冬奥",
       previewText:
@@ -225,7 +222,7 @@ const ArticleListMessages = [
   },
   {
     id: 96605,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会考察团拜访温州市侨联",
       previewText:
@@ -235,7 +232,7 @@ const ArticleListMessages = [
   },
   {
     id: 96606,
-    // category: "信息资讯",
+
     article: {
       title: "快乐相聚同乡会",
       previewText:
@@ -245,7 +242,7 @@ const ArticleListMessages = [
   },
   {
     id: 96607,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会一众侨领家乡行",
       previewText:
@@ -255,7 +252,7 @@ const ArticleListMessages = [
   },
   {
     id: 96608,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会妇女分会欢庆国际三八妇女节",
       previewText:
@@ -265,7 +262,7 @@ const ArticleListMessages = [
   },
   {
     id: 96609,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会父老乡亲欢喜过大年",
       previewText:
@@ -275,7 +272,7 @@ const ArticleListMessages = [
   },
   {
     id: 96610,
-    // category: "信息资讯",
+
     article: {
       title: "有那么一群生活在白求恩故乡的温州人⋯⋯",
       previewText:
@@ -285,7 +282,7 @@ const ArticleListMessages = [
   },
   {
     id: 96611,
-    // category: "信息资讯",
+
     article: {
       title: "摘蓝莓",
       previewText:
@@ -295,7 +292,7 @@ const ArticleListMessages = [
   },
   {
     id: 96612,
-    // category: "信息资讯",
+
     article: {
       title: "片片枫叶情",
       previewText:
@@ -305,7 +302,7 @@ const ArticleListMessages = [
   },
   {
     id: 96613,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会吁请加拿 大国会设立南京大屠杀纪念日",
       previewText:
@@ -315,7 +312,7 @@ const ArticleListMessages = [
   },
   {
     id: 96614,
-    // category: "信息资讯",
+
     article: {
       title: "英文班开课啦",
       previewText:
@@ -325,7 +322,7 @@ const ArticleListMessages = [
   },
   {
     id: 96615,
-    // category: "信息资讯",
+
     article: {
       title: "登山记",
       previewText:
@@ -335,7 +332,7 @@ const ArticleListMessages = [
   },
   {
     id: 96616,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会父老乡亲欢喜过大年",
       previewText:
@@ -345,7 +342,7 @@ const ArticleListMessages = [
   },
   {
     id: 96617,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会换届成立",
       previewText:
@@ -358,7 +355,7 @@ const ArticleListMessages = [
 const Events19 = [
   {
     id: 96601,
-    // category: "信息资讯",
+
     article: {
       title: "温州同乡总会会所举办加拿大中国国家书画院教学活动",
       previewText:
@@ -368,7 +365,7 @@ const Events19 = [
   },
   {
     id: 96602,
-    // category: "信息资讯",
+
     article: {
       title: "万水千山粽是情 - 加拿大温州同乡总会乡亲欢度端午节",
       previewText:
@@ -378,7 +375,7 @@ const Events19 = [
   },
   {
     id: 96603,
-    // category: "信息资讯",
+
     article: {
       title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
       previewText:
@@ -388,7 +385,7 @@ const Events19 = [
   },
   {
     id: 96604,
-    // category: "信息资讯",
+
     article: {
       title: "七百华人健儿参赛温马助力北京冬奥",
       previewText:
@@ -398,7 +395,7 @@ const Events19 = [
   },
   {
     id: 96605,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会考察团拜访温州市侨联",
       previewText:
@@ -408,7 +405,7 @@ const Events19 = [
   },
   {
     id: 96606,
-    // category: "信息资讯",
+
     article: {
       title: "快乐相聚同乡会",
       previewText:
@@ -418,7 +415,7 @@ const Events19 = [
   },
   {
     id: 96607,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会一众侨领家乡行",
       previewText:
@@ -428,7 +425,7 @@ const Events19 = [
   },
   {
     id: 96608,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会妇女分会欢庆国际三八妇女节",
       previewText:
@@ -438,7 +435,7 @@ const Events19 = [
   },
   {
     id: 96610,
-    // category: "信息资讯",
+
     article: {
       title: "有那么一群生活在白求恩故乡的温州人⋯⋯",
       previewText:
@@ -448,7 +445,7 @@ const Events19 = [
   },
   {
     id: 96611,
-    // category: "信息资讯",
+
     article: {
       title: "摘蓝莓",
       previewText:
@@ -458,7 +455,7 @@ const Events19 = [
   },
   {
     id: 96612,
-    // category: "信息资讯",
+
     article: {
       title: "片片枫叶情",
       previewText:
@@ -468,7 +465,7 @@ const Events19 = [
   },
   {
     id: 96613,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会吁请加拿 大国会设立南京大屠杀纪念日",
       previewText:
@@ -478,7 +475,7 @@ const Events19 = [
   },
   {
     id: 96614,
-    // category: "信息资讯",
+
     article: {
       title: "英文班开课啦",
       previewText:
@@ -488,7 +485,7 @@ const Events19 = [
   },
   {
     id: 96615,
-    // category: "信息资讯",
+
     article: {
       title: "登山记",
       previewText:
@@ -498,7 +495,7 @@ const Events19 = [
   },
   {
     id: 96616,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会父老乡亲欢喜过大年",
       previewText:
@@ -511,7 +508,7 @@ const Events19 = [
 const Events20 = [
   {
     id: 96609,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会父老乡亲欢喜过大年",
       previewText:
@@ -522,7 +519,7 @@ const Events20 = [
 
   {
     id: 96617,
-    // category: "信息资讯",
+
     article: {
       title: "加拿大温州同乡总会换届成立",
       previewText:
