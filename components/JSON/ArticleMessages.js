@@ -255,7 +255,7 @@ const ArticleListMessages = [
     article: {
       title: "瑞兔迎新春，温暖加国情。加拿大温州同乡总会向温州父老乡亲拜年",
       date: "2022-12-17",
-      imageURL: "/images/article/温州同乡会 拜年视频.00_00_00_00.Still001.jpg",
+      // imageURL: "/images/article/温州同乡会 拜年视频.00_00_00_00.Still001.jpg",
       // previewText: pid1PreviewText,
       content: [
         {
