@@ -233,7 +233,7 @@ const ArticleListMessages = [
     article: {
       title: "2022年10月9日加拿大工程院院士刘江川访谈录",
       date: "2022-10-09",
-      imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
+      imageURL: "/images/article/still002.jpg",
       // previewText: pid1PreviewText,
       content: [
         {
