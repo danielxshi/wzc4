@@ -590,7 +590,7 @@ const Events22 = [
     article: {
       title: "2022年7月2日加拿大国庆纪念活动",
       date: "2022-07-02",
-      imageURL: "/images/article/微信图片_20220917160920.jpg",
+      imageURL: "/images/preview/still003.webp",
       // previewText: pid1PreviewText,
     },
   },
