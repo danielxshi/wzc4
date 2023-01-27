@@ -3,10 +3,6 @@ import testImage from "../../public/images/article/card1.png";
 import sponsorImage1 from "../../public/images/article/sponsor1.png";
 import ArticleListImage1 from "../../public/images/article/articlelist1.png";
 
-const dummyText =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus consequuntur asperiores necessitatibus, expedita perferendis maxime praesentium? Error, quaerat distinctio? Vel, magni optio maxime ea doloribus repudiandae eaque perferendis dolor facilis!";
-const date = "2022-04-12";
-
 // Popular items
 //id:1
 const pid1Title = "粽情端午";
@@ -113,8 +109,6 @@ const ArticleListMessages = [
       title:
         "2022年7月2日温州同乡总会对老乡的孩子们考入全球排名50名内给予奖金，以资鼓励",
       date: "2022-07-02",
-      // imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
-      // previewText: pid1PreviewText,
       content: [
         {
           image: {
@@ -175,8 +169,6 @@ const ArticleListMessages = [
     article: {
       title: "2022年7月2日加拿大国庆纪念活动",
       date: "2022-07-02",
-      // imageURL: "/images/article/20221008WZFA - 5.00_00_17_00.Still002.jpg",
-      // previewText: pid1PreviewText,
       content: [
         {
           image: {
@@ -234,7 +226,6 @@ const ArticleListMessages = [
       title: "2022年10月9日加拿大工程院院士刘江川访谈录",
       date: "2022-10-09",
       imageURL: "/images/article/still002.jpg",
-      // previewText: pid1PreviewText,
       content: [
         {
           video: {
@@ -255,8 +246,6 @@ const ArticleListMessages = [
     article: {
       title: "瑞兔迎新春，温暖加国情。加拿大温州同乡总会向温州父老乡亲拜年",
       date: "2022-12-17",
-      // imageURL: "/images/article/温州同乡会 拜年视频.00_00_00_00.Still001.jpg",
-      // previewText: pid1PreviewText,
       content: [
         {
           video: {
