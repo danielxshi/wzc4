@@ -172,37 +172,37 @@ const ArticleListMessages = [
       content: [
         {
           image: {
-            imageSRC: "/images/article/微信图片_20220917160920.webp",
+            imageSRC: "/images/article-webp/微信图片_20220917160920.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/微信图片_20220917160941.webp",
+            imageSRC: "/images/article-webp/微信图片_20220917160941.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/微信图片_20230104173159.webp",
+            imageSRC: "/images/article-webp/微信图片_20230104173159.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/微信图片_20230104173317.webp",
+            imageSRC: "/images/article-webp/微信图片_20230104173317.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/微信图片_20230104173323.webp",
+            imageSRC: "/images/article-webp/微信图片_20230104173323.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/微信图片_20230104173331.webp",
+            imageSRC: "/images/article-webp/微信图片_20230104173331.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/article/微信图片_20230104173346.webp",
+            imageSRC: "/images/article-webp/微信图片_20230104173346.webp",
           },
         },
       ],
