@@ -49,16 +49,12 @@ const ArticleListMessages = [
     category: "信息资讯",
     subcategory: "家乡协会",
     subDirectory: "info/association",
-    subnav: [
-      {
-        subtitle: "temp1",
-      },
-    ],
+
     article: {
       title:
         "2022年7月2日温州同乡总会对老乡的孩子们考入全球排名50名内给予奖金，以资鼓励",
       date: "2022-07-02",
-      imageURL: "/images/article/still001.webp",
+      imageURL: "/images/preview/still001.webp",
     },
   },
   {
@@ -69,15 +65,11 @@ const ArticleListMessages = [
     category: "信息资讯",
     subcategory: "家乡协会",
     subDirectory: "info/association",
-    subnav: [
-      {
-        subtitle: "temp1",
-      },
-    ],
+
     article: {
       title: "2022年7月2日加拿大国庆纪念活动",
       date: "2022-07-02",
-      imageURL: "/images/article/still003.JPEG",
+      imageURL: "/images/preview/still003.webp",
     },
   },
   {
@@ -88,15 +80,11 @@ const ArticleListMessages = [
     category: "信息资讯",
     subcategory: "家乡协会",
     subDirectory: "info/association",
-    subnav: [
-      {
-        subtitle: "temp1",
-      },
-    ],
+
     article: {
       title: "2022年10月9日加拿大工程院院士刘江川访谈录",
       date: "2022-10-09",
-      imageURL: "/images/article/still002.jpg",
+      imageURL: "/images/preview/still002.webp",
     },
   },
   {
@@ -107,11 +95,7 @@ const ArticleListMessages = [
     category: "信息资讯",
     subcategory: "家乡协会",
     subDirectory: "info/association",
-    subnav: [
-      {
-        subtitle: "temp1",
-      },
-    ],
+
     article: {
       title: pid1Title,
       date: pid1Date,
@@ -616,11 +600,7 @@ const Events22 = [
     category: "信息资讯",
     subcategory: "家乡协会",
     subDirectory: "info/association",
-    subnav: [
-      {
-        subtitle: "temp1",
-      },
-    ],
+
     article: {
       title: pid1Title,
       date: pid1Date,
