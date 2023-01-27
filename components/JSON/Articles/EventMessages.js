@@ -605,7 +605,7 @@ const Events22 = [
     article: {
       title: "2022年10月9日加拿大工程院院士刘江川访谈录",
       date: "2022-10-09",
-      imageURL: "/images/preview/still002.webp",
+      imageURL: "/images/preview/still003.webp",
     },
   },
   {
