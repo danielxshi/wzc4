@@ -591,7 +591,6 @@ const Events22 = [
       title: "2022年7月2日加拿大国庆纪念活动",
       date: "2022-07-02",
       imageURL: "/images/preview/still003.webp",
-      // previewText: pid1PreviewText,
     },
   },
   {
@@ -607,7 +606,6 @@ const Events22 = [
       title: "2022年10月9日加拿大工程院院士刘江川访谈录",
       date: "2022-10-09",
       imageURL: "/images/article/still002.jpg",
-      // previewText: pid1PreviewText,
     },
   },
   {
