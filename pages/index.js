@@ -51,7 +51,7 @@ function LandingDesktop() {
         <ul>
           {MenuItems.LandingTopBar.map((item, index) => {
             return (
-              <div className={style["topbar--item--container"]}>
+              <div key={index} className={style["topbar--item--container"]}>
                 <span>{item.title} :</span>
                 <div className={style["item--container"]}>
                   <li className="text--shadow">{item.item}</li>
