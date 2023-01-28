@@ -247,14 +247,166 @@ const ArticleListMessages = [
             imageSRC: "/images/article-webp/656.webp",
           },
         },
-        
-        // {
-        //   paragraph: {
-        //     text: "",
-        //   },
-        // },
-        
-
+        {
+          paragraph: {
+            text: "著名歌唱家王大宝一曲“好日子”为晚会的文艺演出开场，接着就是舞蹈“玫瑰玫瑰我爱你”，越剧“十八相送”，温州同乡会的成员表演了合唱“我和我的祖国”，小朋友们表演舞蹈“恭喜恭喜”，温州同乡瞿益顺表演萨克斯管“望春风”，一曲之后，观众反映热烈，他就再加一曲“我爱你，中国”，接着潘心和表演女高音独唱“风吹麦浪”，陈茹琵琶独奏“步步高、友谊天长地久”，执行副会长苏华炜执和郑捷演唱歌曲“念亲恩”，最后，温哥华著名VYSO青少年乐团团员Lucas Wu演奏小提琴“巴赫第二协奏曲第二乐章片段”。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/657.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/658.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/659.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/660.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "表演精彩节目的间隙，展开了九轮大抽奖。奖品包括IFAMILOVE HOME LTD提供的价值51000加币的礼品和代金劵，饭团外卖提供的价值3500加币代金劵和一个月会员费，瑞邦金融资产管理有限公司提供的2000加币红包，潘妙飞会长提供的2000加币红包，以及温州老乡、世界著名水彩画家珊瑚捐赠的画。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/661.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/662.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/664.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/665.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "节目精彩，会场掌声不断，奖品丰富，个个笑逐颜开。人们尝佳肴，品美酒，传信息，致问候，回味虎年，期盼兔年，对未来充满希望……",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/666.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/667.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/668.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/669.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "出席晚宴的嘉宾还有北美艺术家协会会长沈振敏、大华商报社长马在新、加拿大四川同乡总会会长杨莎、加拿大安徵同乡总会会长赵完全、加拿大河北同乡总会会长刘书梅、加拿大华人摄影家协会会长贺朋令、加拿大华人联合总会副会长傅宾清、浙江台州商会会长蔡成杰、浙江嘉兴温州商会名誉会长庄君新等。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/670.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/671.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/672.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/673.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/674.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/675.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "出席晚宴的主办方代表还有温州同乡总会创始会长张进云、温州同乡总会执行会长余海洁、吴登金、苏华炜、常务副会长徐新荣、高光荣、陈默涵、邓春玲、副会长刘晓天、陈森、金涛、秦峰、陈德龙、理事杨晓东、夏燕、吴光通等。",
+          },
+        },
+        {
+          paragraph: {
+            text: "加拿大温州同乡总会还收到国会议员缪宗晏、关慧贞，省议员李耀华，列治文市长马保定发来的贺信，也收到温哥华中华会馆理事长、加拿大华人社团联席会、加拿大华人联合总会、加拿大华人妇女联合会发来的贺信。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/676.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/677.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/678.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/679.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/680.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/681.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/682.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/683.webp",
+          },
+        },
       ],
     },
   },
