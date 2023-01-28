@@ -93,6 +93,33 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100095,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会鸿兔大展盛宴迎春 ",
+      date: "2023-01-15",
+      imageURL: "/images/preview/640.webp",
+      content: [
+        {
+          image: {
+            imageSRC: "/images/preview/640.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "（本网讯）2023年1月15日晚，癸卯玉兔向我们奔跑而来，居住在大温哥华地区的温州籍乡亲们在皇廷酒家齐聚一堂共迎新春，加拿大温州同乡总会“瑞兔迎新春 温情遍加国”春节联欢晚宴在喜气洋洋的欢乐声中盛大举行。",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: 100094,
     categoryClass: "information",
     subCategoryClass: "placeholder",

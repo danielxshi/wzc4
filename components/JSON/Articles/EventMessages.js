@@ -42,6 +42,22 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100095,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title:
+        "加拿大温州同乡总会鸿兔大展盛宴迎春 ",
+      date: "2023-01-15",
+      imageURL: "/images/preview/640.webp",
+    },
+  },
+  {
     id: 100094,
     categoryClass: "information",
     subCategoryClass: "placeholder",
