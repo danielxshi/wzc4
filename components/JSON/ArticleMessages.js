@@ -156,6 +156,12 @@ const ArticleListMessages = [
             imageSRC: "/images/article-webp/645.webp",
           },
         },
+
+        {
+          paragraph: {
+            text: "温哥华中华会馆理事长钱华、加拿大华人社团联席会执行主席薛晓梅、联席会荣誉主席王典奇、加拿大华人妇女联合会会长徐凌、加拿大浙江同乡联合会主席潘妙飞、瑞邦金融资产管理有限公司公司总经理理廖子蔚代表大温华社分别发表了热情的致词，薛晓梅主席借此机会对一直以来帮助和支持联席会的温州老乡和各界精英表达深切谢意。",
+          },
+        },
         {
           image: {
             imageSRC: "/images/article-webp/646.webp",
@@ -164,9 +170,10 @@ const ArticleListMessages = [
 
         {
           paragraph: {
-            text: "",
+            text: "余海洁、吴登金、苏华炜三位温州同乡总会执行会长也一起登台发表热情的祝福，祝愿乡亲们在新的一年和和美美，平平安安，祝愿大家事业有成，万事如意！",
           },
         },
+
         {
           image: {
             imageSRC: "/images/article-webp/647.webp",
@@ -175,16 +182,79 @@ const ArticleListMessages = [
 
         {
           paragraph: {
-            text: "",
+            text: "接着，李朝晖、胡丕峰送上墨写的对联，衷心祝福乡亲们新春愉快。",
           },
         },
-        
+        {
+          image: {
+            imageSRC: "/images/article-webp/648.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/649.webp",
+          },
+        },
 
         {
           paragraph: {
-            text: "",
+            text: "嘉宾讲话后，主持人邀请现场嘉宾拍合影，现场嘉宾和温州同乡会理事以及温州同乡会理事分别合影留念。",
           },
         },
+        {
+          image: {
+            imageSRC: "/images/article-webp/650.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/651.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/652.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "然后，主持人宣布晚宴开始，一道道精美菜肴陆续上桌，一杯杯嘉酿美酒飘香四座，乡亲们举杯邀友，互致问候，品尝美食，畅叙友情，全场充满欢声笑语，席间弥漫浓郁年味。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/653.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/654.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/655.webp",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/655-1.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/656.webp",
+          },
+        },
+        
+        // {
+        //   paragraph: {
+        //     text: "",
+        //   },
+        // },
+        
+
       ],
     },
   },
