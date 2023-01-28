@@ -19,7 +19,7 @@ export const renderSwitch = (params) => {
   const value = params[keys[0]];
 
   switch (keys[0]) {
-    case "culture":
+    case "events":
       return (
         <div>
           {value.map((obj, index) => (

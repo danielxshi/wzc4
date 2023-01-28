@@ -59,6 +59,10 @@ const FooterC3MenuItems = [
 
 const FooterC4MenuItems = [
   {
+    Item: "2023年活动",
+    Link: "/events/events2023",
+  },
+  {
     Item: "2022年活动",
     Link: "/events/events2022",
   },
@@ -99,6 +103,10 @@ const InfoSideNav = [
 
 const EventSideNav = [
   {
+    subtitle: "2023年活动",
+    url: "/events/events2023",
+  },
+  {
     subtitle: "2022年活动",
     url: "/events/events2022",
   },
@@ -116,8 +124,8 @@ const EventSideNav = [
     url: "/events/events2019",
   },
   // {
-    // subtitle:"2018年之前活动"
-    // url:  "/events/pastevents",
+  // subtitle:"2018年之前活动"
+  // url:  "/events/pastevents",
   // }
 ];
 
@@ -148,6 +156,10 @@ const SideNavMenuItems = [
   },
   {
     events: [
+      {
+        subtitle: "2023年活动",
+        url: "/events/events2023",
+      },
       {
         subtitle: "2022年活动",
         url: "/events/events2022",
@@ -242,6 +254,10 @@ const NavMenuItems2 = [
         p3: "/events/events2020",
         p4: "/events/events2019",
         submenu: [
+          {
+            subtitle: "2023年活动",
+            url: "/events/events2023",
+          },
           {
             subtitle: "2022年活动",
             url: "/events/events2022",

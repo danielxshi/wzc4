@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import style from "../../styles/modules/_nav.module.scss";
 
-const category = "2022年活动";
+const category = "2023年活动";
 
 export const renderSwitch = (params) => {
   const router = useRouter();
@@ -42,11 +42,11 @@ export const renderSwitch = (params) => {
   }
 };
 
-function Events2022({ ArticleItems }) {
+function Events2023({ ArticleItems }) {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    const response = ArticleMessages.Events22;
+    const response = ArticleMessages.Events23;
     setImages(response);
   }, []);
 
@@ -69,4 +69,4 @@ function Events2022({ ArticleItems }) {
   );
 }
 
-export default Events2022;
+export default Events2023;

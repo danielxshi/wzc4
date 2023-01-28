@@ -51,8 +51,7 @@ const ArticleListMessages = [
     subDirectory: "info/association",
 
     article: {
-      title:
-        "加拿大温州同乡总会鸿兔大展盛宴迎春 ",
+      title: "加拿大温州同乡总会鸿兔大展盛宴迎春 ",
       date: "2023-01-15",
       imageURL: "/images/preview/640.webp",
     },
@@ -656,12 +655,31 @@ const Events22 = [
   },
 ];
 
+const Events23 = [
+  {
+    id: 100095,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会鸿兔大展盛宴迎春 ",
+      date: "2023-01-15",
+      imageURL: "/images/preview/640.webp",
+    },
+  },
+];
+
 const Articles = {
   ArticleListMessages: ArticleListMessages,
   Events19: Events19,
   Events20: Events20,
   Events21: Events21,
   Events22: Events22,
+  Events23: Events23,
 };
 
 export default Articles;
