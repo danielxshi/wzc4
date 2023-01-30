@@ -3,6 +3,7 @@ import style from "../../styles/modules/_header.module.scss";
 import LargeLayout from "../layouts/LargeLayout";
 import Image from "next/image";
 import style2 from "../../styles/modules/_banner.module.scss";
+import { AiFillFile } from "react-icons/ai";
 
 export default function SelfIntro() {
   return (
@@ -51,12 +52,33 @@ export default function SelfIntro() {
                 <div className={style2["president--label"]}>
                   <h5 className={style2["header"]}>朱建國會長</h5>
                   <h5 className={style2["sub-head"]}>Jianguo Zhu, President</h5>
-                  <a
-                    href="/contact"
-                    className="text-base text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                  >
-                    联系我们
-                  </a>
+                  <div className="flex flex-row-reverse">
+                    <a
+                      href="/contact"
+                      className=" button-contact mb-4 text-base text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    >
+                      联系我们
+                    </a>
+
+                    <div className="button-pdf--wrapper">
+                      <a
+                        target="_blank"
+                        href="/pdf/20230128 声明-中英文.pdf"
+                        className="button-pdf mb-2 justify-center button-pdf text-base text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                      >
+                        <AiFillFile /> &nbsp; 公开声明
+                      </a>
+                    </div>
+                    <div className="button-pdf--wrapper">
+                      <a
+                        target="_blank"
+                        href="/pdf/行为准则-中英文.pdf"
+                        className="button-pdf mb-2 justify-center button-pdf text-base text-center mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                      >
+                        <AiFillFile /> &nbsp; 行为准则
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

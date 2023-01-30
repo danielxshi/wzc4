@@ -94,20 +94,20 @@ const AssociationListMessages = [
       previewText: pid2PreviewText,
     },
   },
-  {
-    id: pid3,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title: pid3Title,
-      date: pid3Date,
-      imageURL: pid3ImageURL,
-      previewText: pid3PreviewText,
-    },
-  },
+  // {
+  //   id: pid3,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title: pid3Title,
+  //     date: pid3Date,
+  //     imageURL: pid3ImageURL,
+  //     previewText: pid3PreviewText,
+  //   },
+  // },
   {
     id: pid4,
     categoryClass: "information",
@@ -136,168 +136,168 @@ const AssociationListMessages = [
       previewText: pid5PreviewText,
     },
   },
-  {
-    id: 11,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title:
-        "2021年世界温州人新生代国情研修班结业 加拿大温州同乡总会选送学员收获满满",
-      date: "2021-07-20",
-      imageURL: "/images/article/1626759522314649.jpg",
-      previewText:
-        "7月16日，2021年世界温州人新生代国情研修班结业仪式在世界温州人家园举行，来自海内外各行各业的50余名新生代温州人汇聚一堂，学习习近平总书记“七一”重要讲话精神，参观中共省一大会址，考察苏步青故居、山根音…",
-    },
-  },
-  {
-    id: 13,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title:
-        "浙江侨界“侨心向党再出发”初心之旅开幕式暨嘉兴站活动成功举行（报道之一）",
-      date: "2021-05-20",
-      imageURL: "/images/article/1621544652571877.jpeg",
-      previewText:
-        "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚…",
-      content: [
-        {
-          paragraph: {
-            text: "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚庄，中国侨商会常务副会长、浙江省侨商会会长廖春荣，浙江日报报业集团党委委员、副总编辑王水明，中共嘉兴市委常委、统战部部长张仁贵，浙江省侨联副主席、省侨青联会长林东，浙江省侨联副主席、省侨商会常务副会长陈乃科，浙江省侨联副主席、宁波市侨商会监事长傅旭敏等相关领导和嘉宾出席开幕式。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544798211298.jpeg",
-          },
-        },
-        {
-          paragraph: {
-            text: "全球侨胞联动，致敬百年华诞            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544678488021.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544704332249.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544721918017.jpeg",
-          },
-        },
-        {
-          paragraph: {
-            text: "整场开幕式线上线下结合，海内海外联动。  ",
-          },
-        },
-        {
-          space: {},
-        },
-        {
-          paragraph: {
-            text: "祖国的变化和发展、与会领导对侨胞的鼓励和肯定都深深感动着每一位侨胞的赤子之心！            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "作为侨胞代表，加拿大温州同乡总会常务副会长  吴登金先生在活动现场深受感动，他不无感慨的表示，「我们每一位生活在国外的侨胞都是一张行走的中国名牌，我们为强大的母国感到自豪，也要代表中国人，树立好在加拿大的中国形象」。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544745797314.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544763723268.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544775696305.jpeg",
-          },
-        },
-      ],
-    },
-  },
-  {
-    id: 14,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title: "党有号召 侨有行动",
-      date: "2021-05-20",
-      imageURL: "/images/article/1621544441308810.jpeg",
-      previewText:
-        "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。浙江省侨商会、浙江省侨界…",
-      content: [
-        {
-          paragraph: {
-            text: "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544484558547.jpeg",
-          },
-        },
-        {
-          paragraph: {
-            text: "一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "浙江省侨商会、浙江省侨界青年联合会、浙江省侨联妇女工作委员会、《浙商》杂志社主办，嘉兴市侨联、宁波市侨联、丽水市侨联、侨音融媒体中心承办。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "这场重走浙江革命之路的初心之旅正是侨胞在新时代逐梦伟大征程中的一次整装再出发。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544453807990.jpeg",
-          },
-        },
-        {
-          paragraph: {
-            text: "此次活动「加拿大温州同乡总会常务副会长吴登金先生代表出席。」            ",
-          },
-        },
-        {
-          space: {},
-        },
-        {
-          paragraph: {
-            text: "党有号召，侨有行动。此次初心之旅活动线上线下结合，开闭幕式将面向200多万浙籍侨胞全球直播，教育引领广大浙籍侨胞线上线下学史明理、学史增信、学史崇德、学史力行，在浙江这片红色土地上，扛起“五大历史使命”，在侨界中掀起一股学史悟思、铭记党恩、增信崇德、勇开新局的热潮，在“重要窗口 侨有担当”中贡献力量，以实际行动和优异成绩庆祝建党100周年。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1621544468341450.jpeg",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   id: 11,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title:
+  //       "2021年世界温州人新生代国情研修班结业 加拿大温州同乡总会选送学员收获满满",
+  //     date: "2021-07-20",
+  //     imageURL: "/images/article/1626759522314649.jpg",
+  //     previewText:
+  //       "7月16日，2021年世界温州人新生代国情研修班结业仪式在世界温州人家园举行，来自海内外各行各业的50余名新生代温州人汇聚一堂，学习习近平总书记“七一”重要讲话精神，参观中共省一大会址，考察苏步青故居、山根音…",
+  //   },
+  // },
+  // {
+  //   id: 13,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title:
+  //       "浙江侨界“侨心向党再出发”初心之旅开幕式暨嘉兴站活动成功举行（报道之一）",
+  //     date: "2021-05-20",
+  //     imageURL: "/images/article/1621544652571877.jpeg",
+  //     previewText:
+  //       "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚…",
+  //     content: [
+  //       {
+  //         paragraph: {
+  //           text: "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚庄，中国侨商会常务副会长、浙江省侨商会会长廖春荣，浙江日报报业集团党委委员、副总编辑王水明，中共嘉兴市委常委、统战部部长张仁贵，浙江省侨联副主席、省侨青联会长林东，浙江省侨联副主席、省侨商会常务副会长陈乃科，浙江省侨联副主席、宁波市侨商会监事长傅旭敏等相关领导和嘉宾出席开幕式。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544798211298.jpeg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "全球侨胞联动，致敬百年华诞            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544678488021.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544704332249.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544721918017.jpeg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "整场开幕式线上线下结合，海内海外联动。  ",
+  //         },
+  //       },
+  //       {
+  //         space: {},
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "祖国的变化和发展、与会领导对侨胞的鼓励和肯定都深深感动着每一位侨胞的赤子之心！            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "作为侨胞代表，加拿大温州同乡总会常务副会长  吴登金先生在活动现场深受感动，他不无感慨的表示，「我们每一位生活在国外的侨胞都是一张行走的中国名牌，我们为强大的母国感到自豪，也要代表中国人，树立好在加拿大的中国形象」。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544745797314.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544763723268.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544775696305.jpeg",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   id: 14,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title: "党有号召 侨有行动",
+  //     date: "2021-05-20",
+  //     imageURL: "/images/article/1621544441308810.jpeg",
+  //     previewText:
+  //       "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。浙江省侨商会、浙江省侨界…",
+  //     content: [
+  //       {
+  //         paragraph: {
+  //           text: "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544484558547.jpeg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "浙江省侨商会、浙江省侨界青年联合会、浙江省侨联妇女工作委员会、《浙商》杂志社主办，嘉兴市侨联、宁波市侨联、丽水市侨联、侨音融媒体中心承办。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "这场重走浙江革命之路的初心之旅正是侨胞在新时代逐梦伟大征程中的一次整装再出发。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544453807990.jpeg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "此次活动「加拿大温州同乡总会常务副会长吴登金先生代表出席。」            ",
+  //         },
+  //       },
+  //       {
+  //         space: {},
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "党有号召，侨有行动。此次初心之旅活动线上线下结合，开闭幕式将面向200多万浙籍侨胞全球直播，教育引领广大浙籍侨胞线上线下学史明理、学史增信、学史崇德、学史力行，在浙江这片红色土地上，扛起“五大历史使命”，在侨界中掀起一股学史悟思、铭记党恩、增信崇德、勇开新局的热潮，在“重要窗口 侨有担当”中贡献力量，以实际行动和优异成绩庆祝建党100周年。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1621544468341450.jpeg",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     id: pid8,
     categoryClass: "information",
@@ -417,175 +417,175 @@ const AssociationListMessages = [
       ],
     },
   },
-  {
-    id: pid7,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title: pid7Title,
-      date: pid7Date,
-      imageURL: pid7ImageURL,
-      previewText: pid7PreviewText,
-      content: [
-        {
-          paragraph: {
-            text: "加拿大温州同乡总会在温州举行2021年新春酒会，酒会圆满成功！            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1615099293163695.jpg",
-          },
-        },
+  // {
+  //   id: pid7,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title: pid7Title,
+  //     date: pid7Date,
+  //     imageURL: pid7ImageURL,
+  //     previewText: pid7PreviewText,
+  //     content: [
+  //       {
+  //         paragraph: {
+  //           text: "加拿大温州同乡总会在温州举行2021年新春酒会，酒会圆满成功！            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1615099293163695.jpg",
+  //         },
+  //       },
         
-        // Start delete
-        {
-          paragraph: {
-            text: "温州家乡领导温州市政府市委常委 统战部长 施艾珠、             ",
-          },
-        },
-        {
-          paragraph: {
-            text: "原市政协主席 余梅生、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市人大副主任 黄荣定、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市人大副秘书长  林春霞、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市人大民宗侨外委主任 金传顺、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市政协港澳台侨委主任 吴惠芳 、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市统战部副部长 叶军 、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市侨联主席 郑宏国、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "市政府副秘书长 方培雷 、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "华侨总商会会长冯定献、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "温州市国际商会会长 苏立盛、鹿城区侨联主席 李前、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "蔡姬辉统战部海外联络处处长 蔡姬辉 、            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "瓯海政协副主席 姜化钓、            ",
-          },
-        },
+  //       // Start delete
+  //       {
+  //         paragraph: {
+  //           text: "温州家乡领导温州市政府市委常委 统战部长 施艾珠、             ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "原市政协主席 余梅生、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市人大副主任 黄荣定、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市人大副秘书长  林春霞、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市人大民宗侨外委主任 金传顺、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市政协港澳台侨委主任 吴惠芳 、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市统战部副部长 叶军 、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市侨联主席 郑宏国、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "市政府副秘书长 方培雷 、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "华侨总商会会长冯定献、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "温州市国际商会会长 苏立盛、鹿城区侨联主席 李前、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "蔡姬辉统战部海外联络处处长 蔡姬辉 、            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "瓯海政协副主席 姜化钓、            ",
+  //         },
+  //       },
 
-        // 
-        {
-          paragraph: {
-            text: "市侨联副主席钟体琪等领导参加了联谊会并现场发言，给予加拿大温州同乡总会在2020年抗疫期间在为家乡及居住国做出的贡献给予了充分肯定和高度赞扬。            ",
-          },
-        },
-        {
-          space: {},
-        },
-        {
-          paragraph: {
-            text: "特别令人感动的是：温州市政府侨务部门用真心换真心，真正调动起了我们海外侨胞侨眷助力中国发展的积极性。在疫情期间加拿大温州同乡总会各位会长、理事带头捐款，会员们积极响应，在极短的时间里为支援家乡抗疫和居住国抗疫2次捐款！充分体现了理事们在协会中的巨大影响力和号召力！            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1615099380572085.jpg",
-          },
-        },
-        {
-          paragraph: {
-            text: " 加拿大温州同乡总会一直非常注重树立温州人在居住国的形象，我们时刻牢记每一个在国外的游子，背后有强大祖国和家乡政府的支持。同时，我们加拿大温州同乡总会不但在居住国，关爱团结温州家乡人，更是积极投入居住国的建设和发展，融入到居住国主流社会，发挥侨胞侨眷在居住国的独特作用！            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "      家乡政府特别赞扬了在疫情期间，加拿大温州同乡总会为加拿大医院、老人院等社会机构捐款捐物已成常态化。特别是为加拿大历史最悠久的慈善机构—食物银行捐款的义举。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "      加拿大温州同乡总会为居住国抗疫的贡献精神，被作为加拿大华人社团的典型事迹在加拿大媒体和美国媒体争相报道。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "       2020年4月20号到22号“美国全球新闻网”“雅虎财经网”“卑诗省商业网”“温哥华太阳报”“加拿大明报”“加拿大华语电视新闻”等中英文主流媒体都做了广泛的宣传报道。这也引起了家乡政府的关注和支持！            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1615099410500272.png",
-          },
-        },
-        {
-          paragraph: {
-            text: "为了鼓励海外侨胞的义举，“温州市人民政府侨务办公室”和“温州回国华侨联合会”还特别为加拿大温州同乡总会举行了象征着荣誉“温州市海外示范侨团”挂牌仪式！            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "据悉，加拿大温州同乡总会是海内外侨团第一个荣获此光荣称号的侨团。            ",
-          },
-        },
-        {
-          space: {},
-        },
-        {
-          paragraph: {
-            text: "今后，加拿大温州同乡总会还将一如既往秉承同乡总会的办会理念：团结、互助、发展、前进。            ",
-          },
-        },
-        {
-          space: {},
-        },
-        {
-          paragraph: {
-            text: "协会的理事们、会员们也将继续并肩携手，画好海内外中华儿女的同心圆！为祖国的强盛、为中华民族的崛起更好地发出中国的声音、讲好中国故事！            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1615099426271089.png",
-          },
-        },
-      ],
-    },
-  },
+  //       // 
+  //       {
+  //         paragraph: {
+  //           text: "市侨联副主席钟体琪等领导参加了联谊会并现场发言，给予加拿大温州同乡总会在2020年抗疫期间在为家乡及居住国做出的贡献给予了充分肯定和高度赞扬。            ",
+  //         },
+  //       },
+  //       {
+  //         space: {},
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "特别令人感动的是：温州市政府侨务部门用真心换真心，真正调动起了我们海外侨胞侨眷助力中国发展的积极性。在疫情期间加拿大温州同乡总会各位会长、理事带头捐款，会员们积极响应，在极短的时间里为支援家乡抗疫和居住国抗疫2次捐款！充分体现了理事们在协会中的巨大影响力和号召力！            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1615099380572085.jpg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: " 加拿大温州同乡总会一直非常注重树立温州人在居住国的形象，我们时刻牢记每一个在国外的游子，背后有强大祖国和家乡政府的支持。同时，我们加拿大温州同乡总会不但在居住国，关爱团结温州家乡人，更是积极投入居住国的建设和发展，融入到居住国主流社会，发挥侨胞侨眷在居住国的独特作用！            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "      家乡政府特别赞扬了在疫情期间，加拿大温州同乡总会为加拿大医院、老人院等社会机构捐款捐物已成常态化。特别是为加拿大历史最悠久的慈善机构—食物银行捐款的义举。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "      加拿大温州同乡总会为居住国抗疫的贡献精神，被作为加拿大华人社团的典型事迹在加拿大媒体和美国媒体争相报道。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       2020年4月20号到22号“美国全球新闻网”“雅虎财经网”“卑诗省商业网”“温哥华太阳报”“加拿大明报”“加拿大华语电视新闻”等中英文主流媒体都做了广泛的宣传报道。这也引起了家乡政府的关注和支持！            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1615099410500272.png",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "为了鼓励海外侨胞的义举，“温州市人民政府侨务办公室”和“温州回国华侨联合会”还特别为加拿大温州同乡总会举行了象征着荣誉“温州市海外示范侨团”挂牌仪式！            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "据悉，加拿大温州同乡总会是海内外侨团第一个荣获此光荣称号的侨团。            ",
+  //         },
+  //       },
+  //       {
+  //         space: {},
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "今后，加拿大温州同乡总会还将一如既往秉承同乡总会的办会理念：团结、互助、发展、前进。            ",
+  //         },
+  //       },
+  //       {
+  //         space: {},
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "协会的理事们、会员们也将继续并肩携手，画好海内外中华儿女的同心圆！为祖国的强盛、为中华民族的崛起更好地发出中国的声音、讲好中国故事！            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1615099426271089.png",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     id: 17,
     categoryClass: "information",
@@ -660,154 +660,154 @@ const AssociationListMessages = [
       ],
     },
   },
-  {
-    id: pid6,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title: pid6Title,
-      date: pid6Date,
-      imageURL: pid6ImageURL,
-      previewText: pid6PreviewText,
-      content: [
-        {
-          paragraph: {
-            text: "温州市十三届人大六次会议于2021年2月2日召开；市政协十一届五次会议于2021年2月1日召开。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "今年侨界委员们都关注什么？他们又带来哪些提案？两会期间，温州侨联特推出《“两会”侨声音》聚焦两会内外热点，展示侨界委员风采。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "加拿大温州同乡总会会长 朱建国先生代表加拿大华人华侨参加了在温州召开的此次盛会！            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409249547803.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409249696394.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409250351289.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409250340538.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409250195128.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409250894883.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409251761898.jpeg",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1612409251371547.jpeg",
-          },
-        },
-      ],
-    },
-  },
-  {
-    id: 19,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "association",
-    article: {
-      title: "“侨连五洲•情满西湖” 特别报道之一",
-      date: "2020-12-12",
-      imageURL: "/images/article/1607742801271444.jpeg",
-      previewText:
-        "近日，在杭州召开的“侨连五洲•情满西湖”活动在圆满闭幕！       这次盛大的侨界活动是由中国侨联、浙江省人民政府主办，浙江省侨联、杭州市人民政府、嘉兴市人民…",
-      content: [
-        {
-          paragraph: {
-            text: "       近日，在杭州召开的“侨连五洲•情满西湖”活动在圆满闭幕！  ",
-          },
-        },
-        {
-          paragraph: {
-            text: "       这次盛大的侨界活动是由中国侨联、浙江省人民政府主办，浙江省侨联、杭州市人民政府、嘉兴市人民政府、湖州市人民政府承办的。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1607742953418361.jpg",
-          },
-        },
-        {
-          paragraph: {
-            text: "       这次活动是2020年收官之际侨界堪称规格高、活动内容接地气、活动形式多样、考察内容高科技含金量高的一次活动。来自全球五大洲60多个国家和地区的近300名海外侨胞出席了活动。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1607742974159185.jpg",
-          },
-        },
-        {
-          paragraph: {
-            text: "       中国侨联副主席程学源，浙江省人民政府副省长朱从玖，浙江省人大常委会原副主任、浙江大学浙商发展研究院院长王永昌，中国企业评价协会会长，第十二届全国政协委员，国务院发展研究中心原副主任、研究员侯云春，外交部领事司司长崔爱民，中国侨联兼职副主席、江苏省侨联党组书记、主席周建农，中国侨联联谊联络部部长桑宝山、副部长、一级巡视员朱柳，权益保障部部长张岩，经济科技部副部长、一级巡视员夏付东，中国侨联公益事业管理服务中心主任何继宁，以及河南、广东、福建、上海、吉林、陕西、江西相关省市侨联负责同志，浙江省有关部门、地级市有关领导参加。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "       本次活动以“弘扬抗疫精神，汇聚侨界力量；深化合作发展，共创美好未来”为主题，共商侨社、侨商、侨青发展，凝聚侨心侨力，搭建合作共赢平台，助力高质量发展，加快构建新发展格局，为同圆共享中国梦和构建人类命运共同体贡献侨界力量。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "       由加拿大温州同乡总会会长 朱建国 先生率领的北美温州侨界代表团参加了此次活动。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "       代表团成员由旅居加拿大的温州企业家组成。他们分别是加拿大温州同乡总会名誉会长 藤 达先生、常务副会长 陈时满先生、常务副会长 瞿益顺先生、副会长吴登金先生。            ",
-          },
-        },
-        {
-          image: {
-            imageSRC: "/images/article/1607742993963116.jpg",
-          },
-        },
-        {
-          paragraph: {
-            text: "       活动中，中国侨联副主席程学源首先代表中国侨联和万立骏主席向海外侨胞表达了亲切问候和热切关怀。程学源说，“侨连五洲”是中国侨联与相关省级人民政府共同搭建的品牌平台，旨在聚焦侨胞发展、扩大沟通交流、推动合作共赢，更好发挥侨联组织和海外侨胞的独特优势，团结凝聚海内外侨胞为实现中华民族伟大复兴中国梦和构建人类命运共同体贡献力量。在抗击新冠肺炎疫情斗争中，包括海外侨胞在内的全体中华儿女风雨同舟、和衷共济，海外侨团和侨胞迅速反应、发挥作用，倾力驰援国内、奉献当地，再一次展现了华侨华人爱国爱乡爱家的赤子之心和积极回馈住在国的社会担当。            ",
-          },
-        },
-        {
-          paragraph: {
-            text: "       会议特别回顾了前不久，习近平总书记在广东汕头考察时的重要讲话，充分肯定了侨的贡献，对广大侨胞参与新时代祖国建设寄予了期望，是对广大侨胞的巨大鼓舞和鞭策，也为中国侨联打好新时期“侨”牌，扎实做好侨务工作，提出了明确要求，指明了努力方向。            ",
-          },
-        },
-      ],
-    },
-  },
+  // {
+  //   id: pid6,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title: pid6Title,
+  //     date: pid6Date,
+  //     imageURL: pid6ImageURL,
+  //     previewText: pid6PreviewText,
+  //     content: [
+  //       {
+  //         paragraph: {
+  //           text: "温州市十三届人大六次会议于2021年2月2日召开；市政协十一届五次会议于2021年2月1日召开。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "今年侨界委员们都关注什么？他们又带来哪些提案？两会期间，温州侨联特推出《“两会”侨声音》聚焦两会内外热点，展示侨界委员风采。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "加拿大温州同乡总会会长 朱建国先生代表加拿大华人华侨参加了在温州召开的此次盛会！            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409249547803.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409249696394.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409250351289.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409250340538.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409250195128.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409250894883.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409251761898.jpeg",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1612409251371547.jpeg",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   id: 19,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "association",
+  //   article: {
+  //     title: "“侨连五洲•情满西湖” 特别报道之一",
+  //     date: "2020-12-12",
+  //     imageURL: "/images/article/1607742801271444.jpeg",
+  //     previewText:
+  //       "近日，在杭州召开的“侨连五洲•情满西湖”活动在圆满闭幕！       这次盛大的侨界活动是由中国侨联、浙江省人民政府主办，浙江省侨联、杭州市人民政府、嘉兴市人民…",
+  //     content: [
+  //       {
+  //         paragraph: {
+  //           text: "       近日，在杭州召开的“侨连五洲•情满西湖”活动在圆满闭幕！  ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       这次盛大的侨界活动是由中国侨联、浙江省人民政府主办，浙江省侨联、杭州市人民政府、嘉兴市人民政府、湖州市人民政府承办的。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1607742953418361.jpg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       这次活动是2020年收官之际侨界堪称规格高、活动内容接地气、活动形式多样、考察内容高科技含金量高的一次活动。来自全球五大洲60多个国家和地区的近300名海外侨胞出席了活动。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1607742974159185.jpg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       中国侨联副主席程学源，浙江省人民政府副省长朱从玖，浙江省人大常委会原副主任、浙江大学浙商发展研究院院长王永昌，中国企业评价协会会长，第十二届全国政协委员，国务院发展研究中心原副主任、研究员侯云春，外交部领事司司长崔爱民，中国侨联兼职副主席、江苏省侨联党组书记、主席周建农，中国侨联联谊联络部部长桑宝山、副部长、一级巡视员朱柳，权益保障部部长张岩，经济科技部副部长、一级巡视员夏付东，中国侨联公益事业管理服务中心主任何继宁，以及河南、广东、福建、上海、吉林、陕西、江西相关省市侨联负责同志，浙江省有关部门、地级市有关领导参加。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       本次活动以“弘扬抗疫精神，汇聚侨界力量；深化合作发展，共创美好未来”为主题，共商侨社、侨商、侨青发展，凝聚侨心侨力，搭建合作共赢平台，助力高质量发展，加快构建新发展格局，为同圆共享中国梦和构建人类命运共同体贡献侨界力量。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       由加拿大温州同乡总会会长 朱建国 先生率领的北美温州侨界代表团参加了此次活动。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       代表团成员由旅居加拿大的温州企业家组成。他们分别是加拿大温州同乡总会名誉会长 藤 达先生、常务副会长 陈时满先生、常务副会长 瞿益顺先生、副会长吴登金先生。            ",
+  //         },
+  //       },
+  //       {
+  //         image: {
+  //           imageSRC: "/images/article/1607742993963116.jpg",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       活动中，中国侨联副主席程学源首先代表中国侨联和万立骏主席向海外侨胞表达了亲切问候和热切关怀。程学源说，“侨连五洲”是中国侨联与相关省级人民政府共同搭建的品牌平台，旨在聚焦侨胞发展、扩大沟通交流、推动合作共赢，更好发挥侨联组织和海外侨胞的独特优势，团结凝聚海内外侨胞为实现中华民族伟大复兴中国梦和构建人类命运共同体贡献力量。在抗击新冠肺炎疫情斗争中，包括海外侨胞在内的全体中华儿女风雨同舟、和衷共济，海外侨团和侨胞迅速反应、发挥作用，倾力驰援国内、奉献当地，再一次展现了华侨华人爱国爱乡爱家的赤子之心和积极回馈住在国的社会担当。            ",
+  //         },
+  //       },
+  //       {
+  //         paragraph: {
+  //           text: "       会议特别回顾了前不久，习近平总书记在广东汕头考察时的重要讲话，充分肯定了侨的贡献，对广大侨胞参与新时代祖国建设寄予了期望，是对广大侨胞的巨大鼓舞和鞭策，也为中国侨联打好新时期“侨”牌，扎实做好侨务工作，提出了明确要求，指明了努力方向。            ",
+  //         },
+  //       },
+  //     ],
+  //   },
+  // },
   {
     id: 21,
     categoryClass: "information",

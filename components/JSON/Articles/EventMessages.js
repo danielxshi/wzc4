@@ -133,21 +133,21 @@ const ArticleListMessages = [
       previewText: pid2PreviewText,
     },
   },
-  {
-    id: pid3,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "家乡协会",
-    subDirectory: "/info/association",
-    article: {
-      title: pid3Title,
-      date: pid3Date,
-      imageURL: pid3ImageURL,
-      previewText: pid3PreviewText,
-    },
-  },
+  // {
+  //   id: pid3,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "家乡协会",
+  //   subDirectory: "/info/association",
+  //   article: {
+  //     title: pid3Title,
+  //     date: pid3Date,
+  //     imageURL: pid3ImageURL,
+  //     previewText: pid3PreviewText,
+  //   },
+  // },
   {
     id: pid4,
     categoryClass: "information",
@@ -199,16 +199,16 @@ const ArticleListMessages = [
       imageURL: "/images/article/1585361681825441.jpg",
     },
   },
-  {
-    id: 96603,
+  // {
+  //   id: 96603,
 
-    article: {
-      title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
-      previewText:
-        "5月30曰星期四，加拿大温州同乡总会迎来了一位远道而来的贵客：锦州市温州商会会长陈训蒿先生。左为陈训蒿...",
-      imageURL: "/images/article/1585361544920645.jpg",
-    },
-  },
+  //   article: {
+  //     title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
+  //     previewText:
+  //       "5月30曰星期四，加拿大温州同乡总会迎来了一位远道而来的贵客：锦州市温州商会会长陈训蒿先生。左为陈训蒿...",
+  //     imageURL: "/images/article/1585361544920645.jpg",
+  //   },
+  // },
   {
     id: 96604,
 
@@ -219,16 +219,16 @@ const ArticleListMessages = [
       imageURL: "/images/article/1585051996444776.jpg",
     },
   },
-  {
-    id: 96605,
+  // {
+  //   id: 96605,
 
-    article: {
-      title: "加拿大温州同乡总会考察团拜访温州市侨联",
-      previewText:
-        "  3月30日，加拿大温州同乡总会会长游兆丰率团拜访温州市侨联。市侨联党组书记、副主席林春霞会...",
-      imageURL: "/images/article/1585016085182279.png",
-    },
-  },
+  //   article: {
+  //     title: "加拿大温州同乡总会考察团拜访温州市侨联",
+  //     previewText:
+  //       "  3月30日，加拿大温州同乡总会会长游兆丰率团拜访温州市侨联。市侨联党组书记、副主席林春霞会...",
+  //     imageURL: "/images/article/1585016085182279.png",
+  //   },
+  // },
   {
     id: 96606,
 
@@ -239,16 +239,16 @@ const ArticleListMessages = [
       imageURL: "/images/article/1585360892881670.jpg",
     },
   },
-  {
-    id: 96607,
+  // {
+  //   id: 96607,
 
-    article: {
-      title: "加拿大温州同乡总会一众侨领家乡行",
-      previewText:
-        "2019年3月30日，加拿大温州同乡总会会长游兆丰率一众侨领15人，在家乡温州市，拜会了市侨务部门领导。温州...",
-      imageURL: "/images/article/1585360697979629.jpg",
-    },
-  },
+  //   article: {
+  //     title: "加拿大温州同乡总会一众侨领家乡行",
+  //     previewText:
+  //       "2019年3月30日，加拿大温州同乡总会会长游兆丰率一众侨领15人，在家乡温州市，拜会了市侨务部门领导。温州...",
+  //     imageURL: "/images/article/1585360697979629.jpg",
+  //   },
+  // },
   {
     id: 96608,
 
@@ -372,16 +372,16 @@ const Events19 = [
       imageURL: "/images/article/1585361681825441.jpg",
     },
   },
-  {
-    id: 96603,
+  // {
+  //   id: 96603,
 
-    article: {
-      title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
-      previewText:
-        "5月30曰星期四，加拿大温州同乡总会迎来了一位远道而来的贵客：锦州市温州商会会长陈训蒿先生。左为陈训蒿...",
-      imageURL: "/images/article/1585361544920645.jpg",
-    },
-  },
+  //   article: {
+  //     title: "锦州市温州商会会长陈训蒿先生到访加拿大温州同乡总会",
+  //     previewText:
+  //       "5月30曰星期四，加拿大温州同乡总会迎来了一位远道而来的贵客：锦州市温州商会会长陈训蒿先生。左为陈训蒿...",
+  //     imageURL: "/images/article/1585361544920645.jpg",
+  //   },
+  // },
   {
     id: 96604,
 
@@ -392,16 +392,16 @@ const Events19 = [
       imageURL: "/images/article/1585051996444776.jpg",
     },
   },
-  {
-    id: 96605,
+  // {
+  //   id: 96605,
 
-    article: {
-      title: "加拿大温州同乡总会考察团拜访温州市侨联",
-      previewText:
-        "  3月30日，加拿大温州同乡总会会长游兆丰率团拜访温州市侨联。市侨联党组书记、副主席林春霞会...",
-      imageURL: "/images/article/1585016085182279.png",
-    },
-  },
+  //   article: {
+  //     title: "加拿大温州同乡总会考察团拜访温州市侨联",
+  //     previewText:
+  //       "  3月30日，加拿大温州同乡总会会长游兆丰率团拜访温州市侨联。市侨联党组书记、副主席林春霞会...",
+  //     imageURL: "/images/article/1585016085182279.png",
+  //   },
+  // },
   {
     id: 96606,
 
@@ -412,16 +412,16 @@ const Events19 = [
       imageURL: "/images/article/1585360892881670.jpg",
     },
   },
-  {
-    id: 96607,
+  // {
+  //   id: 96607,
 
-    article: {
-      title: "加拿大温州同乡总会一众侨领家乡行",
-      previewText:
-        "2019年3月30日，加拿大温州同乡总会会长游兆丰率一众侨领15人，在家乡温州市，拜会了市侨务部门领导。温州...",
-      imageURL: "/images/article/1585360697979629.jpg",
-    },
-  },
+  //   article: {
+  //     title: "加拿大温州同乡总会一众侨领家乡行",
+  //     previewText:
+  //       "2019年3月30日，加拿大温州同乡总会会长游兆丰率一众侨领15人，在家乡温州市，拜会了市侨务部门领导。温州...",
+  //     imageURL: "/images/article/1585360697979629.jpg",
+  //   },
+  // },
   {
     id: 96608,
 

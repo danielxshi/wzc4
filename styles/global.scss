@@ -20,6 +20,14 @@
 ========================================================================== */
 
 @import "type/_type.scss";
+.button-pdf {
+  align-items: center;
+  white-space: nowrap;
+  display: flex;
+  width: auto;
+  max-width: fit-content;
+  margin: 0 !important;
+}
 #modal-root {
   z-index: 999;
   display: block;
@@ -625,6 +633,12 @@ a:hover,
   transform: translateY(-4px) rotate(30deg);
 }
 
+@media only screen and (min-width: $medQuery) {
+  .button-pdf--wrapper {
+    margin-right: $xs-margin;
+  }
+}
+
 @media only screen and (max-width: $minQuery) {
   .w-100,
   .h-100 {
@@ -635,9 +649,6 @@ a:hover,
     height: 100%;
     display: flex;
   }
-  // .carousel {
-  //   height: 60vh !important;
-  // }
   .news--preview--container {
     flex-direction: column !important;
 
@@ -674,9 +685,6 @@ a:hover,
     height: 100%;
     display: flex;
   }
-  // .carousel {
-  //   height: 60vh !important;
-  // }
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -780,6 +788,10 @@ $black-color: #111827;
 
 small {
   opacity: 0.7;
+}
+.button-pdf--wrapper {
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (max-width: $medQuery) {

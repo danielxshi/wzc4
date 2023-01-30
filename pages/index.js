@@ -26,6 +26,7 @@ function LandingDesktop() {
                   fallbackSrc={item.fallback}
                   alt={item.alt}
                   layout="fill"
+                  objectFit="cover"
                 />
               </div>
             </Carousel.Item>

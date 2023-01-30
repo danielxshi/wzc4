@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <President />
       <ArticleSection />
-      <NewsPreview />
+      {/* <NewsPreview /> */}
       <SelfIntro />
     </>
   );

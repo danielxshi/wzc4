@@ -117,20 +117,20 @@ const InfoListMessages = [
       previewText: pid2PreviewText,
     },
   },
-  {
-    id: pid3,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: pid3Title,
-      date: pid3Date,
-      imageURL: pid3ImageURL,
-      previewText: pid3PreviewText,
-    },
-  },
+  // {
+  //   id: pid3,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: pid3Title,
+  //     date: pid3Date,
+  //     imageURL: pid3ImageURL,
+  //     previewText: pid3PreviewText,
+  //   },
+  // },
   {
     id: pid4,
     categoryClass: "information",
@@ -231,67 +231,67 @@ const InfoListMessages = [
         "8月15日，加拿大总理特鲁多正式宣布，于2021年9月20日举行提前大选。根据加拿大法律，联邦大选每四年举行一次，而上一次的大选是在2019年10月，距今只有两年不到，为什么就要提前大选了？而且还只有短短36天的竞选期…",
     },
   },
-  {
-    id: 11,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title:
-        "2021年世界温州人新生代国情研修班结业 加拿大温州同乡总会选送学员收获满满",
-      date: "2021-07-20",
-      imageURL: "/images/article/1626759522314649.jpg",
-      previewText:
-        "7月16日，2021年世界温州人新生代国情研修班结业仪式在世界温州人家园举行，来自海内外各行各业的50余名新生代温州人汇聚一堂，学习习近平总书记“七一”重要讲话精神，参观中共省一大会址，考察苏步青故居、山根音…",
-    },
-  },
-  {
-    id: 12,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "加拿大温州同乡总会 祝福祖国繁荣昌盛",
-      date: "2021-07-01",
-      imageURL: "/images/article/1625113727906659.jpg",
-      previewText: "",
-    },
-  },
-  {
-    id: 13,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title:
-        "浙江侨界“侨心向党再出发”初心之旅开幕式暨嘉兴站活动成功举行（报道之一）",
-      date: "2021-05-20",
-      imageURL: "/images/article/1621544652571877.jpeg",
-      previewText:
-        "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚…",
-    },
-  },
-  {
-    id: 14,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "党有号召 侨有行动",
-      date: "2021-05-20",
-      imageURL: "/images/article/1621544441308810.jpeg",
-      previewText:
-        "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。浙江省侨商会、浙江省侨界…",
-    },
-  },
+  // {
+  //   id: 11,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title:
+  //       "2021年世界温州人新生代国情研修班结业 加拿大温州同乡总会选送学员收获满满",
+  //     date: "2021-07-20",
+  //     imageURL: "/images/article/1626759522314649.jpg",
+  //     previewText:
+  //       "7月16日，2021年世界温州人新生代国情研修班结业仪式在世界温州人家园举行，来自海内外各行各业的50余名新生代温州人汇聚一堂，学习习近平总书记“七一”重要讲话精神，参观中共省一大会址，考察苏步青故居、山根音…",
+  //   },
+  // },
+  // {
+  //   id: 12,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "加拿大温州同乡总会 祝福祖国繁荣昌盛",
+  //     date: "2021-07-01",
+  //     imageURL: "/images/article/1625113727906659.jpg",
+  //     previewText: "",
+  //   },
+  // },
+  // {
+  //   id: 13,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title:
+  //       "浙江侨界“侨心向党再出发”初心之旅开幕式暨嘉兴站活动成功举行（报道之一）",
+  //     date: "2021-05-20",
+  //     imageURL: "/images/article/1621544652571877.jpeg",
+  //     previewText:
+  //       "浙江省人大常委会党组副书记、副主任李卫宁，中共浙江省委党史学习教育第九巡回指导组组长施利民，浙江省人大民族宗教华侨外事委员会主任委员宋建勋，浙江省侨联党组书记、主席连小敏，中国侨联文化交流部副部长邢砚…",
+  //   },
+  // },
+  // {
+  //   id: 14,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "党有号召 侨有行动",
+  //     date: "2021-05-20",
+  //     imageURL: "/images/article/1621544441308810.jpeg",
+  //     previewText:
+  //       "—加拿大温州同乡总会常务副会长吴登金先生代表出席「一场初心之旅，献礼建党百年。」活动一场初心之旅，献礼建党百年。百侨三地，寻访红色初心活动由由浙江省侨联、浙江日报报业集团指导。浙江省侨商会、浙江省侨界…",
+  //   },
+  // },
   {
     id: pid8,
     categoryClass: "information",
@@ -306,20 +306,20 @@ const InfoListMessages = [
       previewText: pid8PreviewText,
     },
   },
-  {
-    id: pid7,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: pid7Title,
-      date: pid7Date,
-      imageURL: pid7ImageURL,
-      previewText: pid7PreviewText,
-    },
-  },
+  // {
+  //   id: pid7,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: pid7Title,
+  //     date: pid7Date,
+  //     imageURL: pid7ImageURL,
+  //     previewText: pid7PreviewText,
+  //   },
+  // },
   {
     id: 17,
     categoryClass: "information",
@@ -335,50 +335,50 @@ const InfoListMessages = [
         "尊敬的加拿大温州同乡总会的父老乡亲们，祝2021“牛”转乾坤、身体健康、合家欢乐、万事如意！2020年，是极不平凡的一年。面对突如其来的严重疫情，加拿大温州同乡总会团结在家乡温州的加拿大归侨侨眷和身在加拿大的…",
     },
   },
-  {
-    id: pid6,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: pid6Title,
-      date: pid6Date,
-      imageURL: pid6ImageURL,
-      previewText: pid6PreviewText,
-    },
-  },
-  {
-    id: 19,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "“侨连五洲•情满西湖” 特别报道之一",
-      date: "2020-12-12",
-      imageURL: "/images/article/1607742801271444.jpeg",
-      previewText:
-        "近日，在杭州召开的“侨连五洲•情满西湖”活动在圆满闭幕！       这次盛大的侨界活动是由中国侨联、浙江省人民政府主办，浙江省侨联、杭州市人民政府、嘉兴市人民…",
-    },
-  },
-  {
-    id: 20,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "2020年温州公共外交研修班圆满落幕",
-      date: "2020-12-01",
-      imageURL: "/images/article/1606839874106658.png",
-      previewText:
-        "近日，由温州市政协港澳台侨和外事委、温州公共外交协会主办，平阳县政协、温州肯恩大学协办的“2020年温州公共关系外交研修班”在温州肯恩大学圆满完成了研修内容。研修班课程于2020年11月27日在温州肯恩大学展开。…",
-    },
-  },
+  // {
+  //   id: pid6,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: pid6Title,
+  //     date: pid6Date,
+  //     imageURL: pid6ImageURL,
+  //     previewText: pid6PreviewText,
+  //   },
+  // },
+  // {
+  //   id: 19,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "“侨连五洲•情满西湖” 特别报道之一",
+  //     date: "2020-12-12",
+  //     imageURL: "/images/article/1607742801271444.jpeg",
+  //     previewText:
+  //       "近日，在杭州召开的“侨连五洲•情满西湖”活动在圆满闭幕！       这次盛大的侨界活动是由中国侨联、浙江省人民政府主办，浙江省侨联、杭州市人民政府、嘉兴市人民…",
+  //   },
+  // },
+  // {
+  //   id: 20,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "2020年温州公共外交研修班圆满落幕",
+  //     date: "2020-12-01",
+  //     imageURL: "/images/article/1606839874106658.png",
+  //     previewText:
+  //       "近日，由温州市政协港澳台侨和外事委、温州公共外交协会主办，平阳县政协、温州肯恩大学协办的“2020年温州公共关系外交研修班”在温州肯恩大学圆满完成了研修内容。研修班课程于2020年11月27日在温州肯恩大学展开。…",
+  //   },
+  // },
   {
     id: 21,
     categoryClass: "information",
@@ -708,21 +708,21 @@ const InfoListMessages = [
         "温哥华-威斯敏斯特新小学的一位老师要求她的学生们进入内心的雷诺阿河和艾米丽·卡尔斯（Emily Carrs），但他们的材料不是毛笔和画笔，而是毛绒动物，乐高和玩偶。Connaught Heights小学的Montesorri小学三年级和四…",
     },
   },
-  {
-    id: 43,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "习近平寄语广大少年儿童 致以六一节日祝贺",
-      date: "2020-05-31",
-      imageURL: "/images/article/1590962935700399.jpg",
-      previewText:
-        "习近平寄语广大少年儿童强调      刻苦学习知识坚定理想信念磨练坚强意志锻炼强健体魄      为实现中华民族伟大复兴的中国梦时刻准备着      向…",
-    },
-  },
+  // {
+  //   id: 43,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "习近平寄语广大少年儿童 致以六一节日祝贺",
+  //     date: "2020-05-31",
+  //     imageURL: "/images/article/1590962935700399.jpg",
+  //     previewText:
+  //       "习近平寄语广大少年儿童强调      刻苦学习知识坚定理想信念磨练坚强意志锻炼强健体魄      为实现中华民族伟大复兴的中国梦时刻准备着      向…",
+  //   },
+  // },
   {
     id: 44,
     categoryClass: "information",
@@ -873,21 +873,21 @@ const InfoListMessages = [
         "卫生官员正在努力遏制兰利一家养老院的新的冠状病毒疫情，该病例已造成5人死亡。这是兰利养老院记录的第二次疫情。第一次疫情始于3月，涉及一名工作人员，于4月底宣布结束。4月29日，宣布爆发新的疫情，除死亡人数外…",
     },
   },
-  {
-    id: 54,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "线上跨国听证为侨胞申诉“搭桥” 温州“检侨驿站”为你解烦忧",
-      date: "2020-05-14",
-      imageURL: "/images/article/1589495438205424.png",
-      previewText:
-        "浙江在线5月14日讯（记者 李灿 戚祥浩 通讯员 章洁） “双方信号都已接入，听证会正式开始。”北京时间5月9日15时30分，米兰时间5月9日9时30分，温州检察机关就申诉人周月宇微信账号被盗造成财产、名誉受损一案…",
-    },
-  },
+  // {
+  //   id: 54,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "线上跨国听证为侨胞申诉“搭桥” 温州“检侨驿站”为你解烦忧",
+  //     date: "2020-05-14",
+  //     imageURL: "/images/article/1589495438205424.png",
+  //     previewText:
+  //       "浙江在线5月14日讯（记者 李灿 戚祥浩 通讯员 章洁） “双方信号都已接入，听证会正式开始。”北京时间5月9日15时30分，米兰时间5月9日9时30分，温州检察机关就申诉人周月宇微信账号被盗造成财产、名誉受损一案…",
+  //   },
+  // },
   {
     id: 55,
     categoryClass: "information",
@@ -1023,21 +1023,21 @@ const InfoListMessages = [
         "过了荼醾与素馨一春风雨欠追寻却从立夏晴多日策杖闲来看绿阴今日8时51分迎来夏季的第一个节气“立夏”春日渐远，夏日初来天文学中立夏是夏季开始的标志蛙声蝉鸣，草长莺飞绿肥红瘦，云卷云舒万物开始奋力生长一年中…",
     },
   },
-  {
-    id: 64,
-    categoryClass: "information",
-    subCategoryClass: "placeholder",
-    parentDirectory: "info",
-    category: "信息资讯",
-    subcategory: "information2",
-    article: {
-      title: "奋进正当时！习近平与青年说 @青年人，总书记倡导这样奋斗",
-      date: "2020-05-04",
-      imageURL: "/images/article/1588568351433426.jpg",
-      previewText:
-        "联播+丨奋进正当时！习近平与青年说　  2020年是我国纪念“五一”国际劳动节72周年，纪念“五四”运动101周年，也是决胜决战脱贫攻坚、全面建成小康社会的收官之年。但今年的“五一”不寻常。全国各地有序推进…",
-    },
-  },
+  // {
+  //   id: 64,
+  //   categoryClass: "information",
+  //   subCategoryClass: "placeholder",
+  //   parentDirectory: "info",
+  //   category: "信息资讯",
+  //   subcategory: "information2",
+  //   article: {
+  //     title: "奋进正当时！习近平与青年说 @青年人，总书记倡导这样奋斗",
+  //     date: "2020-05-04",
+  //     imageURL: "/images/article/1588568351433426.jpg",
+  //     previewText:
+  //       "联播+丨奋进正当时！习近平与青年说　  2020年是我国纪念“五一”国际劳动节72周年，纪念“五四”运动101周年，也是决胜决战脱贫攻坚、全面建成小康社会的收官之年。但今年的“五一”不寻常。全国各地有序推进…",
+  //   },
+  // },
   {
     id: 65,
     categoryClass: "information",

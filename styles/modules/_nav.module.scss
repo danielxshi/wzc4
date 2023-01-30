@@ -22,8 +22,8 @@
 }
 
 .nav-grid {
-  padding-left: $lrg-margin;
-  padding-right: $lrg-margin;
+  padding-left: $sm-margin;
+  padding-right: $sm-margin;
   display: grid;
   grid-template-columns: $column--count;
   max-width: $max--width;
@@ -370,6 +370,7 @@
     column-gap: $grid--gap;
     margin: 0 auto;
   }
+  
 }
 
 @media only screen and (max-width: $medQuery) {
