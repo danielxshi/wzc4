@@ -93,6 +93,184 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100098,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
+      date: "2023-02-19",
+      imageURL: "/images/article-webp/turkey-relief13.webp",
+      content: [
+        {
+          paragraph: {
+            text: "After the 7.8-magnitude earthquake disaster in Turkey, the Wenzhou Friendship Society Canada extended a helping hand immediately, actively fundraising among its members for earthquake relief. On the afternoon of February 19, an executive President of the Wenzhou Friendship Society Canada, along with eight directors and members, went to the Turkish Community Earthquake Relief Center located at 580 Industrial Ave in Vancouver to donate a container for disaster relief materials to the earthquake-stricken areas in Turkey.            ",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "On behalf of the Society, Wu Dengjin, an executive President of the Wenzhou Friendship Society Canada, donated a check to Mr. Halil Ibrahim KOKLU who is in charge of the Turkish Community Earthquake Relief Center. Mr. Mehmet Taylan Tokmak, the Consul General of Turkey in Vancouver, personally greeted the Society and its members, updated everyone on the status of donations, and expressed sincere gratitude to the Wenzhou Friendship Society Canada for this kind act on behalf of the Turkish government! He stated that we urgently need to deliver the relief supplies from here to the victims in Turkey. The container donated by the Wenzhou Friendship Society Canada is a timely help and a showcase of solidarity, which fully embodies the spirit of mutual assistance between the diverse ethnic groups in Canada to unite and overcome challenges together.            ",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "The representatives of the Wenzhou Friendship Society Canada and all the volunteers in the Turkish Community Earthquake Relief Center cheered \"Go Turkey!\". The spirit was warm and touching. The Wenzhou Friendship Society Canada expressed that they will continue to work hard to fundraise for disaster relief work in Turkey.            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/turkey-relief13.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/turkey-relief12.webp",
+          },
+        },
+      ]
+    },
+  },
+  {
+    id: 100097,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会顺利换届 朱建国会长成功连任",
+      date: "2023-02-19",
+      imageURL: "/images/article-webp/a2-12.webp",
+      content: [
+        {
+          paragraph: {
+            text: "（本网讯）土耳其7.8级重大地震灾难发生后，加拿大温州同乡总会在第一时间伸出援助之手，积极发动筹款赈灾，向地震灾区捐款捐物。2月19日下午，同乡会执行会长吴登金等十几位理事、会员一起前往了位于温哥华580 Industrial Ave的土耳其地震赈灾捐赠中心捐赠集装箱运送救灾物资到土耳其灾区。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "同乡会执行会长吴登金代表同乡会向赈灾中心负责人Halil ibrahim KOKLU先生捐赠了支票。土耳其驻温哥华总领事Mehmet Taylan Tokmak亲自接待了同乡会一行，向大家介绍了目前的物资收集情况，并代表土耳其政府向加拿大温州同乡总会的这一善举表示由衷地感谢！他说我们现在迫切需要把这里的救灾物资尽快运送到灾民的手里，温州同乡总会捐赠的集装箱真的是雪中送炭，充分体现了加拿大各族裔团结一心、共度难关的互助精神。            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "同乡会代表和赈灾捐赠中心所有义工们一起高呼“土耳其加油”！现场气氛热烈感人。同乡会表示将继续努力参与土耳其救灾工作。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a2-12.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a2-17.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a2-16.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a2-15.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a2-14.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a2-13.webp",
+          },
+        },
+      ]
+    },
+  },
+  {
+    id: 100096,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会顺利换届 朱建国会长成功连任",
+      date: "2023-01-30",
+      imageURL: "/images/article-webp/a1-12.webp",
+      content: [
+        {
+          paragraph: {
+            text: "（本网讯）2023年1月30日下午，加拿大温州同乡总会在列治文的会所内举行了全体理事会议，讨论近期会务，举行换届选举。参加会议的有会长朱建国、执行会长吴登金、余海洁、苏华伟，创会会长张进云、前任会长潘妙飞，常务副会长瞿益顺、徐新荣、周敏弟、陈森、陈默涵，陈瑞国以及副会长和理事吴光通、杨晓东、陈德龙、王国光、金涛、陈飞舟、秦锋、鲍承番、刘晓天、韩惠、姜凌，胡蓉。",
+          },
+        },
+        {
+          paragraph: {
+            text: "理事会充分肯定了朱建国会长及其执行团队在过去三年所做的工作。虽然有疫情肆虐，但在朱会长的带领下，同乡会克服困难举办了一系列高质量有意义的活动，包括科普加拿大选举制度、中秋节和端午节的慰问活动、庆祝加拿大国庆、2022年成功举办“浙里有爱 四海迎春”活动、兔年春节联欢晚会、为食物银行捐款、为BC省洪灾地区捐款送温暖等活动，同时还颁发了英才奖学金、创办了北美新生代创业俱乐部等等。活动照顾到各个年龄段的温州老乡的需求，也吸引了各个层面的老乡参与同乡会的各类活动，真正体现了同乡会的宗旨：团结互助，携手共进！",
+          },
+        },
+        {
+          paragraph: {
+            text: "在会议的换届环节中，到会的三位执行会长和常务副会长、副会长、理事等全票通过了朱建国会长连任加拿大温州同乡总会第八届会长。同乡会法律顾问Daniel Henderson 以及Cameron Lee也参加了会议，并在会上详细解释了新制定的会员行为守则。相信在朱会长的领导下，温州同乡总会将再创新高，更好地为老乡服务，为华人争光！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "再次当选的朱建国会长说，同乡总会的职责就是尽我们所能服务温州老乡，让居住在加拿大的温州人在有需要、有困难的时候能获得来自同乡的关怀和互助。所以，同乡会是老乡们在加拿大的娘家。希望大家多回娘家，多参与各种活动。加拿大温州同乡总会已经走过22个春秋，在历任会长、副会长、理事和老乡的共同努力下，不断发展壮大。我们积极参与本地活动，融入主流社会，同时为加中友谊牵线搭桥。我们也将会运用法律手段，坚决捍卫我们的合法权益，反击任何针对华人的不实和不公平的歧视行为！            ",
+          },
+        },
+        {
+          paragraph: {
+            text: "加拿大温州同乡总会于2001年12月注册成立，总部设在加拿大温哥华，会员来自原籍温州地区现居加拿大的各界人士和家属，成员遍及加拿大东西部各大城市。其宗旨是加强联谊，团结互助；凝聚力量，互通商机；共谋福利，参与公益。温州同乡总会是居住在加拿大的温州人温馨的家，也是连接加拿大和温州家乡的纽带桥梁。同乡总会致力于和加拿大各新老侨团增进沟通，加强合作，相互尊重，共同发展；连系加国政府，传递华人心声，融入当地社会，丰富多元文化；联合本地商界社团，组织商务、文化交流活动，协助华人安家创业，促进加中经贸往来和科技、文化交流。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a1-13.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a1-17.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a1-16.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a1-15.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a1-14.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/preview/a1-13.webp",
+          },
+        },
+      ]
+    },
+  },
+  {
     id: 100095,
     categoryClass: "information",
     subCategoryClass: "placeholder",

@@ -42,6 +42,51 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100098,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
+      date: "2023-02-19",
+      imageURL: "/images/article-webp/turkey-relief13.webp",
+    },
+  },
+  {
+    id: 100097,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会顺利换届 朱建国会长成功连任",
+      date: "2023-02-19",
+      imageURL: "/images/article-webp/a2-12.webp",
+    },
+  },
+  {
+    id: 100096,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会顺利换届 朱建国会长成功连任",
+      date: "2023-01-30",
+      imageURL: "/images/article-webp/a1-12.webp",
+    },
+  },
+  {
     id: 100095,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -657,6 +702,51 @@ const Events22 = [
 
 const Events23 = [
   {
+    id: 100098,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
+      date: "2023-02-19",
+      imageURL: "/images/article-webp/turkey-relief13.webp",
+    },
+  },
+  {
+    id: 100097,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会顺利换届 朱建国会长成功连任",
+      date: "2023-02-19",
+      imageURL: "/images/article-webp/a2-12.webp",
+    },
+  },
+  {
+    id: 100096,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会顺利换届 朱建国会长成功连任",
+      date: "2023-01-30",
+      imageURL: "/images/article-webp/a1-12.webp",
+    },
+  },
+  {
     id: 100095,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -670,7 +760,7 @@ const Events23 = [
       date: "2023-01-15",
       imageURL: "/images/preview/640.webp",
     },
-  },
+  }
 ];
 
 const Articles = {
