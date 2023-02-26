@@ -167,32 +167,32 @@ const ArticleListMessages = [
         },
         {
           image: {
-            imageSRC: "/images/preview/a2-12.webp",
+            imageSRC: "/images/article-webp/a2-12.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a2-17.webp",
+            imageSRC: "/images/article-webp/a2-17.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a2-16.webp",
+            imageSRC: "/images/article-webp/a2-16.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a2-15.webp",
+            imageSRC: "/images/article-webp/a2-15.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a2-14.webp",
+            imageSRC: "/images/article-webp/a2-14.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a2-13.webp",
+            imageSRC: "/images/article-webp/a2-13.webp",
           },
         },
       ]
@@ -239,32 +239,32 @@ const ArticleListMessages = [
         },
         {
           image: {
-            imageSRC: "/images/preview/a1-13.webp",
+            imageSRC: "/images/article-webp/a1-13.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a1-17.webp",
+            imageSRC: "/images/article-webp/a1-17.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a1-16.webp",
+            imageSRC: "/images/article-webp/a1-16.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a1-15.webp",
+            imageSRC: "/images/article-webp/a1-15.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a1-14.webp",
+            imageSRC: "/images/article-webp/a1-14.webp",
           },
         },
         {
           image: {
-            imageSRC: "/images/preview/a1-13.webp",
+            imageSRC: "/images/article-webp/a1-13.webp",
           },
         },
       ]
