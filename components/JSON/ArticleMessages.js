@@ -93,6 +93,59 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100099,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "温州同乡总会组织带领新生代成员前往温州极地海洋世界参观考察",
+      date: "2023-02-26",
+      imageURL: "/images/article-webp/20230301161918.webp",
+      content: [
+        {
+          paragraph: {
+            text: "（本网讯）2023年2月26日下午，正是春暖花开的时节，加拿大温州同乡总会会长朱建国先生，组织带领目前居住在温州的加拿大温州青年及他们的子女家人，于金平亮会长开设的温州极地海洋世界参观考察。",
+          },
+        },
+        {
+          paragraph: {
+            text: "此次活动为了加深大家对生态的关切，了解人和动物的和谐共处，也旨在促进新生代成员之间的交流和联系，为加籍的温二代温三代青年和孩子们提供了一个沟通和互动的机会，体现了同乡总会一直以来秉承的‘加强同乡联谊，促进团结互助’的宗旨，吸引了超过70位新生代成员和他们的子女参加。",
+          },
+        },
+        {
+          paragraph: {
+            text: "活动结束后，大家纷纷表示此次活动非常有意义，加深了新生代成员们之间的联系，在今后的生活中，加强沟通交流，共同进步。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/20230301161918.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023030116190.webp",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/20230301161853.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/20230301161836.webp",
+          },
+        },
+      ]
+    },
+  },
+  {
     id: 100098,
     categoryClass: "information",
     subCategoryClass: "placeholder",

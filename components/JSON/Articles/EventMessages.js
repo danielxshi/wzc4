@@ -42,6 +42,21 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100099,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "温州同乡总会组织带领新生代成员前往温州极地海洋世界参观考察",
+      date: "2023-02-26",
+      imageURL: "/images/article-webp/20230301161918.webp",
+    },
+  },
+  {
     id: 100098,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -701,6 +716,21 @@ const Events22 = [
 ];
 
 const Events23 = [
+  {
+    id: 100099,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "温州同乡总会组织带领新生代成员前往温州极地海洋世界参观考察",
+      date: "2023-02-26",
+      imageURL: "/images/article-webp/20230301161918.webp",
+    },
+  },
   {
     id: 100098,
     categoryClass: "information",
