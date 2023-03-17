@@ -93,6 +93,83 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100100,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "特别的爱给特别的您——加拿大温州同乡总会三八国际妇女节花艺庆祝",
+      date: "2023-03-08",
+      imageURL: "/images/article-webp/2023-03-08-1.webp",
+      content: [
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-1.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "（本网讯）为了庆祝三八国际妇女节，加拿大温州同乡总会于2023年3月8日下午在会所内为温州籍女性朋友们特别组织了一场别开生面的免费花艺活动。            ",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-2.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "活动首先举行了简短的开班仪式。同乡会执行会长吴登金代表朱建国会长感谢了副会长邓春玲、秘书处胡蓉对于本次活动的精心策划，并宣布“向阳花开 ”花艺班正式开班。            ",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-3.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "现场专门聘请到专业的插花老师教学制作美丽的鲜花饰品。吸引了二十几位女性朋友们参与。大家带着绚烂的笑容，穿着五彩的服饰。会所外春光渐好，阳光明媚。会所内欢声笑语，花美人更俏！            ",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-4.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "本次活动举办得非常成功，现场气氛热烈，受到了广泛好评。大家纷纷表示度过了一个愉快和难忘的节日，也体现了温州时代女性美丽知性的巾帼风采！吴会长表示同乡会今后将继续开办类似的才艺兴趣班，如茶艺、烹饪、西餐礼仪等，以丰富会员们的业余生活。请关注我们，一起成长！            ",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-5.webp",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-6.webp",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/2023-03-08-7.webp",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: 100099,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -142,7 +219,7 @@ const ArticleListMessages = [
             imageSRC: "/images/article-webp/20230301161836.webp",
           },
         },
-      ]
+      ],
     },
   },
   {
@@ -155,7 +232,8 @@ const ArticleListMessages = [
     subDirectory: "info/association",
 
     article: {
-      title: "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
+      title:
+        "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
       date: "2023-02-19",
       imageURL: "/images/article-webp/turkey-relief13.webp",
       content: [
@@ -173,7 +251,7 @@ const ArticleListMessages = [
 
         {
           paragraph: {
-            text: "The representatives of the Wenzhou Friendship Society Canada and all the volunteers in the Turkish Community Earthquake Relief Center cheered \"Go Turkey!\". The spirit was warm and touching. The Wenzhou Friendship Society Canada expressed that they will continue to work hard to fundraise for disaster relief work in Turkey.            ",
+            text: 'The representatives of the Wenzhou Friendship Society Canada and all the volunteers in the Turkish Community Earthquake Relief Center cheered "Go Turkey!". The spirit was warm and touching. The Wenzhou Friendship Society Canada expressed that they will continue to work hard to fundraise for disaster relief work in Turkey.            ',
           },
         },
         {
@@ -186,7 +264,7 @@ const ArticleListMessages = [
             imageSRC: "/images/article-webp/turkey-relief12.webp",
           },
         },
-      ]
+      ],
     },
   },
   {
@@ -248,7 +326,7 @@ const ArticleListMessages = [
             imageSRC: "/images/article-webp/a2-13.webp",
           },
         },
-      ]
+      ],
     },
   },
   {
@@ -320,7 +398,7 @@ const ArticleListMessages = [
             imageSRC: "/images/article-webp/a1-13.webp",
           },
         },
-      ]
+      ],
     },
   },
   {
