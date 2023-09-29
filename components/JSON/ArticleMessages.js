@@ -119,7 +119,7 @@ const ArticleListMessages = [
 
         {
           image: {
-            imageSRC: "/images/article-webp/thumbnail_autumn2.webp",
+            imageSRC: "/images/article-webp/thumbnail_autumn.webp",
           },
         },
       ],
