@@ -93,6 +93,39 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100101,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "加拿大温州同乡总会祝全体侨胞中秋快乐",
+      date: "2023-09-26",
+      imageURL: "/images/article-webp/thumbnail_autumn2.webp",
+      content: [
+        {
+          image: {
+            imageSRC: "/images/article-webp/thumbnail_autumn2.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "金秋时节，中秋将至，又是一年月圆时。古人把满月视为团圆的象征，因此 中秋节也是“团圆节”，在这个月圆的时刻，寄托着我们中国人团圆与家庭美 满的美好愿望。我们在加拿大的华侨华人，虽然身在他乡，心却时刻牵挂着 故乡。中秋圆月，寄托的是我们对家乡的思念，更是我们爱国爱家的家国情 怀。加拿大温州同乡总会在此祝福全体侨胞中秋快乐，月圆家圆人圆事圆， 团团圆圆，国和家和人和事和，和和美美！",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/thumbnail_autumn2.webp",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: 100100,
     categoryClass: "information",
     subCategoryClass: "placeholder",
