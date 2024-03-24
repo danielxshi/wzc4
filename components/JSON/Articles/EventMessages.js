@@ -42,6 +42,36 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100103,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "凝聚巾帼力量，绽放妇女风采。加拿大温州同乡总会举办 ‘三八’妇女节庆祝活动",
+      date: "2024-03-09",
+      imageURL: "/images/article-webp/A2-4.25.57.webp",
+    },
+  },
+  {
+    id: 100102,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "温哥华藤爸藤妈藤娃圣诞、新年大联欢",
+      date: "2023-12-30",
+      imageURL: "/images/article-webp/a1-3.40.39.webp",
+    },
+  },
+  {
     id: 100101,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -96,7 +126,8 @@ const ArticleListMessages = [
     subDirectory: "info/association",
 
     article: {
-      title: "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
+      title:
+        "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
       date: "2023-02-19",
       imageURL: "/images/article-webp/turkey-relief13.webp",
     },
@@ -786,7 +817,8 @@ const Events23 = [
     subDirectory: "info/association",
 
     article: {
-      title: "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
+      title:
+        "The Wenzhou Friendship Society Canada’s Container for Turkey Earthquake Relief",
       date: "2023-02-19",
       imageURL: "/images/article-webp/turkey-relief13.webp",
     },
@@ -835,7 +867,7 @@ const Events23 = [
       date: "2023-01-15",
       imageURL: "/images/preview/640.webp",
     },
-  }
+  },
 ];
 
 const Articles = {

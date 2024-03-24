@@ -93,6 +93,224 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100103,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "凝聚巾帼力量，绽放妇女风采。加拿大温州同乡总会举办 ‘三八’妇女节庆祝活动",
+      date: "2024-03-09",
+      imageURL: "/images/article-webp/A2-4.25.57.webp",
+      content: [
+
+        {
+          paragraph: {
+            text: "（本网讯）花香满三月，巾帼绽芳华。3月9日，加拿大温哥华迎来了一场别开生面的庆祝活动——‘三八’国际劳动妇女节，由加拿大温州同乡总会精心筹备并举办，旨在表达对女性同胞们的关怀和祝福。",
+          },
+        },
+        {
+          paragraph: {
+            text: "活动在热烈的气氛中拉开帷幕，同乡总会的朱建国会长和吴登金副会长先后发表了热情洋溢的致辞，表达了对女性同胞们的美好祝愿和深深的关怀。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.25.57.webp",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.26.04.webp",
+          },
+        },
+
+
+        {
+          paragraph: {
+            text: "当天，活动吸引了众多女性同胞的参与，特邀了专业化妆造型团队现场为参与者们打造精美妆容，专业摄影师捕捉着她们美丽的瞬间。此外，私厨团队更是现场制作了精致的食物和点心，让大家在愉快的氛围中共度美好时光。姐妹们围坐一堂，品味美食、欢歌笑语，分享着节日的快乐，现场洋溢着轻松愉快的气氛，温情融融。",
+          },
+        },
+
+
+
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.26.11.webp",
+          },
+        },
+
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.26.21.webp",
+          },
+        },
+
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.26.28.webp",
+          },
+        },
+
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.26.38.webp",
+          },
+        },
+
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/A2-4.26.47.webp",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "此时此刻，亿万妇女们正身处于大地万物复苏的季节，各行各业都有许多杰出的女性同胞，她们投身于社会的生产和建设之中，为梦想不懈奋斗，正是这个节日里最美的风景。在此，加拿大温州同乡总会向每一位在异国他乡勤奋生活、闪耀光芒的“她们”致以敬意和诚挚的节日问候！",
+          },
+        },
+
+      ],
+    },
+  },
+
+  {
+    id: 100102,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title: "温哥华藤爸藤妈藤娃圣诞、新年大联欢",
+      date: "2023-12-30",
+      imageURL: "/images/article-webp/a1-3.40.39.webp",
+      content: [
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.40.39.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "2023年12月30日，加拿大温哥华温州同乡总会会所灯火通明，热闹非凡。会所的大屏幕不断滚动着欢迎词，欢迎来自大温地区美国长春藤盟校的学子和他们的父母们。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.41.02.webp",
+          },
+        },
+        {
+          paragraph: {
+            text: "120多名来自世界顶尖学府的学子和他们的父母聚集在会所，盛况空前。",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.41.12.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.41.25.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.41.37.webp",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "温州同乡总会朱建国会长，百忙之中也现身会场和大家见面互动，并发表简单讲话。他对藤校同学和他们的父母的到来，表示热烈的欢迎。朱会长说，同学们凭自己的聪明和实力进入世界一流的大学，是华人的骄傲，是世界的未来。他祝愿同学们学习更上一层楼，学业事业双丰收。",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "这些同学来自哈佛，耶鲁，麻省理工，普林斯顿，宾夕法尼亚大学，斯坦福大学，哥伦比亚大学，康奈尔大学等等，全部是美国长春藤盟校的学生，其中不乏有一家之中兄妹、姐弟先后考上的，也有双胞胎同时考上的。",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.41.45.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.41.51.webp",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "联欢会由温州老乡的女儿Linda（宾西法尼亚大学）和双胞胎姐妹Monica、Jessica（普林斯顿和宾西法尼亚大学)三人共同主持，其中双胞胎姐妹曾经出演过电影《北京遇上西雅图》。三位美女学霸联袂主持，为此次大联欢增色不少。",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.42.00.webp",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "活动从中午12点开始，到下午3点结束。参加联欢的45个家庭都带来了自己的拿手好菜，美味佳肴摆满了长桌子。大家边品尝，边聆听着家长、同学们的分享，现场气氛热烈。",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.43.04.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.43.21.webp",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.43.30.webp",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.43.46.webp",
+          },
+        },
+
+        {
+          paragraph: {
+            text: "下午三点，大联欢在双胞胎两姐妹献唱的优美歌声中圆满结束。",
+          },
+        },
+
+        {
+          image: {
+            imageSRC: "/images/article-webp/a1-3.44.12.webp",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: 100101,
     categoryClass: "information",
     subCategoryClass: "placeholder",
