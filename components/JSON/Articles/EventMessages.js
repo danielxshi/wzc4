@@ -42,6 +42,34 @@ const pid5 = "5";
 
 const ArticleListMessages = [
   {
+    id: 100104,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title:
+        "2024年5月12日，加拿大温州同乡总会为本那比Dixon廸克森妇女儿童庇护中心捐款$3000元 副会长林立群和张立峰亲临现场递交支票。温州同乡总会发言人在捐赠仪式上表示，此次捐款旨在支持庇护中心的运营，帮助有需要的妇女和儿童，体现了同乡会对社区公益事业的重视和关怀。",
+      date: "2024-05-12",
+      imageURL: "/images/WechatIMG2.jpg",
+      content: [
+        {
+          image: {
+            imageSRC: "/images/WechatIMG3.jpg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/WechatIMG2.jpg",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: 100103,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -51,7 +79,8 @@ const ArticleListMessages = [
     subDirectory: "info/association",
 
     article: {
-      title: "凝聚巾帼力量，绽放妇女风采。加拿大温州同乡总会举办 ‘三八’妇女节庆祝活动",
+      title:
+        "凝聚巾帼力量，绽放妇女风采。加拿大温州同乡总会举办 ‘三八’妇女节庆祝活动",
       date: "2024-03-09",
       imageURL: "/images/article-webp/A2-4.25.57.webp",
     },

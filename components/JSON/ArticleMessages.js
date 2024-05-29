@@ -93,6 +93,34 @@ const NewsPreviewItems = [
 
 const ArticleListMessages = [
   {
+    id: 100104,
+    categoryClass: "information",
+    subCategoryClass: "placeholder",
+    parentDirectory: "info",
+    category: "信息资讯",
+    subcategory: "家乡协会",
+    subDirectory: "info/association",
+
+    article: {
+      title:
+        "2024年5月12日，加拿大温州同乡总会为本那比Dixon廸克森妇女儿童庇护中心捐款$3000元 副会长林立群和张立峰亲临现场递交支票。温州同乡总会发言人在捐赠仪式上表示，此次捐款旨在支持庇护中心的运营，帮助有需要的妇女和儿童，体现了同乡会对社区公益事业的重视和关怀。",
+      date: "2024-05-12",
+      imageURL: "/images/WechatIMG2.jpg",
+      content: [
+        {
+          image: {
+            imageSRC: "/images/WechatIMG3.jpg",
+          },
+        },
+        {
+          image: {
+            imageSRC: "/images/WechatIMG2.jpg",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: 100103,
     categoryClass: "information",
     subCategoryClass: "placeholder",
@@ -102,11 +130,11 @@ const ArticleListMessages = [
     subDirectory: "info/association",
 
     article: {
-      title: "凝聚巾帼力量，绽放妇女风采。加拿大温州同乡总会举办 ‘三八’妇女节庆祝活动",
+      title:
+        "凝聚巾帼力量，绽放妇女风采。加拿大温州同乡总会举办 ‘三八’妇女节庆祝活动",
       date: "2024-03-09",
       imageURL: "/images/article-webp/A2-4.25.57.webp",
       content: [
-
         {
           paragraph: {
             text: "（本网讯）花香满三月，巾帼绽芳华。3月9日，加拿大温哥华迎来了一场别开生面的庆祝活动——‘三八’国际劳动妇女节，由加拿大温州同乡总会精心筹备并举办，旨在表达对女性同胞们的关怀和祝福。",
@@ -129,15 +157,11 @@ const ArticleListMessages = [
           },
         },
 
-
         {
           paragraph: {
             text: "当天，活动吸引了众多女性同胞的参与，特邀了专业化妆造型团队现场为参与者们打造精美妆容，专业摄影师捕捉着她们美丽的瞬间。此外，私厨团队更是现场制作了精致的食物和点心，让大家在愉快的氛围中共度美好时光。姐妹们围坐一堂，品味美食、欢歌笑语，分享着节日的快乐，现场洋溢着轻松愉快的气氛，温情融融。",
           },
         },
-
-
-
 
         {
           image: {
@@ -145,13 +169,11 @@ const ArticleListMessages = [
           },
         },
 
-
         {
           image: {
             imageSRC: "/images/article-webp/A2-4.26.21.webp",
           },
         },
-
 
         {
           image: {
@@ -159,13 +181,11 @@ const ArticleListMessages = [
           },
         },
 
-
         {
           image: {
             imageSRC: "/images/article-webp/A2-4.26.38.webp",
           },
         },
-
 
         {
           image: {
@@ -178,7 +198,6 @@ const ArticleListMessages = [
             text: "此时此刻，亿万妇女们正身处于大地万物复苏的季节，各行各业都有许多杰出的女性同胞，她们投身于社会的生产和建设之中，为梦想不懈奋斗，正是这个节日里最美的风景。在此，加拿大温州同乡总会向每一位在异国他乡勤奋生活、闪耀光芒的“她们”致以敬意和诚挚的节日问候！",
           },
         },
-
       ],
     },
   },

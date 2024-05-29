@@ -4,69 +4,6 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import MenuItems from "../JSON/MenuItems";
 
-// export const renderSwitch = (params) => {
-//   const router = useRouter();
-//   if (!params) {
-//     return "";
-//   }
-//   const keys = Object.keys(params);
-//   const value = params[keys[0]];
-//   const test = params[keys[1]];
-
-//   switch (keys[0]) {
-//     case "menu":
-//       return (
-//         <div className={style["mobile--menu--container"]}>
-//           {value.map((item, index) => (
-//             <div key={index} className={style[""]}>
-//               <h4 className={style["link--header"]}>
-//                 <Link href={item.url}>
-//                   <a
-//                     // key={index}
-//                     className={
-//                       router.pathname == `${item.url}` ||
-//                       router.pathname == `${item.p1}` ||
-//                       router.pathname == `${item.p2}` ||
-//                       router.pathname == `${item.p3}` ||
-//                       router.pathname == `${item.p4}`
-//                         ? "active"
-//                         : ""
-//                     }
-//                   >
-//                     {item.title}
-//                   </a>
-//                 </Link>
-//               </h4>
-//               <ul className="">
-//                 {item.submenu.map((item2, index2) => {
-//                   return (
-//                     <li>
-//                       <Link className="whitespace-nowrap" href={item2.url}>
-//                         <a
-//                           key={index2}
-//                           className={
-//                             router.pathname == `${item2.url}`
-//                               ? "superactive"
-//                               : ""
-//                           }
-//                         >
-//                           {item2.subtitle}
-//                         </a>
-//                       </Link>
-//                     </li>
-//                   );
-//                 })}
-//               </ul>
-//             </div>
-//           ))}
-//         </div>
-//       );
-
-//     default:
-//       return "";
-//   }
-// };
-
 export default function MobileMenu() {
   const [click, setClick] = useState(false);
   const router = useRouter();
@@ -109,7 +46,10 @@ export default function MobileMenu() {
             return (
               <li
                 onClick={handleClick}
-                className={[style["menu--content--item"], style["mobile--menu--content--item"]].join(" ")}
+                className={[
+                  style["menu--content--item"],
+                  style["mobile--menu--content--item"],
+                ].join(" ")}
                 key={index}
               >
                 <div className={style["mobile--menu--container"]}>
